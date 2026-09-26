@@ -1,0 +1,26 @@
+2026-09-25 16:28:38,167 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-09-25 16:28:38,416 - SMBot_V2 - INFO - GenerateTOTPToken:179 - send_login_otp success
+2026-09-25 16:28:38,420 - SMBot_V2 - INFO - GenerateTOTPToken:186 - Generated TOTP: 814193
+2026-09-25 16:28:38,523 - SMBot_V2 - INFO - GenerateTOTPToken:195 - verify_totp success
+2026-09-25 16:28:38,875 - SMBot_V2 - INFO - GenerateTOTPToken:203 - verify_pin success
+2026-09-25 16:28:39,032 - SMBot_V2 - INFO - GenerateTOTPToken:216 - token success
+2026-09-25 16:28:39,242 - SMBot_V2 - INFO - GenerateTOTPToken:227 - validate_authcode success
+2026-09-25 16:28:39,242 - SMBot_V2 - INFO - GenerateTOTPToken:234 - Final access_token: 2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcXRsUGZ0MVk1STBKS0VqMzBKRjdtU3o3R3F4azFHVV9Wd01NUGRCRmhWRFJjWHBPYXk1QVZqbXQ4Y2ZWTVZTNFEwdmJ3OC01VGNKVHVDMFdIVGhudUtlX1dUdThFWnVsVDB4OUlLUmpNcDRDOTQyMD0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiI1N2ExYTU2M2NkNjc3ZjRkNDRiM2NjZjk2YzQ4ODI3Njk0MzM3N2YyZWIzMjUyMjUwNzgwMzUyOSIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoyMDAsImV4cCI6MTc5MDM4MjYwMCwiaWF0IjoxNzkwMzMzOTE5LCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3OTAzMzM5MTksInN1YiI6ImFjY2Vzc190b2tlbiJ9.RMB3lCJ3adwURsGQN_LNT7Bwr93qlSTfkV2A6jy49Zo
+2026-09-25 16:28:39,243 - SMBot_V2 - INFO - GenerateTOTPToken:238 - AppId saved -> fyers_appid.txt
+2026-09-25 16:28:39,243 - SMBot_V2 - INFO - GenerateTOTPToken:242 - Token saved -> fyers_token.txt
+2026-09-25 16:28:39,243 - SMBot_V2 - INFO - GenerateTOTPToken:244 - Generated on: 25-09-2026 16:28:38
+2026-09-25 16:28:55,747 - SMBot_V2 - INFO - __init__:152 - Weekly expiry code 26SEP | C1/C2/C3 pattern: declining/rising closes OR body<1.2xC2, 1min bars | swing=lookback=10 prox=0.1% carry=10d | SL=-10.0% TP=+10.0% | live_exit=DELETE /positions + broker SL/TP | direction-alternating (resets daily) | DRY_RUN=False
+2026-09-25 16:35:16,301 - SMBot_V2 - INFO - __init__:151 - Weekly expiry code 26SEP | C1/C2/C3 pattern: declining/rising closes OR body<1.2xC2, 1min bars | swing=lookback=10 prox=0.2% | SL=-10.0% TP=+10.0% | live_exit=DELETE /positions + broker SL/TP | direction-alternating (resets daily) | DRY_RUN=False
+2026-09-25 16:37:17,052 - SMBot_V2 - INFO - __init__:112 - Weekly expiry code 26SEP | seq 3-3 candle reversal on 10s (EMA50 cross+close filter=off) healthy>=0.0 | vol=off | fastC2=off | BUY=on | moneyness=ITM | signalsFrom=09:35:00 | candleSL PE=c1_high CE=c1_low | premSL=off premTP=40.0% profitLock=12.0%->floor12.0%,trail5.0%after20.0% | DRY_RUN=True
+2026-09-25 16:37:35,962 - SMBot_V2 - INFO - __init__:151 - Weekly expiry code 26SEP | C1/C2/C3 pattern: declining/rising closes OR body<1.2xC2, 1min bars | swing=lookback=20 prox=0.2% | SL=-10.0% TP=+10.0% | live_exit=DELETE /positions + broker SL/TP | direction-alternating (resets daily) | DRY_RUN=False
+2026-09-25 16:38:38,527 - SMBot_V2 - INFO - __init__:151 - Weekly expiry code 26SEP | C1/C2/C3 pattern: declining/rising closes OR body<1.2xC2, 1min bars | swing=lookback=20 prox=0.2% | SL=-10.0% TP=+15.0% | live_exit=DELETE /positions + broker SL/TP | direction-alternating (resets daily) | DRY_RUN=False
+2026-09-25 16:38:38,718 - SMBot_V2 - INFO - _init_fyers:859 - [ENG] connected SHARAD ASHOK MISAL
+2026-09-25 16:38:38,731 - SMBot_V2 - INFO - __init__:845 - [ENG] ready. interval=20s
+2026-09-25 16:38:38,731 - SMBot_V2 - WARNING - __init__:849 - *** LIVE MODE — INTRADAY market entry + broker-side SL/TP + DELETE /positions exit ***
+2026-09-25 16:38:38,731 - SMBot_V2 - INFO - run:1033 - [ENG] starting Sequential Candle Reversal poll loop
+2026-09-25 16:38:38,731 - SMBot_V2 - INFO - _poll:966 - [ENG] New day 2026-09-25 — state reset.
+2026-09-25 16:38:54,458 - SMBot_V2 - INFO - run:1043 - [ENG] interrupted
+2026-09-25 16:38:54,458 - SMBot_V2 - INFO - _export:1057 - [ENG] no trades to export
+2026-09-25 16:38:54,458 - SMBot_V2 - INFO - _shutdown:1053 - [ENG] shutdown complete
+2026-09-25 16:38:55,164 - SMBot_V2 - INFO - __init__:151 - Weekly expiry code 26SEP | C1/C2/C3 pattern: declining/rising closes OR body<1.2xC2, 1min bars | swing=lookback=20 prox=0.2% | SL=-10.0% TP=+15.0% | live_exit=DELETE /positions + broker SL/TP | direction-alternating (resets daily) | DRY_RUN=False
+2026-09-25 16:39:03,322 - SMBot_V2 - INFO - __init__:151 - Weekly expiry code 26SEP | C1/C2/C3 pattern: declining/rising closes OR body<1.2xC2, 1min bars | swing=lookback=20 prox=0.2% | SL=-10.0% TP=+15.0% | live_exit=DELETE /positions + broker SL/TP | direction-alternating (resets daily) | DRY_RUN=False

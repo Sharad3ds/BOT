@@ -1,0 +1,95 @@
+2026-08-16 13:03:41,772 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-08-16 13:03:42,020 - SMBot_V2 - INFO - GenerateTOTPToken:179 - send_login_otp success
+2026-08-16 13:03:42,020 - SMBot_V2 - INFO - GenerateTOTPToken:186 - Generated TOTP: 760517
+2026-08-16 13:03:42,119 - SMBot_V2 - INFO - GenerateTOTPToken:195 - verify_totp success
+2026-08-16 13:03:42,443 - SMBot_V2 - INFO - GenerateTOTPToken:203 - verify_pin success
+2026-08-16 13:03:42,632 - SMBot_V2 - INFO - GenerateTOTPToken:216 - token success
+2026-08-16 13:03:42,828 - SMBot_V2 - INFO - GenerateTOTPToken:227 - validate_authcode success
+2026-08-16 13:03:42,828 - SMBot_V2 - INFO - GenerateTOTPToken:234 - Final access_token: 2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcWdXZldhd2wzLVBZY3drQ2lsd0RXMzhNV0lrdDZtVFpuUk9vVDI5M2l1QmstVVRzdjZQS184U2tFN3pCN3B6WG1Gc2VycmMyak5GSG5TZzFUVlpqS2tId0JiWlRISE5UTkFHUGVyUTg0WFBnX0QxRT0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiJmMjcyODM3ZDZlZjdjOTkzYTZmZTQyNzRiNzZiNDYyMGUzM2FlMWQ0NjBjMTM1MWI0ZGM3YzVhMSIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoyMDAsImV4cCI6MTc4NjkyNjYwMCwiaWF0IjoxNzg2ODY1NjIyLCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3ODY4NjU2MjIsInN1YiI6ImFjY2Vzc190b2tlbiJ9.H2d5ZoLJZsQdLiO--INvCi9smjTWaONF9smpLV9MWL0
+2026-08-16 13:03:42,839 - SMBot_V2 - INFO - GenerateTOTPToken:238 - AppId saved -> fyers_appid.txt
+2026-08-16 13:03:42,839 - SMBot_V2 - INFO - GenerateTOTPToken:242 - Token saved -> fyers_token.txt
+2026-08-16 13:03:42,844 - SMBot_V2 - INFO - GenerateTOTPToken:244 - Generated on: 16-08-2026 13:03:41
+2026-08-16 13:07:08,967 - SMBot_V2 - INFO - __init__:121 - WEEKLY expiry code 26818 | Break&Retest on 1min lookback=10 bars_since_break=2 retest_valid=2 | SL=20.0% TP=20.0% | DRY_RUN=True
+2026-08-16 13:07:09,130 - SMBot_V2 - INFO - _init_fyers:387 - [ENG] connected SHARAD ASHOK MISAL
+2026-08-16 13:07:09,130 - SMBot_V2 - INFO - __init__:375 - [ENG] ready. interval=20s
+2026-08-16 13:07:09,130 - SMBot_V2 - WARNING - __init__:377 - *** DRY-RUN — no real orders ***
+2026-08-16 13:07:09,142 - SMBot_V2 - INFO - run:528 - [ENG] starting Break & Retest poll loop
+2026-08-16 13:07:09,142 - SMBot_V2 - INFO - _poll:468 - [ENG] New day 2026-08-16 — state reset.
+2026-08-16 13:07:09,205 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:07:29,264 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:07:49,228 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:08:09,215 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:08:29,259 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:08:49,248 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:09:09,230 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:09:29,260 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:09:49,266 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:10:09,262 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:10:29,266 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:10:49,268 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:11:09,282 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:11:29,263 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:11:49,267 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:12:09,285 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:12:29,267 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:12:49,285 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:13:09,283 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:13:29,301 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:13:49,324 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:14:09,296 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:14:29,308 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:14:49,317 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:15:09,338 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:15:29,326 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:15:49,330 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:16:09,320 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:16:29,352 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:16:49,325 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:17:09,327 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:17:29,326 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:17:49,341 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:18:09,674 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:18:29,361 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:18:49,354 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:19:09,351 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:19:29,353 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:19:49,352 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:20:09,382 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:20:29,401 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:20:49,673 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:21:09,393 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:21:29,382 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:21:49,403 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:22:09,422 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:22:29,420 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:22:49,435 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:23:09,435 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:23:29,476 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:23:49,452 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:24:09,455 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:24:29,436 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:24:49,477 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:25:09,439 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:25:29,438 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:25:49,629 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:26:09,449 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:26:29,455 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:26:49,462 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:27:09,504 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:27:29,473 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:27:49,744 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:28:09,471 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:28:29,459 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:28:49,483 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:29:09,480 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 13:29:29,502 - SMBot_V2 - WARNING - _fetch_today_1min:395 - [ENG] history err: {'candles': [], 'code': 200, 'message': '', 'nextTime': 1786701540, 's': 'no_data'}
+2026-08-16 21:52:27,035 - SMBot_V2 - INFO - __init__:117 - Weekly expiry code 26818 | seq 2-3 candle reversal on 1min (BASE_RES=20) | SL=candle TP=20.0% | direction-alternating | DRY_RUN=True
+2026-08-16 21:52:27,236 - SMBot_V2 - INFO - _init_fyers:337 - [ENG] connected SHARAD ASHOK MISAL
+2026-08-16 21:52:27,236 - SMBot_V2 - INFO - __init__:325 - [ENG] ready. interval=20s
+2026-08-16 21:52:27,236 - SMBot_V2 - WARNING - __init__:327 - *** DRY-RUN — no real orders ***
+2026-08-16 21:52:27,236 - SMBot_V2 - INFO - run:493 - [ENG] starting Sequential Candle Reversal poll loop
+2026-08-16 21:52:27,236 - SMBot_V2 - INFO - _poll:432 - [ENG] New day 2026-08-16 — state reset.
+2026-08-17 03:37:32,899 - SMBot_V2 - INFO - _poll:432 - [ENG] New day 2026-08-17 — state reset.
+2026-08-17 21:08:09,954 - SMBot_V2 - INFO - run:503 - [ENG] interrupted
+2026-08-17 21:08:09,956 - SMBot_V2 - INFO - _export:516 - [ENG] no trades to export
+2026-08-17 21:08:09,956 - SMBot_V2 - INFO - _shutdown:512 - [ENG] shutdown complete

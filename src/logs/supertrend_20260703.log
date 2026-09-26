@@ -1,0 +1,11 @@
+2026-07-03 00:26:51,958 - SMBot_V2 - INFO - __init__:51 - Weekly expiry code 26707 | ST(10,3.0) 10min | moneyness=ITM | DRY_RUN=True
+2026-07-03 00:27:25,952 - SMBot_V2 - INFO - __init__:51 - Weekly expiry code 26707 | ST(10,3.0) 10min | moneyness=ITM | DRY_RUN=True
+2026-07-03 00:27:26,176 - SMBot_V2 - INFO - _init:171 - [ENG] connected SHARAD ASHOK MISAL
+2026-07-03 00:27:26,176 - SMBot_V2 - INFO - __init__:163 - [ENG] ready. interval=20s
+2026-07-03 00:27:26,176 - SMBot_V2 - WARNING - __init__:164 - *** DRY-RUN — no real orders ***
+2026-07-03 00:27:26,183 - SMBot_V2 - INFO - run:223 - [ENG] starting Supertrend poll loop
+2026-07-03 00:29:21,591 - SMBot_V2 - INFO - __init__:51 - Weekly expiry code 26707 | ST(10,3.0) 10min | moneyness=ITM | DRY_RUN=True
+2026-07-03 00:29:21,719 - SMBot_V2 - INFO - _init:171 - [ENG] connected SHARAD ASHOK MISAL
+2026-07-03 00:29:21,719 - SMBot_V2 - INFO - __init__:163 - [ENG] ready. interval=20s
+2026-07-03 00:29:21,719 - SMBot_V2 - WARNING - __init__:164 - *** DRY-RUN — no real orders ***
+2026-07-03 00:29:21,719 - SMBot_V2 - INFO - run:223 - [ENG] starting Supertrend poll loop

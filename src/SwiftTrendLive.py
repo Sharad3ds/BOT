@@ -1,43 +1,38 @@
+"""
+SwiftTrend index-flip backtest — offline replay of the live SwiftTrendBot +
+LiveEngine confirmation logic, WITHOUT the HTF directional filter (removed —
+it was repainting live and too slow/coarse at 120min to be useful). Trades
+every ST flip that the position-state guard allows. compute_swift_trend() is
+reused verbatim so signal math matches exactly. Live entries execute at the
+OPEN of the bar AFTER the signal bar (1-bar confirmation) — this backtest
+replicates that by entering at the option's open price at/after the next bar's
+timestamp. SL/TP are simulated on 1-min option data as % of entry premium.
+"""
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta, time as dtime
-from fyers_apiv3 import fyersModel
-from fyers_apiv3.FyersWebsocket import data_ws
+import requests
 import logging
 import os
 from typing import Dict, Optional
 import warnings
 import pytz
 import calendar
-import time
-import threading
-import json
-import sys
+import urllib3
 
-# Optional: if you use logger_config like in your live file
-try:
-    from logger_config import get_logger
-    logger = get_logger()
-except ImportError:
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s - %(levelname)s - %(message)s"
-    )
-    logger = logging.getLogger(__name__)
-
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 warnings.filterwarnings("ignore", category=FutureWarning)
 IST = pytz.timezone("Asia/Kolkata")
 
+logging.basicConfig(level=logging.INFO,
+                     format="%(asctime)s - %(levelname)s - %(message)s")
+logger = logging.getLogger(__name__)
 
-# --------------------------- EXPIRY HELPERS (WEEKLY & MONTHLY) ---------------------------
+# --------------------------- EXPIRY HELPERS (identical to live) ---------------------------
 
 def get_next_tuesday(now_ist: Optional[datetime] = None) -> datetime:
-    """
-    NIFTY weekly expiry: next Tuesday.
-    If today is Tuesday, use next week's Tuesday.
-    """
     now_ist = now_ist or datetime.now(IST)
-    if now_ist.weekday() < 1:  # Mon=0, Tue=1
+    if now_ist.weekday() < 1:
         days_ahead = 1 - now_ist.weekday()
     else:
         days_ahead = 7 - (now_ist.weekday() - 1)
@@ -45,17 +40,12 @@ def get_next_tuesday(now_ist: Optional[datetime] = None) -> datetime:
         hour=0, minute=0, second=0, microsecond=0
     )
 
-
 def get_nifty_monthly_expiry(year: int, month: int) -> datetime:
-    """
-    NIFTY monthly expiry: last Tuesday of the month.
-    """
     last_day = calendar.monthrange(year, month)[1]
     dt = datetime(year, month, last_day)
-    while dt.weekday() != 1:  # Tuesday = 1
+    while dt.weekday() != 1:
         dt -= timedelta(days=1)
     return dt
-
 
 def get_current_or_next_monthly_expiry(now_ist: Optional[datetime] = None) -> datetime:
     now_ist = now_ist or datetime.now(IST)
@@ -63,76 +53,90 @@ def get_current_or_next_monthly_expiry(now_ist: Optional[datetime] = None) -> da
     exp_dt = get_nifty_monthly_expiry(y, m)
     if exp_dt.date() < now_ist.date():
         if m == 12:
-            y += 1
-            m = 1
+            y += 1; m = 1
         else:
             m += 1
         exp_dt = get_nifty_monthly_expiry(y, m)
     return exp_dt
-
 
 def format_expiry_code(dt: datetime) -> str:
     yy = dt.year % 100
     mon = dt.strftime("%b").upper()
     return f"{yy:02d}{mon}"
 
-
 # --------------------------- CONFIG ---------------------------
 
 class TradingConfig:
     UNDERLYING_SYMBOL = "NSE:NIFTY50-INDEX"
-    TIMEFRAME = "1"        # 1‑minute (same as backtest)
+    TIMEFRAME = "1"
     HIST_DAYS = 60
 
-    # Same as backtest
     STRIKE_STEP = 100
     NIFTY_LOT_SIZE = 65
 
-    # Expiry control: "WEEKLY" (next Tue) or "MONTHLY" (last Tue)
     EXPIRY_TYPE = "WEEKLY"
 
-    # SwiftTrend params (same as backtest)
     ST_PERIOD    = 100
     ST_BAND_MULT = 0.5
     ST_TOL_MULT  = 0.5
 
-    # Higher timeframe trend filter (same as backtest)
-    HTF_RULE    = "120min"
-    HTF_EMA_LEN = 5
+    # ── HTF filter removed entirely (was repainting live, too slow at 120min) ──
 
     SESSION_START = dtime(9, 20)
     SESSION_END   = dtime(15, 30)
 
-    # For live trading window; you can tighten if needed
     TRADE_START = dtime(9, 30)
     TRADE_END   = dtime(15, 0)
+    EOD_EXIT_TIME = dtime(15, 20)
 
-    # SL/TP same as backtest
-    STOP_LOSS_PCT = -7.0
+    STOP_LOSS_PCT   = -20.0
     TAKE_PROFIT_PCT = 20.0
 
-    # Tick size for index options
     OPTION_TICK_SIZE = 0.05
-
-    # BO quantity
     BO_QTY = 65
 
     def __init__(self):
         now = datetime.now(IST)
         exp_type = self.EXPIRY_TYPE.upper()
         if exp_type == "WEEKLY":
-            exp_dt = get_next_tuesday(now)
-            kind = "WEEKLY"
+            exp_dt = get_next_tuesday(now); kind = "WEEKLY"
         else:
-            exp_dt = get_current_or_next_monthly_expiry(now)
-            kind = "MONTHLY"
+            exp_dt = get_current_or_next_monthly_expiry(now); kind = "MONTHLY"
         self.EXPIRY_CODE = format_expiry_code(exp_dt)
-        logging.getLogger(__name__).info(
-            f"Using NIFTY {kind} expiry {exp_dt.date()} with code {self.EXPIRY_CODE}"
-        )
+        logger.info(f"Using NIFTY {kind} expiry {exp_dt.date()} with code {self.EXPIRY_CODE}")
 
+# --------------------------- FYERS HTTP CLIENT ---------------------------
 
-# --------------------------- SWIFTTREND CORE ---------------------------
+class FyersHTTP:
+    BASE_T1 = "https://api-t1.fyers.in/api/v3"
+    BASE_T2 = "https://api-t1.fyers.in/data"
+
+    def __init__(self, app_id: str, token: str):
+        combined = f"{app_id}:{token}" if ":" not in token else token
+        self.session = requests.Session()
+        self.session.verify = False
+        self.session.headers.update({"Authorization": combined})
+        logger.info(f"FyersHTTP init | app_id={app_id} | auth={combined[:40]}...")
+
+    def get_profile(self) -> dict:
+        return self.session.get(f"{self.BASE_T1}/profile").json()
+
+    def history(self, data: dict) -> dict:
+        params = {
+            "symbol":      data["symbol"],
+            "resolution":  data["resolution"],
+            "date_format": data.get("date_format", "1"),
+            "range_from":  data["range_from"],
+            "range_to":    data["range_to"],
+            "cont_flag":   data.get("cont_flag", "0"),
+        }
+        r = self.session.get(f"{self.BASE_T2}/history", params=params)
+        try:
+            return r.json()
+        except Exception as e:
+            raise ValueError(f"History API non-JSON (status={r.status_code}): {r.text[:300]}") from e
+
+# --------------------------- SWIFTTREND CORE (VERBATIM from live bot) ---------------------------
 
 class SwiftTrendParams:
     def __init__(self, period=100, band_multiplier=2.5, tolerance_multiplier=2.5):
@@ -140,13 +144,10 @@ class SwiftTrendParams:
         self.band_multiplier = band_multiplier
         self.tolerance_multiplier = tolerance_multiplier
 
-
 def compute_swift_trend(df: pd.DataFrame,
                         params: SwiftTrendParams,
-                        open_col="open",
-                        high_col="high",
-                        low_col="low",
-                        close_col="close") -> pd.DataFrame:
+                        open_col="open", high_col="high",
+                        low_col="low", close_col="close") -> pd.DataFrame:
     o = df[open_col].values
     h = df[high_col].values
     l = df[low_col].values
@@ -216,123 +217,67 @@ def compute_swift_trend(df: pd.DataFrame,
     out["st_signal"] = signal
     return out
 
+# --------------------------- SWIFTTREND BACKTEST BOT ---------------------------
 
-# --------------------------- SWIFTTREND BOT (SIGNAL ENGINE) ---------------------------
-
-class SwiftTrendBot:
+class SwiftTrendBacktestBot:
     def __init__(self):
         self.config = TradingConfig()
         self.fyers = self._init_fyers()
         self.position_size: int = 0
         self.last_trade: Optional[str] = None
 
-        # For WS token reuse
-        self.app_id: Optional[str] = None
-        self.access_token: Optional[str] = None
-        if os.path.exists("fyers_appid.txt"):
-            with open("fyers_appid.txt", "r") as f:
-                self.app_id = f.read().strip()
-        if os.path.exists("fyers_token.txt"):
-            with open("fyers_token.txt", "r") as f:
-                self.access_token = f.read().strip()
-
-        logger.info("SwiftTrendBot initialized (signals for backtest + live).")
-
-    def _init_fyers(self):
-        if not all(os.path.exists(f) for f in ["fyers_appid.txt", "fyers_token.txt"]):
-            raise FileNotFoundError("Missing fyers_appid.txt or fyers_token.txt")
-
-        app_id = open("fyers_appid.txt", "r").read().strip()
-        token = open("fyers_token.txt", "r").read().strip()
+    def _init_fyers(self) -> FyersHTTP:
+        for f in ["fyers_appid.txt", "fyers_token.txt"]:
+            if not os.path.exists(f):
+                raise FileNotFoundError(f"Missing {f}")
+        app_id = open("fyers_appid.txt").read().strip()
+        token  = open("fyers_token.txt").read().strip()
         if not app_id or not token:
-            raise ValueError("Empty app_id or token in credential files")
-
-        fyers_v3 = fyersModel.FyersModel(
-            client_id=app_id,
-            token=token,
-            is_async=False,
-            log_path="logs"
-        )
-        logger.info("Fyers V3 API initialized for SwiftTrendBot")
-        return fyers_v3
-
-    # -------- history helpers --------
+            raise ValueError("Empty app_id or token")
+        client  = FyersHTTP(app_id, token)
+        profile = client.get_profile()
+        if profile.get("s") != "ok":
+            raise ConnectionError(f"Fyers auth failed — re-run GenerateToken.py.\nResponse: {profile}")
+        logger.info(f"Fyers connected — {profile['data']['name']} ✅")
+        return client
 
     def _fetch_history(self, symbol: str, days: int) -> pd.DataFrame:
-        end_dt_ist = datetime.now(IST)
-        start_dt_ist = end_dt_ist - timedelta(days=days)
-
-        data = {
-            "symbol": symbol,
-            "resolution": self.config.TIMEFRAME,
-            "date_format": "1",
-            "range_from": start_dt_ist.strftime("%Y-%m-%d"),
-            "range_to": end_dt_ist.strftime("%Y-%m-%d"),
-            "cont_flag": "1",
-        }
+        end_dt   = datetime.now(IST)
+        start_dt = end_dt - timedelta(days=days)
+        data = dict(symbol=symbol, resolution=self.config.TIMEFRAME,
+                    date_format="1", range_from=start_dt.strftime("%Y-%m-%d"),
+                    range_to=end_dt.strftime("%Y-%m-%d"), cont_flag="0")
         resp = self.fyers.history(data=data)
-
         if isinstance(resp, dict):
             if resp.get("s") != "ok":
-                logger.warning(f"API error for {symbol}: {resp}")
-                return pd.DataFrame(columns=["timestamp", "open", "high", "low", "close", "volume"])
+                raise ValueError(f"API error for {symbol}: {resp}")
             candles = resp.get("candles", [])
         else:
-            candles = resp.get("candles", []) if hasattr(resp, "get") else []
-
+            candles = []
         if not candles:
-            logger.warning(f"No historical data for {symbol}")
-            return pd.DataFrame(columns=["timestamp", "open", "high", "low", "close", "volume"])
-
+            raise ValueError(f"No historical data for {symbol}")
         df = pd.DataFrame(candles, columns=["timestamp", "open", "high", "low", "close", "volume"])
         df["timestamp"] = pd.to_datetime(df["timestamp"], unit="s", utc=True).dt.tz_convert(IST)
-        df = df.sort_values("timestamp").reset_index(drop=True)
-        return df
+        return df.sort_values("timestamp").reset_index(drop=True)
 
     def get_index_data(self, days: int = None) -> pd.DataFrame:
         days = days or self.config.HIST_DAYS
         df = self._fetch_history(self.config.UNDERLYING_SYMBOL, days)
-        if df.empty:
-            return df
         df.set_index("timestamp", inplace=True)
-        session_mask = df.index.indexer_between_time(
-            self.config.SESSION_START, self.config.SESSION_END,
-            include_start=True, include_end=True
-        )
-        df = df.iloc[session_mask]
-        logger.info(f"Loaded NIFTY50 index data with {len(df)} rows [IST] in session")
+        mask = df.index.indexer_between_time(self.config.SESSION_START, self.config.SESSION_END)
+        df = df.iloc[mask]
+        logger.info(f"Loaded NIFTY50 index data: {len(df)} rows")
         return df
 
-    # -------- higher timeframe trend filter --------
-
-    def _build_htf_trend(self, df_idx: pd.DataFrame) -> pd.DataFrame:
-        """
-        Build higher timeframe trend on index using HTF_RULE & HTF_EMA_LEN.
-        """
-        c = self.config
-        df_htf = df_idx.resample(c.HTF_RULE).agg({
-            "open": "first",
-            "high": "max",
-            "low": "min",
-            "close": "last",
-            "volume": "sum",
-        }).dropna()
-
-        df_htf["htf_ema"] = df_htf["close"].ewm(span=c.HTF_EMA_LEN, adjust=False).mean()
-        df_htf["htf_trend"] = np.where(
-            df_htf["close"] > df_htf["htf_ema"], "up",
-            np.where(df_htf["close"] < df_htf["htf_ema"], "down", "flat")
-        )
-        df_htf = df_htf.reset_index()
-        return df_htf
-
-    # -------- option helper --------
+    def _fetch_option_history(self, symbol: str, days: int) -> pd.DataFrame:
+        df = self._fetch_history(symbol, days)
+        df.set_index("timestamp", inplace=True)
+        return df
 
     def _pick_itm_option_symbol(self, underlying_price: float, direction: str) -> str:
         c = self.config
         spot = float(underlying_price)
         step = c.STRIKE_STEP
-
         if direction == "BUY":
             atm_strike = (int(spot) // step) * step
             strike = atm_strike - step
@@ -341,86 +286,50 @@ class SwiftTrendBot:
             atm_strike = ((int(spot) + step - 1) // step) * step
             strike = atm_strike + step
             opt_type = "PE"
-
         strike = max(step, (int(strike) // step) * step)
-        strike_int = int(strike)
+        return f"NSE:NIFTY{c.EXPIRY_CODE}{int(strike):05d}{opt_type}"
 
-        # 5-digit formatting for symbol
-        symbol = f"NSE:NIFTY{c.EXPIRY_CODE}{strike_int:05d}{opt_type}"
-        logger.info(f"Option symbol: {symbol} (spot={spot:.2f}, dir={direction})")
-        return symbol
-
-    # -------- SwiftTrend signals on index + HTF trend filter --------
+    # ── signal generation — no HTF filter, pure ST flip + position-state guard ──
 
     def generate_swifttrend_signals(self, df_index: pd.DataFrame) -> pd.DataFrame:
-        if df_index.empty:
-            return pd.DataFrame()
-
         df = df_index.copy().reset_index()
 
-        # Compute SwiftTrend on index
         st_params = SwiftTrendParams(
             period=self.config.ST_PERIOD,
             band_multiplier=self.config.ST_BAND_MULT,
             tolerance_multiplier=self.config.ST_TOL_MULT
         )
-        df_st = compute_swift_trend(
-            df,
-            st_params,
-            open_col="open",
-            high_col="high",
-            low_col="low",
-            close_col="close"
-        )
-
-        # Build HTF trend (on original index series) and merge
-        df_idx_for_htf = df_index.copy()
-        df_htf = self._build_htf_trend(df_idx_for_htf)
-
-        df_merged = pd.merge_asof(
-            df_st.sort_values("timestamp"),
-            df_htf[["timestamp", "htf_trend"]].sort_values("timestamp"),
-            on="timestamp",
-            direction="backward"
-        )
+        df_st = compute_swift_trend(df, st_params)
 
         signals = []
-        warmup = self.config.ST_PERIOD  # just for stability
+        warmup = self.config.ST_PERIOD
 
-        for i in range(warmup, len(df_merged)):
-            row = df_merged.iloc[i]
-            prev_pos_ok_long = (self.position_size <= 0) and (self.last_trade != "long")
+        for i in range(warmup, len(df_st)):
+            row = df_st.iloc[i]
+            prev_pos_ok_long  = (self.position_size <= 0) and (self.last_trade != "long")
             prev_pos_ok_short = (self.position_size >= 0) and (self.last_trade != "short")
 
-            ts: datetime = row["timestamp"]
+            ts = row["timestamp"]
             ts_time = ts.time()
             in_trade_window = (ts_time >= self.config.TRADE_START) and (ts_time <= self.config.TRADE_END)
 
-            htf_trend = row.get("htf_trend", "flat")
-
             if bool(row["st_trend_changed"]) and in_trade_window:
-                # Longs only when HTF trend is up; shorts only when HTF trend is down
-                if row["st_is_uptrend"] and prev_pos_ok_long and (htf_trend == "up"):
+                if row["st_is_uptrend"] and prev_pos_ok_long:
                     sig = self._create_signal(row, "BUY")
-                    sig["strategy_type"] = "swifttrend_flip_htf"
-                    sig["htf_trend"] = htf_trend
+                    sig["strategy_type"] = "swifttrend_flip"
                     signals.append(sig)
-                elif (not row["st_is_uptrend"]) and prev_pos_ok_short and (htf_trend == "down"):
+                elif (not row["st_is_uptrend"]) and prev_pos_ok_short:
                     sig = self._create_signal(row, "SELL")
-                    sig["strategy_type"] = "swifttrend_flip_htf"
-                    sig["htf_trend"] = htf_trend
+                    sig["strategy_type"] = "swifttrend_flip"
                     signals.append(sig)
 
         signals_df = pd.DataFrame(signals) if signals else pd.DataFrame()
-        logger.info(
-            f"Generated {len(signals_df)} SwiftTrend index signals (with HTF trend filter)"
-        )
+        logger.info(f"Generated {len(signals_df)} SwiftTrend index signals (no HTF filter)")
         return signals_df
 
     def _create_signal(self, row: pd.Series, direction: str) -> Dict:
         und_price = row["close"]
         opt_symbol = self._pick_itm_option_symbol(underlying_price=und_price, direction=direction)
-
         signal = {
             "timestamp": row["timestamp"],
             "index_symbol": self.config.UNDERLYING_SYMBOL,
@@ -428,387 +337,183 @@ class SwiftTrendBot:
             "direction": direction,
             "option_symbol": opt_symbol,
         }
-
         if direction == "BUY":
-            self.position_size = 1
-            self.last_trade = "long"
+            self.position_size = 1; self.last_trade = "long"
         else:
-            self.position_size = -1
-            self.last_trade = "short"
-
+            self.position_size = -1; self.last_trade = "short"
         return signal
 
+    # ── backtest engine: 1-bar confirmation entry + SL/TP simulation ──
 
-# --------------------------- ORDER MANAGER (BO, SL/TP from % like backtest) ---------------------------
+    def run_backtest(self) -> pd.DataFrame:
+        print("Starting SwiftTrend Backtest — NO HTF filter (ITM contracts, 1-bar confirmation entry)...")
+        df_index = self.get_index_data()
+        signals  = self.generate_swifttrend_signals(df_index)
 
-class OrderManager:
-    def __init__(self, fyers_client: fyersModel.FyersModel, config: TradingConfig):
-        self.fyers = fyers_client
-        self.config = config
+        if signals.empty:
+            print("No SwiftTrend signals generated")
+            return signals
 
-    @staticmethod
-    def _round_to_tick(value: float, tick: float) -> float:
-        return round(round(value / tick) * tick, 2)
+        signals_sorted = signals.sort_values("timestamp").reset_index(drop=True)
 
-    def _compute_bo_sl_tp_from_pct(self, opt_entry: float) -> tuple[float, float]:
-        """
-        Convert STOP_LOSS_PCT / TAKE_PROFIT_PCT into rupee points for BO legs.
-        Note: STOP_LOSS_PCT is negative in config; we use absolute value for distance.
-        """
+        option_cache: Dict[str, pd.DataFrame] = {}
+        for sym in signals_sorted["option_symbol"].unique():
+            try:
+                option_cache[sym] = self._fetch_option_history(sym, self.config.HIST_DAYS).sort_index()
+            except ValueError as e:
+                logger.warning(f"Skipping {sym}: {e}")
+
+        step_min = int(self.config.TIMEFRAME)
         sl_pct = abs(self.config.STOP_LOSS_PCT)
         tp_pct = self.config.TAKE_PROFIT_PCT
+        EOD_EXIT = self.config.EOD_EXIT_TIME
 
-        sl_points = opt_entry * (sl_pct / 100.0)
-        tp_points = opt_entry * (tp_pct / 100.0)
-
-        return sl_points, tp_points
-
-    def place_bo_for_signal(
-        self,
-        signal_row: pd.Series,
-        sl_points: float = None,
-        tp_points: float = None,
-        qty: int = None,
-    ) -> Optional[str]:
-        """
-        For both BUY/SELL index signals we BUY the option (CE or PE) via BO.
-        Entry: stop‑limit using option LTP as reference:
-            stopPrice  = option_entry_price
-            limitPrice = option_entry_price + 2
-        SL/TP: computed as % of option entry price, passed as points and tick-aligned.
-        """
-        symbol = signal_row.get("option_symbol")
-        if not symbol:
-            logger.warning(f"Signal has no option_symbol, skipping BO: {dict(signal_row)}")
-            return None
-
-        side = 1  # always buy option
-        qty = qty or self.config.BO_QTY
-
-        opt_entry = signal_row.get("option_entry_price")
-        if opt_entry is None or (isinstance(opt_entry, float) and np.isnan(opt_entry)):
-            logger.warning(
-                "No option_entry_price in signal, cannot build stop‑limit entry: "
-                f"{dict(signal_row)}"
-            )
-            return None
-
-        opt_entry = float(opt_entry)
-
-        if sl_points is None or tp_points is None:
-            sl_calc, tp_calc = self._compute_bo_sl_tp_from_pct(opt_entry)
-            sl_points = sl_points or sl_calc
-            tp_points = tp_points or tp_calc
-
-        tick = self.config.OPTION_TICK_SIZE
-
-        sl_points   = self._round_to_tick(sl_points, tick)
-        tp_points   = self._round_to_tick(tp_points, tick)
-        stop_price  = self._round_to_tick(opt_entry, tick)
-        limit_price = self._round_to_tick(opt_entry + 2.0, tick)
-
-        data = {
-            "symbol": symbol,
-            "qty": int(qty),
-            "type": 4,  # SL-L
-            "side": side,
-            "productType": "BO",
-            "limitPrice": float(limit_price),
-            "stopPrice": float(stop_price),
-            "validity": "DAY",
-            "disclosedQty": 0,
-            "offlineOrder": False,
-            "stopLoss": float(sl_points),
-            "takeProfit": float(tp_points),
-            "isSliceOrder": False,
-        }
-
-        try:
-            logger.info(
-                f"🚀 Placing SwiftTrend BO (SL‑L entry) for signal: {dict(signal_row)} | "
-                f"qty={qty}, SL_pts={sl_points}, TP_pts={tp_points}, "
-                f"stopPrice={stop_price}, limitPrice={limit_price}"
-            )
-            resp = self.fyers.place_order(data=data)
-            logger.info(f"Place BO response: {json.dumps(resp, indent=2)}")
-
-            if isinstance(resp, dict) and resp.get("s") == "ok":
-                order_id = resp.get("id")
-                logger.info(f"BO submitted, order_id={order_id}")
-                return order_id
-            else:
-                logger.error(f"BO rejected/failed: {resp}")
-                return None
-        except Exception as e:
-            logger.error(f"BO placement error: {e}")
-            return None
-
-
-# --------------------------- LIVE ENGINE (SWIFTTREND) ---------------------------
-
-class LiveEngine:
-    def __init__(self, bot: SwiftTrendBot, access_token: str):
-        self.bot = bot
-        self.access_token = access_token
-        self.symbol = bot.config.UNDERLYING_SYMBOL
-
-        # Warmup history
-        self.candles = bot.get_index_data(days=bot.config.HIST_DAYS).reset_index()
-        self.current_bar = None
-        self.last_tick_time: Optional[datetime] = None
-        self.logged_raw_once = False
-
-        self.timeframe_mins = int(self.bot.config.TIMEFRAME)
-        self.heartbeat_secs = int(self.timeframe_mins * 60 * 2)
-
-        logger.info(
-            f"Timeframe = {self.timeframe_mins}m, heartbeat threshold = {self.heartbeat_secs} sec"
+        cols = dict(
+            entry_price_option=[], entry_time=[], exit_time=[], exit_price_option=[],
+            pnl_pct=[], pnl_rupees_1lot=[], result=[], exit_reason=[],
         )
 
-        self.ws: Optional[data_ws.FyersDataSocket] = None
-        self.order_manager = OrderManager(self.bot.fyers, self.bot.config)
+        for i, s in signals_sorted.iterrows():
+            signal_ts  = s["timestamp"]
+            opt_symbol = s["option_symbol"]
+            direction  = s["direction"]
 
-        # 1-bar confirmation state
-        self.pending_signal: Optional[pd.Series] = None
-        self.pending_bar_ts: Optional[datetime] = None
+            confirm_ts = signal_ts + pd.Timedelta(minutes=step_min)
 
-    def _bar_key(self, ts: datetime):
-        minute_bucket = (ts.minute // self.timeframe_mins) * self.timeframe_mins
-        return ts.replace(second=0, microsecond=0, minute=minute_bucket)
+            eod_boundary = IST.localize(datetime.combine(signal_ts.date(), EOD_EXIT))
+            if confirm_ts >= eod_boundary:
+                self._append_skip(cols, "confirm_after_eod")
+                continue
 
-    def _on_open(self):
-        logger.info("WS connected - subscribing to symbol")
-        if self.ws is not None:
-            self.ws.subscribe(symbols=[self.symbol], data_type="SymbolUpdate")
+            next_flip_ts = None
+            for j in range(i + 1, len(signals_sorted)):
+                nxt = signals_sorted.iloc[j]
+                if nxt["direction"] != direction:
+                    next_flip_ts = nxt["timestamp"]
+                    break
 
-    def _on_close(self, msg):
-        logger.warning(f"WS closed: {msg}")
+            if opt_symbol not in option_cache:
+                self._append_skip(cols, "no_option_data")
+                continue
 
-    def _on_error(self, msg):
-        logger.error(f"WS error: {msg}")
+            opt_df = option_cache[opt_symbol]
+            idx_pos = opt_df.index.searchsorted(confirm_ts, side="right")
+            if idx_pos >= len(opt_df):
+                self._append_skip(cols, "no_entry_bar_after_confirm")
+                continue
 
-    def _on_message(self, msg):
-        try:
-            if not self.logged_raw_once:
-                logger.info(f"RAW WS MSG (once): {msg}")
-                self.logged_raw_once = True
+            entry_bar   = opt_df.iloc[int(idx_pos)]
+            entry_price = float(entry_bar["open"])
+            entry_time  = opt_df.index[int(idx_pos)]
 
-            if isinstance(msg, list) and msg:
-                data = msg[0]
-            elif isinstance(msg, dict):
-                data = msg.get("symbolData") or msg
-            else:
-                return
+            sl_price = entry_price * (1.0 - sl_pct / 100.0)
+            tp_price = entry_price * (1.0 + tp_pct / 100.0)
 
-            if not isinstance(data, dict):
-                return
+            exit_idx = exit_price = exit_time = exit_reason = None
 
-            v_dict = data.get("v", {}) or {}
-            ltp = (
-                v_dict.get("lp")
-                or data.get("ltp")
-                or data.get("price")
-                or data.get("close")
-            )
-            if ltp is None:
-                logger.debug(f"No ltp/price/close in data: {data}")
-                return
+            for k in range(int(idx_pos) + 1, len(opt_df)):
+                bar = opt_df.iloc[k]
+                bar_time = opt_df.index[k]
 
-            now = datetime.now(IST)
-            self.last_tick_time = now
-            ts = now
+                if bar_time >= eod_boundary:
+                    exit_idx = k; exit_price = float(bar["close"])
+                    exit_time = bar_time; exit_reason = "eod_exit"; break
 
-            bar_time = self._bar_key(ts)
-            ltp = float(ltp)
-            vol = float(v_dict.get("volume") or data.get("volume", 0) or 0)
+                hit_sl = float(bar["low"])  <= sl_price
+                hit_tp = float(bar["high"]) >= tp_price
 
-            # NEW BAR HANDLING WITH CONFIRMATION ENTRY
-            if self.current_bar is None or self.current_bar["timestamp"] != bar_time:
-                # finalize previous bar (signal detection / pending signal)
-                if self.current_bar is not None:
-                    self._finalize_bar(self.current_bar)
+                if hit_sl and hit_tp:
+                    exit_idx = k; exit_price = sl_price
+                    exit_time = bar_time; exit_reason = "sl_and_tp_same_bar"; break
+                elif hit_sl:
+                    exit_idx = k; exit_price = sl_price
+                    exit_time = bar_time; exit_reason = "stop_loss"; break
+                elif hit_tp:
+                    exit_idx = k; exit_price = tp_price
+                    exit_time = bar_time; exit_reason = "target"; break
 
-                # on first tick of new bar, execute pending signal (if any)
-                if (
-                    self.pending_signal is not None
-                    and self.pending_bar_ts is not None
-                    and bar_time > self.pending_bar_ts
-                ):
-                    sig = self.pending_signal.copy()
-                    opt_symbol = sig["option_symbol"]
-                    try:
-                        quote_req = {"symbols": opt_symbol}
-                        quote_resp = self.bot.fyers.quotes(data=quote_req)
-                        opt_ltp = None
-                        if isinstance(quote_resp, dict) and quote_resp.get("d"):
-                            d0 = quote_resp["d"][0]
-                            if isinstance(d0, dict):
-                                v0 = d0.get("v", {})
-                                opt_ltp = v0.get("lp")
-                        if opt_ltp is None:
-                            logger.warning(f"[CONFIRMATION] Option LTP None for {opt_symbol}, skip BO.")
-                        else:
-                            sig["option_entry_price"] = float(opt_ltp)
-                            logger.info(
-                                f"[CONFIRMATION] Executing pending SwiftTrend signal on next bar open "
-                                f"{bar_time}: {dict(sig)}"
-                            )
-                            order_id = self.order_manager.place_bo_for_signal(sig)
-                            if order_id:
-                                logger.info(
-                                    f"[CONFIRMATION] BO order placed at next bar open, "
-                                    f"order_id={order_id}"
-                                )
-                            else:
-                                logger.warning("[CONFIRMATION] Failed to place BO for pending signal.")
-                    except Exception as e:
-                        logger.warning(f"[CONFIRMATION] Failed to execute pending signal: {e}")
+                if next_flip_ts is not None and bar_time >= next_flip_ts:
+                    exit_idx = k; exit_price = float(bar["close"])
+                    exit_time = bar_time; exit_reason = "flip_exit"; break
 
-                    # clear pending
-                    self.pending_signal = None
-                    self.pending_bar_ts = None
+            if exit_idx is None:
+                self._append_skip(cols, "no_exit_found", entry_price=entry_price, entry_time=entry_time)
+                continue
 
-                # start new bar
-                self.current_bar = {
-                    "timestamp": bar_time,
-                    "open": ltp,
-                    "high": ltp,
-                    "low":  ltp,
-                    "close": ltp,
-                    "volume": vol,
-                }
+            pnl_pct    = (exit_price - entry_price) / entry_price * 100.0
+            pnl_rupees = entry_price * self.config.NIFTY_LOT_SIZE * (pnl_pct / 100.0)
 
-            else:
-                # same bar, update OHLCV
-                self.current_bar["high"] = max(self.current_bar["high"], ltp)
-                self.current_bar["low"]  = min(self.current_bar["low"],  ltp)
-                self.current_bar["close"] = ltp
-                self.current_bar["volume"] += vol
+            cols["entry_price_option"].append(entry_price)
+            cols["entry_time"].append(entry_time)
+            cols["exit_time"].append(exit_time)
+            cols["exit_price_option"].append(exit_price)
+            cols["pnl_pct"].append(pnl_pct)
+            cols["pnl_rupees_1lot"].append(pnl_rupees)
+            cols["result"].append("profit" if pnl_pct > 0 else "loss")
+            cols["exit_reason"].append(exit_reason)
 
-        except Exception as e:
-            logger.error(f"WS on_message error: {e} | raw: {msg}")
-            return
+        for col, vals in cols.items():
+            signals_sorted[col] = vals
 
-    def _finalize_bar(self, bar: dict):
-        bar_ts = bar["timestamp"]
-        today = datetime.now(IST).date()
+        signals_sorted["cum_pnl_rupees_1lot"] = signals_sorted["pnl_rupees_1lot"].cumsum()
 
-        if bar_ts.date() != today:
-            logger.info(f"Skipping bar from previous day: {bar_ts}")
-            return
+        traded = signals_sorted[~signals_sorted["result"].isin(["skipped", "open", "unknown"])]
+        total_trades = len(traded)
+        total_profit = traded.loc[traded["result"] == "profit", "pnl_rupees_1lot"].sum()
+        total_loss   = traded.loc[traded["result"] == "loss",   "pnl_rupees_1lot"].sum()
+        net_pnl      = traded["pnl_rupees_1lot"].sum()
+        win_rate     = (len(traded[traded["result"] == "profit"]) / total_trades * 100.0
+                        if total_trades > 0 else 0.0)
+        eod_exits    = len(traded[traded["exit_reason"] == "eod_exit"])
 
-        if not (self.bot.config.SESSION_START <= bar_ts.time() <= self.bot.config.SESSION_END):
-            logger.info(f"Skipping bar outside session: {bar_ts}")
-            return
+        csv_path = "SwiftTrend_NoHTF_NIFTY_ITM_Backtest.csv"
+        signals_sorted.to_csv(csv_path, index=False, encoding="utf-8")
 
-        logger.info(f"Finalized SwiftTrend bar (completed candle): {bar}")
-        self.candles = (
-            pd.concat([self.candles, pd.DataFrame([bar])], ignore_index=True)
-            .drop_duplicates("timestamp")
-            .sort_values("timestamp")
-            .reset_index(drop=True)
-        )
+        with open(csv_path, "a", encoding="utf-8") as f:
+            for line in [
+                "", "METRICS,VALUE",
+                f"Total Signals,{len(signals_sorted)}",
+                f"Total Trades Executed,{total_trades}",
+                f"EOD Exits,{eod_exits}",
+                f"Total Profit (Rs),{total_profit:.2f}",
+                f"Total Loss (Rs),{total_loss:.2f}",
+                f"Net PnL (Rs),{net_pnl:.2f}",
+                f"Win Rate (%),{win_rate:.2f}",
+                f"ST Period,{self.config.ST_PERIOD}",
+                f"ST Band Mult,{self.config.ST_BAND_MULT}",
+                f"ST Tol Mult,{self.config.ST_TOL_MULT}",
+                f"SL %,{self.config.STOP_LOSS_PCT}",
+                f"TP %,{self.config.TAKE_PROFIT_PCT}",
+            ]:
+                f.write(line + "\n")
 
-        df_for_signals = self.candles.copy()
-        df_for_signals.set_index("timestamp", inplace=True)
+        print(f"\n{'='*55}")
+        print(f"  Contract Type       : ITM")
+        print(f"  Total Signals       : {len(signals_sorted)}")
+        print(f"  Trades Executed     : {total_trades}")
+        print(f"  EOD Exits           : {eod_exits}")
+        print(f"  Win Rate            : {win_rate:.1f}%")
+        print(f"  Net PnL             : Rs {net_pnl:,.2f}")
+        print(f"  Total Profit        : Rs {total_profit:,.2f}")
+        print(f"  Total Loss          : Rs {total_loss:,.2f}")
+        print(f"{'='*55}")
+        print(f"Results saved → {csv_path}")
+        return signals_sorted
 
-        signals = self.bot.generate_swifttrend_signals(df_for_signals)
-        
-        if signals.empty:
-            logger.info("No SwiftTrend signals on this completed bar.")
-            return
-
-        # Ensure timestamps are timezone-aware IST
-        if isinstance(signals["timestamp"].iloc[0], pd.Timestamp):
-            if signals["timestamp"].dt.tz is None:
-                signals["timestamp"] = signals["timestamp"].dt.tz_localize(IST)
-            else:
-                signals["timestamp"] = signals["timestamp"].dt.tz_convert(IST)
-
-        sig_on_bar = signals[signals["timestamp"] == bar_ts]
-        if sig_on_bar.empty:
-            logger.info(f"No SwiftTrend signal with timestamp == completed bar ts {bar_ts}.")
-            return
-
-        last_sig = sig_on_bar.iloc[-1]
-
-        # store for next bar open
-        self.pending_signal = last_sig
-        self.pending_bar_ts = bar_ts
-        logger.info(
-            f"CONFIRMATION MODE: stored SwiftTrend pending signal from bar {bar_ts} "
-            f"to execute at next bar open: {dict(last_sig)}"
-        )
-
-    def _heartbeat_loop(self):
-        while True:
-            try:
-                if self.last_tick_time is not None:
-                    delta = (datetime.now(IST) - self.last_tick_time).total_seconds()
-                    if delta > self.heartbeat_secs:
-                        logger.warning(
-                            f"No ticks for {delta:.0f}s (> {self.heartbeat_secs}s). Triggering WS reconnect."
-                        )
-                        try:
-                            if self.ws is not None:
-                                try:
-                                    self.ws.close()
-                                except Exception:
-                                    pass
-                            self._create_and_connect_ws()
-                        except Exception as e:
-                            logger.error(f"Reconnect failed: {e}")
-                        self.last_tick_time = datetime.now(IST)
-                time.sleep(5)
-            except Exception as e:
-                logger.error(f"Heartbeat loop error: {e}")
-                time.sleep(5)
-
-    def _create_and_connect_ws(self):
-        logger.info("Creating new FyersDataSocket and connecting (SwiftTrend)...")
-        self.ws = data_ws.FyersDataSocket(
-            access_token=self.access_token,
-            log_path="",
-            litemode=True,
-            write_to_file=False,
-            reconnect=True,
-            on_connect=self._on_open,
-            on_close=self._on_close,
-            on_error=self._on_error,
-            on_message=self._on_message,
-        )
-        self.ws.connect()
-
-    def start(self):
-        logger.info("Starting SwiftTrend WebSocket live engine with heartbeat watchdog.")
-        try:
-            self._create_and_connect_ws()
-            hb_thread = threading.Thread(target=self._heartbeat_loop, daemon=True)
-            hb_thread.start()
-
-            while True:
-                time.sleep(1)
-
-        except KeyboardInterrupt:
-            logger.info("KeyboardInterrupt received, stopping SwiftTrend engine.")
-        finally:
-            if self.ws is not None:
-                try:
-                    self.ws.close()
-                except Exception:
-                    pass
+    def _append_skip(self, cols: dict, reason: str,
+                      entry_price: float = np.nan, entry_time=pd.NaT):
+        cols["entry_price_option"].append(entry_price)
+        cols["entry_time"].append(entry_time)
+        cols["exit_time"].append(pd.NaT)
+        cols["exit_price_option"].append(np.nan)
+        cols["pnl_pct"].append(0.0)
+        cols["pnl_rupees_1lot"].append(0.0)
+        cols["result"].append("skipped")
+        cols["exit_reason"].append(reason)
 
 
 # --------------------------- MAIN ---------------------------
 
 if __name__ == "__main__":
-    bot = SwiftTrendBot()
-    app_id = bot.app_id
-    raw_token = bot.access_token
-    if not app_id or not raw_token:
-        raise RuntimeError("app_id or token missing; check fyers_appid.txt / fyers_token.txt")
-
-    # v3 websocket token format: "client_id:access_token"
-    ws_access_token = f"{app_id}:{raw_token}"
-    engine = LiveEngine(bot, access_token=ws_access_token)
-    engine.start()
+    bot     = SwiftTrendBacktestBot()
+    signals = bot.run_backtest()

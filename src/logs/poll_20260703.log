@@ -1,0 +1,1002 @@
+2026-07-03 00:27:03,665 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-07-03 00:27:03,665 - SMBot_V2 - INFO - main:63 - === VAM Polling Bot Starting ===
+2026-07-03 00:27:03,665 - SMBot_V2 - INFO - main:66 - Generating TOTP Token...
+2026-07-03 00:27:03,852 - SMBot_V2 - INFO - GenerateTOTPToken:179 - send_login_otp success
+2026-07-03 00:27:03,856 - SMBot_V2 - INFO - GenerateTOTPToken:186 - Generated TOTP: 384788
+2026-07-03 00:27:03,913 - SMBot_V2 - INFO - GenerateTOTPToken:195 - verify_totp success
+2026-07-03 00:27:04,193 - SMBot_V2 - INFO - GenerateTOTPToken:203 - verify_pin success
+2026-07-03 00:27:04,347 - SMBot_V2 - INFO - GenerateTOTPToken:216 - token success
+2026-07-03 00:27:04,511 - SMBot_V2 - INFO - GenerateTOTPToken:227 - validate_authcode success
+2026-07-03 00:27:04,511 - SMBot_V2 - INFO - GenerateTOTPToken:234 - Final access_token: 2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcVJyU0FNUTV2RlROVDlqVWZXQnNSQlZrbnhzYlhEb1QwOUY2SzRDSTJ0SFlVR01NTFd3Qk81QUd1cVpmMURFWWVtWWxmYTFXSFQ4eXlabVpuZ0hqQnVLN3dGZmRBY2ZhQXY1cmpQVzVPZGRMWVJpcz0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiI0MjFmZGQ0MzgyZTQwMmVlYTgxYTc0M2MyN2ZjN2EwMWVlZDVlNWYzOTZhZjY1MDMxODYxYjFkZSIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoyMDAsImV4cCI6MTc4MzAzODYwMCwiaWF0IjoxNzgzMDE4NjI0LCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3ODMwMTg2MjQsInN1YiI6ImFjY2Vzc190b2tlbiJ9.Bvx8Pd1Wr5XmHeRmYFMCiIhL9kMboOPWCweYIL_4Ldk
+2026-07-03 00:27:04,522 - SMBot_V2 - INFO - GenerateTOTPToken:238 - AppId saved -> fyers_appid.txt
+2026-07-03 00:27:04,524 - SMBot_V2 - INFO - GenerateTOTPToken:242 - Token saved -> fyers_token.txt
+2026-07-03 00:27:04,526 - SMBot_V2 - INFO - GenerateTOTPToken:244 - Generated on: 03-07-2026 00:27:03
+2026-07-03 00:27:04,564 - SMBot_V2 - INFO - __init__:183 - FyersHTTP init | app_id=2NWM6G5K7Y-200 | auth=2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5c...
+2026-07-03 00:27:04,752 - SMBot_V2 - INFO - __init__:956 - [POLL] Pre-warming history cache at startup...
+2026-07-03 00:27:04,752 - SMBot_V2 - INFO - get:908 - [CACHE] Fetching 1-day warmup history...
+2026-07-03 00:27:05,862 - SMBot_V2 - INFO - get:911 - [CACHE] Warmup complete: 48840 bars
+2026-07-03 00:27:05,862 - SMBot_V2 - INFO - __init__:958 - [POLL] Pre-warm complete: 48840 bars loaded.
+2026-07-03 00:27:05,862 - SMBot_V2 - INFO - restore_state_on_startup:507 - [OM] Checking for existing position on startup...
+2026-07-03 00:27:05,898 - SMBot_V2 - INFO - _restore_state_from_broker:474 - [OM] Live positions on startup: {'code': 200, 'message': '', 's': 'ok', 'netPositions': [], 'overall': {'count_open': 0, 'count_total': 0, 'pl_realized': 0, 'pl_total': 0, 'pl_unrealized': 0}}
+2026-07-03 00:27:05,900 - SMBot_V2 - INFO - _restore_state_from_broker:500 - [OM] No open positions at broker. Starting fresh.
+2026-07-03 00:27:05,900 - SMBot_V2 - WARNING - __init__:969 - [POLL] *** DRY-RUN MODE ENABLED — no real orders will be placed ***
+2026-07-03 00:27:05,900 - SMBot_V2 - INFO - __init__:972 - [POLL] Engine ready. Interval=5s, TF=10S, HTF=5min, SL=20.0% TP=10%
+2026-07-03 00:27:05,902 - SMBot_V2 - INFO - stop_watcher:51 - Stop watcher started — will stop at 15:25 IST
+2026-07-03 00:27:05,913 - SMBot_V2 - INFO - main:87 - Starting VAMPollingEngine...
+2026-07-03 00:27:05,914 - SMBot_V2 - INFO - start:1392 - [POLL] Starting VAM 10S Polling Engine (interval=5s)
+2026-07-03 00:27:05,916 - SMBot_V2 - INFO - _poll_once:1243 - [POLL] Outside session (00:27:05 IST), next check in 5s.
+2026-07-03 00:27:10,920 - SMBot_V2 - INFO - _poll_once:1243 - [POLL] Outside session (00:27:10 IST), next check in 5s.
+2026-07-03 06:17:39,620 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-07-03 06:17:39,623 - SMBot_V2 - INFO - main:63 - === VAM Polling Bot Starting ===
+2026-07-03 06:17:39,623 - SMBot_V2 - INFO - main:66 - Generating TOTP Token...
+2026-07-03 06:17:39,836 - SMBot_V2 - INFO - GenerateTOTPToken:179 - send_login_otp success
+2026-07-03 06:17:39,838 - SMBot_V2 - INFO - GenerateTOTPToken:186 - Generated TOTP: 271646
+2026-07-03 06:17:39,906 - SMBot_V2 - INFO - GenerateTOTPToken:195 - verify_totp success
+2026-07-03 06:17:40,209 - SMBot_V2 - INFO - GenerateTOTPToken:203 - verify_pin success
+2026-07-03 06:17:40,329 - SMBot_V2 - INFO - GenerateTOTPToken:216 - token success
+2026-07-03 06:17:40,502 - SMBot_V2 - INFO - GenerateTOTPToken:227 - validate_authcode success
+2026-07-03 06:17:40,502 - SMBot_V2 - INFO - GenerateTOTPToken:234 - Final access_token: 2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcVJ3YXNiM1FrWDRmWVNpeXFoUzJpdGVLLVJJTUIwcE5aVDJnYzlwbW9CaGxuUHMzZG5EX09LQVNTQWl3ZnhjRF9GbFV1eThvQl9FLXpWQ2s5US1MRzQ5M1N1QzlxTUJHa2tJUy14WFdaUUh2alJFQT0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiJhY2IyNTVlODUzNDdhYWU3MjRlOGRkZGE2MDYwNGQzZjc1YmM1MDBiMjhiNGZhOTUyNTk0M2VlNiIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoyMDAsImV4cCI6MTc4MzEyNTAwMCwiaWF0IjoxNzgzMDM5NjYwLCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3ODMwMzk2NjAsInN1YiI6ImFjY2Vzc190b2tlbiJ9.M4bEHHyJen3Sk92A8OVl8RknKpOsv-6A5PNdpJSVW-w
+2026-07-03 06:17:40,502 - SMBot_V2 - INFO - GenerateTOTPToken:238 - AppId saved -> fyers_appid.txt
+2026-07-03 06:17:40,502 - SMBot_V2 - INFO - GenerateTOTPToken:242 - Token saved -> fyers_token.txt
+2026-07-03 06:17:40,502 - SMBot_V2 - INFO - GenerateTOTPToken:244 - Generated on: 03-07-2026 06:17:39
+2026-07-03 06:17:40,519 - SMBot_V2 - INFO - __init__:190 - FyersHTTP init | app_id=2NWM6G5K7Y-200 | auth=2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5c...
+2026-07-03 06:17:40,682 - SMBot_V2 - INFO - __init__:963 - [POLL] Pre-warming history cache at startup...
+2026-07-03 06:17:40,683 - SMBot_V2 - INFO - get:915 - [CACHE] Fetching 1-day warmup history...
+2026-07-03 06:17:41,157 - SMBot_V2 - INFO - get:918 - [CACHE] Warmup complete: 24420 bars
+2026-07-03 06:17:41,157 - SMBot_V2 - INFO - __init__:965 - [POLL] Pre-warm complete: 24420 bars loaded.
+2026-07-03 06:17:41,157 - SMBot_V2 - INFO - restore_state_on_startup:514 - [OM] Checking for existing position on startup...
+2026-07-03 06:17:41,190 - SMBot_V2 - INFO - _restore_state_from_broker:481 - [OM] Live positions on startup: {'code': 200, 'message': '', 's': 'ok', 'netPositions': [], 'overall': {'count_open': 0, 'count_total': 0, 'pl_realized': 0, 'pl_total': 0, 'pl_unrealized': 0}}
+2026-07-03 06:17:41,191 - SMBot_V2 - INFO - _restore_state_from_broker:507 - [OM] No open positions at broker. Starting fresh.
+2026-07-03 06:17:41,191 - SMBot_V2 - WARNING - __init__:979 - [POLL] *** DRY-RUN MODE ENABLED — no real orders will be placed ***
+2026-07-03 06:17:41,191 - SMBot_V2 - INFO - __init__:982 - [POLL] Engine ready. Interval=5s, TF=10S, HTF=15min, SL=20.0% TP=5%
+2026-07-03 06:17:41,191 - SMBot_V2 - INFO - stop_watcher:51 - Stop watcher started — will stop at 15:25 IST
+2026-07-03 06:17:41,198 - SMBot_V2 - INFO - main:87 - Starting VAMPollingEngine...
+2026-07-03 06:17:41,199 - SMBot_V2 - INFO - start:1430 - [POLL] Starting VAM 10S Polling Engine (interval=5s)
+2026-07-03 06:17:41,200 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:17:41 IST), next check in 5s.
+2026-07-03 06:17:46,201 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:17:46 IST), next check in 5s.
+2026-07-03 06:17:51,201 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:17:51 IST), next check in 5s.
+2026-07-03 06:17:56,204 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:17:56 IST), next check in 5s.
+2026-07-03 06:18:01,206 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:18:01 IST), next check in 5s.
+2026-07-03 06:18:06,207 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:18:06 IST), next check in 5s.
+2026-07-03 06:18:11,209 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:18:11 IST), next check in 5s.
+2026-07-03 06:18:16,211 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:18:16 IST), next check in 5s.
+2026-07-03 06:18:21,213 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:18:21 IST), next check in 5s.
+2026-07-03 06:18:26,216 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:18:26 IST), next check in 5s.
+2026-07-03 06:18:31,218 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:18:31 IST), next check in 5s.
+2026-07-03 06:18:36,221 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:18:36 IST), next check in 5s.
+2026-07-03 06:18:41,207 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:18:41 IST), next check in 5s.
+2026-07-03 06:18:46,208 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:18:46 IST), next check in 5s.
+2026-07-03 06:18:51,210 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:18:51 IST), next check in 5s.
+2026-07-03 06:18:56,213 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:18:56 IST), next check in 5s.
+2026-07-03 06:19:01,217 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:19:01 IST), next check in 5s.
+2026-07-03 06:19:06,220 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:19:06 IST), next check in 5s.
+2026-07-03 06:19:11,209 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:19:11 IST), next check in 5s.
+2026-07-03 06:19:16,212 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:19:16 IST), next check in 5s.
+2026-07-03 06:19:21,214 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:19:21 IST), next check in 5s.
+2026-07-03 06:19:26,222 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:19:26 IST), next check in 5s.
+2026-07-03 06:19:31,224 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:19:31 IST), next check in 5s.
+2026-07-03 06:19:36,226 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:19:36 IST), next check in 5s.
+2026-07-03 06:19:41,228 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:19:41 IST), next check in 5s.
+2026-07-03 06:19:46,230 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:19:46 IST), next check in 5s.
+2026-07-03 06:19:51,231 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:19:51 IST), next check in 5s.
+2026-07-03 06:19:56,234 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:19:56 IST), next check in 5s.
+2026-07-03 06:20:01,236 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:20:01 IST), next check in 5s.
+2026-07-03 06:20:06,226 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:20:06 IST), next check in 5s.
+2026-07-03 06:20:11,228 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:20:11 IST), next check in 5s.
+2026-07-03 06:20:16,234 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:20:16 IST), next check in 5s.
+2026-07-03 06:20:21,236 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:20:21 IST), next check in 5s.
+2026-07-03 06:20:26,238 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:20:26 IST), next check in 5s.
+2026-07-03 06:20:31,240 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:20:31 IST), next check in 5s.
+2026-07-03 06:20:36,248 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:20:36 IST), next check in 5s.
+2026-07-03 06:20:41,252 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:20:41 IST), next check in 5s.
+2026-07-03 06:20:46,255 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:20:46 IST), next check in 5s.
+2026-07-03 06:20:51,259 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:20:51 IST), next check in 5s.
+2026-07-03 06:20:56,263 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:20:56 IST), next check in 5s.
+2026-07-03 06:21:01,266 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:21:01 IST), next check in 5s.
+2026-07-03 06:21:06,259 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:21:06 IST), next check in 5s.
+2026-07-03 06:21:11,262 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:21:11 IST), next check in 5s.
+2026-07-03 06:21:16,265 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:21:16 IST), next check in 5s.
+2026-07-03 06:21:21,267 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:21:21 IST), next check in 5s.
+2026-07-03 06:21:26,270 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:21:26 IST), next check in 5s.
+2026-07-03 06:21:31,273 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:21:31 IST), next check in 5s.
+2026-07-03 06:21:36,277 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:21:36 IST), next check in 5s.
+2026-07-03 06:21:41,281 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:21:41 IST), next check in 5s.
+2026-07-03 06:21:46,284 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:21:46 IST), next check in 5s.
+2026-07-03 06:21:51,288 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:21:51 IST), next check in 5s.
+2026-07-03 06:21:56,291 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:21:56 IST), next check in 5s.
+2026-07-03 06:22:01,294 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:22:01 IST), next check in 5s.
+2026-07-03 06:22:06,297 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:22:06 IST), next check in 5s.
+2026-07-03 06:22:11,301 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:22:11 IST), next check in 5s.
+2026-07-03 06:22:16,305 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:22:16 IST), next check in 5s.
+2026-07-03 06:22:21,308 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:22:21 IST), next check in 5s.
+2026-07-03 06:22:26,311 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:22:26 IST), next check in 5s.
+2026-07-03 06:22:31,313 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:22:31 IST), next check in 5s.
+2026-07-03 06:22:36,302 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:22:36 IST), next check in 5s.
+2026-07-03 06:22:41,305 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:22:41 IST), next check in 5s.
+2026-07-03 06:22:46,313 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:22:46 IST), next check in 5s.
+2026-07-03 06:22:51,315 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:22:51 IST), next check in 5s.
+2026-07-03 06:22:56,318 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:22:56 IST), next check in 5s.
+2026-07-03 06:23:01,321 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:23:01 IST), next check in 5s.
+2026-07-03 06:23:06,325 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:23:06 IST), next check in 5s.
+2026-07-03 06:23:11,327 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:23:11 IST), next check in 5s.
+2026-07-03 06:23:16,330 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:23:16 IST), next check in 5s.
+2026-07-03 06:23:21,333 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:23:21 IST), next check in 5s.
+2026-07-03 06:23:26,338 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:23:26 IST), next check in 5s.
+2026-07-03 06:25:10,118 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (06:25:10 IST), next check in 5s.
+2026-07-03 10:56:11,712 - SMBot_V2 - ERROR - start:1440 - [POLL] _poll_once error: HTTPSConnectionPool(host='api-t1.fyers.in', port=443): Max retries exceeded with url: /data/history?symbol=NSE%3ANIFTY50-INDEX&resolution=10S&date_format=1&range_from=2026-07-02&range_to=2026-07-03&cont_flag=0 (Caused by NameResolutionError("HTTPSConnection(host='api-t1.fyers.in', port=443): Failed to resolve 'api-t1.fyers.in' ([Errno 11001] getaddrinfo failed)"))
+Traceback (most recent call last):
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sharad\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='api-t1.fyers.in', port=443): Failed to resolve 'api-t1.fyers.in' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api-t1.fyers.in', port=443): Max retries exceeded with url: /data/history?symbol=NSE%3ANIFTY50-INDEX&resolution=10S&date_format=1&range_from=2026-07-02&range_to=2026-07-03&cont_flag=0 (Caused by NameResolutionError("HTTPSConnection(host='api-t1.fyers.in', port=443): Failed to resolve 'api-t1.fyers.in' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Sharad\SMBot_V2\src\vam_poll_5S.py", line 1438, in start
+    self._poll_once()
+  File "d:\Sharad\SMBot_V2\src\vam_poll_5S.py", line 1270, in _poll_once
+    df_idx = self.history_cache.get()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Sharad\SMBot_V2\src\vam_poll_5S.py", line 922, in get
+    today_fresh = self._fetch_raw(days=1)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Sharad\SMBot_V2\src\vam_poll_5S.py", line 892, in _fetch_raw
+    resp = self.fyers.history(data=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Sharad\SMBot_V2\src\vam_poll_5S.py", line 204, in history
+    r = self.session.get(f"{self.BASE_T2}/history", params=params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api-t1.fyers.in', port=443): Max retries exceeded with url: /data/history?symbol=NSE%3ANIFTY50-INDEX&resolution=10S&date_format=1&range_from=2026-07-02&range_to=2026-07-03&cont_flag=0 (Caused by NameResolutionError("HTTPSConnection(host='api-t1.fyers.in', port=443): Failed to resolve 'api-t1.fyers.in' ([Errno 11001] getaddrinfo failed)"))
+2026-07-03 10:56:35,600 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 10:56:50,112 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 10:57:02,281 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 10:57:14,778 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 10:57:27,538 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 10:57:39,703 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 10:57:53,853 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 10:58:09,201 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 10:58:24,871 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 10:58:41,317 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 10:58:55,304 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 10:59:09,787 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 10:59:21,957 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 10:59:35,621 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 10:59:47,420 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:00:02,047 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:00:19,012 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:00:38,773 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:00:54,890 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:01:07,739 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:01:21,637 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:01:34,893 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:01:47,622 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:02:02,723 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:02:15,965 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:02:29,401 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:02:44,581 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:02:57,359 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:03:09,793 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:03:21,845 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:03:34,263 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:03:46,494 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:03:58,613 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:04:10,600 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:04:22,600 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:04:34,753 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:04:46,903 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:04:58,863 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:05:10,952 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:05:23,162 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:05:35,402 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:05:47,595 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:06:02,133 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:06:14,723 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:06:29,263 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:06:43,061 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:06:55,473 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:07:09,383 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:07:22,813 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:07:36,110 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:07:49,070 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:08:01,731 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:08:14,667 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:08:27,746 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:08:42,393 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:08:55,687 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:09:08,943 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:09:22,460 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:09:36,013 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:09:49,021 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:10:02,227 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:10:15,404 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:10:28,640 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:10:41,843 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:10:54,687 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:11:07,696 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:11:22,810 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:11:39,333 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:11:56,461 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:12:13,934 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:12:30,436 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:12:45,713 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:13:01,543 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:13:17,474 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:13:30,867 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:13:44,143 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:13:58,107 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:14:12,032 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:14:25,937 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:14:39,466 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:14:53,211 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 52 total signals
+2026-07-03 11:14:53,303 - SMBot_V2 - INFO - _poll_once:1337 - [POLL] Signal SELL @ 2026-07-03 11:00:10+05:30 first seen — ref premium 82.85 (NSE:NIFTY2670724300PE)
+2026-07-03 11:14:53,314 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal SELL @ 2026-07-03 11:00:10+05:30 held — HTF bar closes at 11:15:00 (trend not final yet).
+2026-07-03 11:15:07,210 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 51 total signals
+2026-07-03 11:15:21,092 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 52 total signals
+2026-07-03 11:15:21,203 - SMBot_V2 - INFO - _poll_once:1412 - [POLL] Signal price 24338.15, pivot 24348.55 (near) — entering now at confirmed_ltp=81.50, effective_tp=5%.
+2026-07-03 11:15:21,205 - SMBot_V2 - INFO - open_position:552 - [OM] [DRY-RUN] Placing BO: symbol=NSE:NIFTY2670724300PE, dir=SELL, qty=65, ltp=81.50, limitPrice=81.9, SL_pts=16, TP_pts=4
+2026-07-03 11:15:21,213 - SMBot_V2 - INFO - _save_state:422 - [OM] State saved: {'has_position': True, 'option_symbol': 'NSE:NIFTY2670724300PE', 'direction': 'SELL', 'entry_price': 81.5, 'entry_order_id': 'DRY-111521208930', 'saved_at': '2026-07-03T11:15:21.208930+05:30'}
+2026-07-03 11:15:21,215 - SMBot_V2 - INFO - open_position:566 - [OM] [DRY-RUN] Simulated fill, fake order_id=DRY-111521208930
+2026-07-03 11:15:21,217 - SMBot_V2 - INFO - log_entry:708 - [TL] Entry: symbol=NSE:NIFTY2670724300PE, dir=SELL, price=81.5, pivot=24348.55, method=at_pivot
+2026-07-03 11:15:35,393 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 52 total signals
+2026-07-03 11:15:49,363 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 52 total signals
+2026-07-03 11:16:03,180 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 52 total signals
+2026-07-03 11:16:17,463 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:16:17,577 - SMBot_V2 - INFO - _poll_once:1337 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 first seen — ref premium 121.25 (NSE:NIFTY2670724300CE)
+2026-07-03 11:16:17,581 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:16:32,813 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:16:32,823 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:16:47,578 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:16:47,588 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:17:01,664 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:17:01,677 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:17:15,951 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:17:15,957 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:17:30,003 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:17:30,013 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:17:44,087 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:17:44,095 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:17:58,468 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:17:58,477 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:18:12,760 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:18:12,770 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:18:26,767 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:18:26,773 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:18:40,664 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:18:40,671 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:18:54,626 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:18:54,632 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:19:08,490 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:19:08,496 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:19:24,530 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:19:24,537 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:19:44,396 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:19:44,405 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:20:02,271 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:20:02,280 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:20:18,673 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:20:18,686 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:20:36,956 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:20:36,965 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:20:53,153 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:20:53,165 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:21:12,593 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:21:12,602 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:21:28,930 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:21:28,938 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:21:45,773 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:21:45,782 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:22:03,195 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:22:03,204 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:22:18,801 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:22:18,809 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:22:33,353 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:22:33,363 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:22:47,696 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 52 total signals
+2026-07-03 11:23:02,041 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:23:02,051 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:23:16,317 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:23:16,330 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:23:30,593 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 52 total signals
+2026-07-03 11:23:46,262 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 52 total signals
+2026-07-03 11:24:00,346 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 52 total signals
+2026-07-03 11:24:14,744 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 52 total signals
+2026-07-03 11:24:28,810 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 52 total signals
+2026-07-03 11:24:42,861 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 52 total signals
+2026-07-03 11:24:57,489 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:24:57,499 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:25:11,816 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:25:11,825 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:25:26,484 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:25:26,495 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:25:41,411 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:25:41,420 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:25:56,140 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 52 total signals
+2026-07-03 11:26:11,171 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:26:11,181 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:26:28,273 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:26:28,287 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:26:43,580 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:26:43,587 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:26:57,787 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:26:57,796 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:27:12,304 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:27:12,313 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:27:26,750 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:27:26,752 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:27:41,053 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:27:41,061 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:27:55,268 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:27:55,277 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:28:09,715 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:28:09,723 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:28:24,127 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:28:24,138 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:28:38,801 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:28:38,811 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:28:53,561 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:28:53,571 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:29:08,146 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:29:08,153 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:29:22,493 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:29:22,503 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:29:37,067 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:29:37,075 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:29:51,460 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:29:51,466 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:30:05,913 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:30:05,920 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal BUY @ 2026-07-03 11:15:50+05:30 held — HTF bar closes at 11:30:00 (trend not final yet).
+2026-07-03 11:30:20,830 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:30:20,937 - SMBot_V2 - INFO - _poll_once:1412 - [POLL] Signal price 24330.25, pivot 24337.55 (near) — entering now at confirmed_ltp=121.15, effective_tp=5%.
+2026-07-03 11:30:21,046 - SMBot_V2 - INFO - close_position:644 - [OM] [DRY-RUN] Exiting BO. reason=flip_exit, order_id=DRY-111521208930, symbol=NSE:NIFTY2670724300PE
+2026-07-03 11:30:21,049 - SMBot_V2 - INFO - close_position:655 - [OM] [DRY-RUN] Simulated exit, state cleared.
+2026-07-03 11:30:21,063 - SMBot_V2 - INFO - open_position:552 - [OM] [DRY-RUN] Placing BO: symbol=NSE:NIFTY2670724300CE, dir=BUY, qty=65, ltp=121.15, limitPrice=121.8, SL_pts=24, TP_pts=6
+2026-07-03 11:30:21,073 - SMBot_V2 - INFO - _save_state:422 - [OM] State saved: {'has_position': True, 'option_symbol': 'NSE:NIFTY2670724300CE', 'direction': 'BUY', 'entry_price': 121.15, 'entry_order_id': 'DRY-113021065953', 'saved_at': '2026-07-03T11:30:21.065953+05:30'}
+2026-07-03 11:30:21,077 - SMBot_V2 - INFO - open_position:566 - [OM] [DRY-RUN] Simulated fill, fake order_id=DRY-113021065953
+2026-07-03 11:30:21,080 - SMBot_V2 - INFO - log_entry:708 - [TL] Entry: symbol=NSE:NIFTY2670724300CE, dir=BUY, price=121.15, pivot=24337.55, method=at_pivot
+2026-07-03 11:30:36,787 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:30:51,971 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:31:08,391 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:31:24,667 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:31:40,552 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:31:55,930 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:32:11,253 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:32:25,667 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:32:39,946 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 54 total signals
+2026-07-03 11:32:40,031 - SMBot_V2 - INFO - _poll_once:1337 - [POLL] Signal SELL @ 2026-07-03 11:32:10+05:30 first seen — ref premium 82.60 (NSE:NIFTY2670724300PE)
+2026-07-03 11:32:40,040 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal SELL @ 2026-07-03 11:32:10+05:30 held — HTF bar closes at 11:45:00 (trend not final yet).
+2026-07-03 11:32:54,423 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:33:09,052 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 54 total signals
+2026-07-03 11:33:09,063 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal SELL @ 2026-07-03 11:32:10+05:30 held — HTF bar closes at 11:45:00 (trend not final yet).
+2026-07-03 11:33:23,595 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:33:38,120 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:33:52,653 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:34:07,187 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:34:21,737 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:34:35,932 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:34:50,265 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:35:04,813 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:35:19,213 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:35:33,445 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:35:47,863 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:36:02,392 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:36:16,938 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:36:31,861 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:36:49,084 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:37:04,036 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:37:18,748 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:37:33,346 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:37:48,182 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:38:02,674 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:38:17,510 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:38:31,913 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:38:48,373 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:39:04,401 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:39:19,661 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:39:34,977 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:39:50,827 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:40:06,631 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:40:22,141 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:40:38,265 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:40:54,116 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:41:10,280 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:41:10,383 - SMBot_V2 - INFO - _check_dryrun_sl_tp:1206 - [DRY-RUN] TP hit: NSE:NIFTY2670724300CE ltp=128.30 >= tp=127.21 (entry=121.15)
+2026-07-03 11:41:10,386 - SMBot_V2 - INFO - close_position:644 - [OM] [DRY-RUN] Exiting BO. reason=target, order_id=DRY-113021065953, symbol=NSE:NIFTY2670724300CE
+2026-07-03 11:41:10,391 - SMBot_V2 - INFO - close_position:655 - [OM] [DRY-RUN] Simulated exit, state cleared.
+2026-07-03 11:41:33,795 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:41:52,801 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:42:11,103 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:42:29,473 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:42:47,053 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:43:05,427 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:43:23,249 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:43:41,223 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:43:58,364 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:44:15,895 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:44:33,809 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:44:52,277 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:45:10,656 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:45:28,845 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:45:47,448 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:46:06,183 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:46:22,987 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:46:39,813 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:46:55,353 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:47:11,057 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:47:26,463 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:47:41,804 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:47:57,486 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:48:13,073 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:48:28,473 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:48:44,665 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:49:00,606 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:49:16,880 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:49:33,141 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:49:49,031 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:50:04,652 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:50:20,987 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:50:36,646 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:50:52,016 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:51:07,815 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:51:23,231 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:51:38,986 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:51:54,591 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:52:10,762 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:52:26,640 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:52:43,145 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:52:59,080 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:53:15,074 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:53:31,506 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:53:48,545 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:54:04,609 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:54:20,923 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:54:36,433 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:54:51,817 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:55:07,555 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:55:23,348 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:55:39,252 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:55:55,180 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:56:11,710 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:56:28,232 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:56:45,329 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:57:02,130 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:57:22,314 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:57:39,212 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:57:55,153 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:58:11,263 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:58:27,065 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:58:42,645 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:58:58,109 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:59:13,433 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:59:28,516 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:59:42,613 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 11:59:56,906 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:00:14,396 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:00:33,303 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:00:49,748 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:01:07,706 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:01:25,473 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:01:41,966 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:01:57,713 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:02:13,903 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:02:30,003 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:02:44,829 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:02:53,839 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:03:02,130 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:03:08,928 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:03:15,683 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:03:22,758 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:03:29,687 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:03:36,290 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:03:42,923 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:03:49,878 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:03:56,656 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:04:03,241 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:04:09,665 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:04:14,842 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:04:19,909 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:04:25,415 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:04:31,368 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:04:37,396 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:04:43,027 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:04:48,527 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:04:53,737 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:04:58,962 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:05:04,665 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:05:10,271 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:05:16,570 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:05:22,205 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:05:27,412 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:05:32,709 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:05:37,459 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:05:42,651 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:05:47,652 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:05:52,717 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:05:58,154 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:06:03,442 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:06:08,359 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:06:14,698 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:06:20,196 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:06:26,621 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:06:31,802 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:06:37,498 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:06:42,715 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:06:47,505 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:06:52,972 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:06:58,110 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:07:03,377 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:07:08,447 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:07:13,677 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:07:18,604 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:07:23,727 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:07:28,672 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:07:33,994 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:07:39,627 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:07:44,679 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:07:50,178 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:07:55,420 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:08:00,402 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:08:05,261 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:08:10,448 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:08:15,362 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:08:20,429 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:08:25,143 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:08:30,076 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:08:35,679 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:08:40,796 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:08:45,937 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:08:50,893 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:08:55,970 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:09:00,987 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:09:06,228 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:09:11,670 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:09:17,060 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:09:22,304 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:09:28,188 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:09:33,859 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:09:38,909 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:09:44,352 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:09:49,283 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:09:53,316 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:09:59,477 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:10:05,052 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:10:10,377 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:10:16,159 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:10:22,101 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:10:27,151 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:10:32,302 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:10:37,302 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:10:42,360 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:10:47,445 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:10:52,428 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:10:57,448 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:11:02,577 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:11:07,483 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:11:12,682 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:11:17,743 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:11:22,752 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:11:27,727 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:11:33,060 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:11:37,970 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:11:43,047 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:11:47,823 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:11:53,111 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:11:57,980 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:12:03,014 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:12:07,927 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:12:13,027 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:12:18,000 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:12:23,008 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:12:28,046 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:12:33,252 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:12:38,427 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:12:43,459 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:12:49,320 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:12:54,528 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:12:59,680 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:13:04,752 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:13:09,948 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:13:15,002 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:13:19,731 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:13:25,162 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:13:30,145 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:13:35,401 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:13:40,609 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:13:45,663 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:13:51,080 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:13:56,047 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:14:01,090 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:14:06,127 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:14:11,009 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:14:16,237 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:14:21,309 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:14:26,412 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:14:31,161 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:14:36,232 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:14:41,186 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:14:46,402 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:14:51,527 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:14:56,102 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:15:01,698 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:15:06,627 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:15:11,679 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:15:16,693 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:15:21,444 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:15:26,003 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:15:31,451 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:15:36,342 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:15:41,460 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:29:10,270 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:29:10,377 - SMBot_V2 - ERROR - start:1440 - [POLL] _poll_once error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Traceback (most recent call last):
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sharad\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1411, in getresponse
+    response.begin()
+  File "C:\Users\Sharad\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 324, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sharad\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 293, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\util\retry.py", line 490, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sharad\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1411, in getresponse
+    response.begin()
+  File "C:\Users\Sharad\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 324, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sharad\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 293, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Sharad\SMBot_V2\src\vam_poll_5S.py", line 1438, in start
+    self._poll_once()
+  File "d:\Sharad\SMBot_V2\src\vam_poll_5S.py", line 1270, in _poll_once
+    df_idx = self.history_cache.get()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Sharad\SMBot_V2\src\vam_poll_5S.py", line 922, in get
+    today_fresh = self._fetch_raw(days=1)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Sharad\SMBot_V2\src\vam_poll_5S.py", line 892, in _fetch_raw
+    resp = self.fyers.history(data=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Sharad\SMBot_V2\src\vam_poll_5S.py", line 204, in history
+    r = self.session.get(f"{self.BASE_T2}/history", params=params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\requests\adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-07-03 12:29:21,240 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:29:27,908 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:29:34,177 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:29:40,154 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:29:46,477 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:29:52,435 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:29:58,361 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:30:03,470 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:30:08,987 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:30:15,120 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:30:21,827 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:30:26,543 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:30:31,582 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:30:36,477 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:30:41,481 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:30:46,604 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:30:51,272 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:30:56,246 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:31:01,503 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:31:06,062 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:31:11,783 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:31:16,808 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:31:21,877 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:31:26,038 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:31:31,620 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:31:37,203 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:31:42,877 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:31:48,363 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:31:54,103 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:31:59,737 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:32:05,137 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:32:10,155 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:32:15,544 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:32:21,327 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:32:26,953 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:32:32,955 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:32:38,470 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:32:43,581 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:32:48,911 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:32:54,077 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:32:59,295 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:33:04,621 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:33:10,127 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:33:14,720 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:33:20,358 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:33:25,709 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:33:31,609 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:33:37,130 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:33:42,887 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:33:48,511 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:33:53,511 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:33:58,246 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:34:03,071 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:34:08,137 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:34:13,592 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:34:18,509 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:34:22,430 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:34:28,307 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:34:33,388 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:34:38,620 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:34:43,595 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:34:48,759 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:34:52,742 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:34:58,010 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:35:03,206 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:35:08,537 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:35:13,305 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:35:18,352 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:35:23,616 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:35:28,632 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:35:33,582 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:35:37,994 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:35:43,396 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:35:48,387 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:35:53,572 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:35:58,502 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:36:03,455 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:36:08,533 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:36:13,295 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:36:18,364 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:36:23,595 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:36:28,010 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:36:33,377 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:36:38,581 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:36:42,206 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:36:48,404 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:36:53,363 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:36:58,627 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:37:02,853 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:37:08,342 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:37:12,795 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:37:18,263 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:37:23,493 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:37:28,654 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:37:33,011 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:37:38,346 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:37:43,561 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:37:48,716 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:37:53,021 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:37:58,573 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:38:03,722 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:38:08,635 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:38:13,663 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:38:17,333 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:38:23,444 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:38:28,502 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:38:33,002 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:38:38,209 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:38:43,594 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 53 total signals
+2026-07-03 12:38:48,702 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 54 total signals
+2026-07-03 12:38:48,873 - SMBot_V2 - INFO - _poll_once:1337 - [POLL] Signal SELL @ 2026-07-03 12:38:30+05:30 first seen — ref premium 72.25 (NSE:NIFTY2670724300PE)
+2026-07-03 12:38:48,876 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal SELL @ 2026-07-03 12:38:30+05:30 held — HTF bar closes at 12:45:00 (trend not final yet).
+2026-07-03 12:38:53,523 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 54 total signals
+2026-07-03 12:38:53,527 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal SELL @ 2026-07-03 12:38:30+05:30 held — HTF bar closes at 12:45:00 (trend not final yet).
+2026-07-03 12:38:58,722 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 54 total signals
+2026-07-03 12:38:58,722 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal SELL @ 2026-07-03 12:38:30+05:30 held — HTF bar closes at 12:45:00 (trend not final yet).
+2026-07-03 12:39:02,687 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 54 total signals
+2026-07-03 12:39:02,693 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal SELL @ 2026-07-03 12:38:30+05:30 held — HTF bar closes at 12:45:00 (trend not final yet).
+2026-07-03 12:39:08,205 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 54 total signals
+2026-07-03 12:39:08,209 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal SELL @ 2026-07-03 12:38:30+05:30 held — HTF bar closes at 12:45:00 (trend not final yet).
+2026-07-03 12:39:13,622 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 54 total signals
+2026-07-03 12:39:13,627 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal SELL @ 2026-07-03 12:38:30+05:30 held — HTF bar closes at 12:45:00 (trend not final yet).
+2026-07-03 13:41:40,362 - SMBot_V2 - INFO - _run_backtest_scan:1134 - [POLL] Scan complete — 54 total signals
+2026-07-03 13:41:40,374 - SMBot_V2 - INFO - _poll_once:1355 - [POLL] Signal SELL @ 2026-07-03 12:38:30+05:30 held — HTF bar closes at 12:45:00 (trend not final yet).
+2026-07-03 13:41:40,386 - SMBot_V2 - ERROR - start:1440 - [POLL] _poll_once error: HTTPSConnectionPool(host='api-t1.fyers.in', port=443): Max retries exceeded with url: /data/history?symbol=NSE%3ANIFTY50-INDEX&resolution=10S&date_format=1&range_from=2026-07-02&range_to=2026-07-03&cont_flag=0 (Caused by NameResolutionError("HTTPSConnection(host='api-t1.fyers.in', port=443): Failed to resolve 'api-t1.fyers.in' ([Errno 11001] getaddrinfo failed)"))
+Traceback (most recent call last):
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sharad\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='api-t1.fyers.in', port=443): Failed to resolve 'api-t1.fyers.in' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api-t1.fyers.in', port=443): Max retries exceeded with url: /data/history?symbol=NSE%3ANIFTY50-INDEX&resolution=10S&date_format=1&range_from=2026-07-02&range_to=2026-07-03&cont_flag=0 (Caused by NameResolutionError("HTTPSConnection(host='api-t1.fyers.in', port=443): Failed to resolve 'api-t1.fyers.in' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Sharad\SMBot_V2\src\vam_poll_5S.py", line 1438, in start
+    self._poll_once()
+  File "d:\Sharad\SMBot_V2\src\vam_poll_5S.py", line 1270, in _poll_once
+    df_idx = self.history_cache.get()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Sharad\SMBot_V2\src\vam_poll_5S.py", line 922, in get
+    today_fresh = self._fetch_raw(days=1)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Sharad\SMBot_V2\src\vam_poll_5S.py", line 892, in _fetch_raw
+    resp = self.fyers.history(data=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Sharad\SMBot_V2\src\vam_poll_5S.py", line 204, in history
+    r = self.session.get(f"{self.BASE_T2}/history", params=params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sharad\SMBot_V2\.venv\Lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api-t1.fyers.in', port=443): Max retries exceeded with url: /data/history?symbol=NSE%3ANIFTY50-INDEX&resolution=10S&date_format=1&range_from=2026-07-02&range_to=2026-07-03&cont_flag=0 (Caused by NameResolutionError("HTTPSConnection(host='api-t1.fyers.in', port=443): Failed to resolve 'api-t1.fyers.in' ([Errno 11001] getaddrinfo failed)"))
+2026-07-03 17:46:16,819 - SMBot_V2 - INFO - stop_watcher:55 - 15:25 IST reached — running EOD cleanup and stopping
+2026-07-03 17:46:16,819 - SMBot_V2 - INFO - _poll_once:1253 - [POLL] Outside session (17:46:16 IST), next check in 5s.
+2026-07-03 17:46:16,861 - SMBot_V2 - INFO - _shutdown:1453 - [POLL] Shutdown: resolving open trades and exporting Excel.
+2026-07-03 17:46:16,899 - SMBot_V2 - INFO - resolve_open_trade_at_eod:752 - [TL] No open trade to resolve at EOD.
+2026-07-03 17:46:16,968 - SMBot_V2 - ERROR - export_to_excel:866 - [TL] Excel export failed: No module named 'openpyxl'
+2026-07-03 17:46:16,996 - SMBot_V2 - INFO - _shutdown:1458 - [POLL] Shutdown complete.
+2026-07-03 22:22:39,768 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-07-03 22:22:39,782 - SMBot_V2 - INFO - main:63 - === VAM Polling Bot Starting ===
+2026-07-03 22:22:39,782 - SMBot_V2 - INFO - main:66 - Generating TOTP Token...
+2026-07-03 22:22:40,177 - SMBot_V2 - INFO - GenerateTOTPToken:179 - send_login_otp success
+2026-07-03 22:22:40,182 - SMBot_V2 - INFO - GenerateTOTPToken:186 - Generated TOTP: 977896
+2026-07-03 22:22:40,284 - SMBot_V2 - INFO - GenerateTOTPToken:195 - verify_totp success
+2026-07-03 22:22:40,694 - SMBot_V2 - INFO - GenerateTOTPToken:203 - verify_pin success
+2026-07-03 22:22:41,014 - SMBot_V2 - INFO - GenerateTOTPToken:216 - token success
+2026-07-03 22:22:41,307 - SMBot_V2 - INFO - GenerateTOTPToken:227 - validate_authcode success
+2026-07-03 22:22:41,307 - SMBot_V2 - INFO - GenerateTOTPToken:234 - Final access_token: 2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcVItallBSzlkU1AzVFNYUGc5SDNFU2EwZl8wczh5Z0dBbmtoSnI0YjM3bVE5UWtGSEdaakcxSl9oc1lVOTgxRl9lS0lqVG5iOFk5WFlxNlYxVlpBVFpkanF0d2NzVTVVcHFRQWc0SnZMb2RXNFJMbz0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiI4OTFhN2VmZTg1NTE1MTY2ZGNlOGNkZjMyYmIwZWMxYTk5ZjQyMzQ0YmJlMjQ0NGVlNGU3MmJmMyIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoyMDAsImV4cCI6MTc4MzEyNTAwMCwiaWF0IjoxNzgzMDk3NTYwLCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3ODMwOTc1NjAsInN1YiI6ImFjY2Vzc190b2tlbiJ9.NVpRHfPejSGXEMuuRp8MRyCvOCjNBPpBNEllm5xxOgQ
+2026-07-03 22:22:41,312 - SMBot_V2 - INFO - GenerateTOTPToken:238 - AppId saved -> fyers_appid.txt
+2026-07-03 22:22:41,314 - SMBot_V2 - INFO - GenerateTOTPToken:242 - Token saved -> fyers_token.txt
+2026-07-03 22:22:41,315 - SMBot_V2 - INFO - GenerateTOTPToken:244 - Generated on: 03-07-2026 22:22:39
+2026-07-03 22:22:41,342 - SMBot_V2 - INFO - __init__:190 - FyersHTTP init | app_id=2NWM6G5K7Y-200 | auth=2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5c...
+2026-07-03 22:22:41,728 - SMBot_V2 - INFO - __init__:963 - [POLL] Pre-warming history cache at startup...
+2026-07-03 22:22:41,729 - SMBot_V2 - INFO - get:915 - [CACHE] Fetching 1-day warmup history...
+2026-07-03 22:22:42,771 - SMBot_V2 - INFO - get:918 - [CACHE] Warmup complete: 51060 bars
+2026-07-03 22:22:42,771 - SMBot_V2 - INFO - __init__:965 - [POLL] Pre-warm complete: 51060 bars loaded.
+2026-07-03 22:22:42,771 - SMBot_V2 - INFO - restore_state_on_startup:514 - [OM] Checking for existing position on startup...
+2026-07-03 22:22:42,946 - SMBot_V2 - INFO - _restore_state_from_broker:481 - [OM] Live positions on startup: {'code': 200, 'message': '', 's': 'ok', 'netPositions': [], 'overall': {'count_open': 0, 'count_total': 0, 'pl_realized': 0, 'pl_total': 0, 'pl_unrealized': 0}}
+2026-07-03 22:22:42,946 - SMBot_V2 - INFO - _restore_state_from_broker:507 - [OM] No open positions at broker. Starting fresh.
+2026-07-03 22:22:42,950 - SMBot_V2 - WARNING - __init__:979 - [POLL] *** DRY-RUN MODE ENABLED — no real orders will be placed ***
+2026-07-03 22:22:42,952 - SMBot_V2 - INFO - __init__:982 - [POLL] Engine ready. Interval=5s, TF=10S, HTF=15min, SL=10.0% TP=20%
+2026-07-03 22:22:42,953 - SMBot_V2 - INFO - stop_watcher:51 - Stop watcher started — will stop at 15:25 IST
+2026-07-03 22:22:42,960 - SMBot_V2 - INFO - main:87 - Starting VAMPollingEngine...
+2026-07-03 22:22:42,960 - SMBot_V2 - INFO - start:1437 - [POLL] Starting VAM 10S Polling Engine (interval=5s)
+2026-07-03 22:22:42,962 - SMBot_V2 - INFO - _poll_once:1260 - [POLL] Outside session (22:22:42 IST), next check in 5s.
+2026-07-03 22:22:47,965 - SMBot_V2 - INFO - _poll_once:1260 - [POLL] Outside session (22:22:47 IST), next check in 5s.
+2026-07-03 22:22:52,968 - SMBot_V2 - INFO - _poll_once:1260 - [POLL] Outside session (22:22:52 IST), next check in 5s.
+2026-07-03 22:22:57,971 - SMBot_V2 - INFO - _poll_once:1260 - [POLL] Outside session (22:22:57 IST), next check in 5s.
+2026-07-03 22:23:02,973 - SMBot_V2 - INFO - _poll_once:1260 - [POLL] Outside session (22:23:02 IST), next check in 5s.
+2026-07-03 22:23:07,976 - SMBot_V2 - INFO - _poll_once:1260 - [POLL] Outside session (22:23:07 IST), next check in 5s.
+2026-07-03 22:23:12,956 - SMBot_V2 - INFO - stop_watcher:55 - 15:25 IST reached — running EOD cleanup and stopping
+2026-07-03 22:23:12,959 - SMBot_V2 - INFO - _shutdown:1460 - [POLL] Shutdown: resolving open trades and exporting Excel.
+2026-07-03 22:23:12,961 - SMBot_V2 - INFO - resolve_open_trade_at_eod:752 - [TL] No open trade to resolve at EOD.
+2026-07-03 22:23:12,961 - SMBot_V2 - INFO - export_to_excel:783 - [TL] No trades today — nothing to export.
+2026-07-03 22:23:12,963 - SMBot_V2 - INFO - _shutdown:1465 - [POLL] Shutdown complete.

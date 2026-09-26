@@ -1,0 +1,1278 @@
+2026-05-03 14:44:33,727 - SMBot_V2 - INFO - <module>:35 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-05-03 14:55:20,387 - SMBot_V2 - INFO - <module>:35 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-05-03 15:07:33,903 - SMBot_V2 - INFO - <module>:27 - APP_ID_HASH: 182d245f9d55f141ec67a093ba4b9a15782225ae3db6b77ac5a307eff7c75d39
+2026-05-03 15:07:37,524 - SMBot_V2 - INFO - GenerateTOTPToken:168 - send_login_otp success
+2026-05-03 15:07:37,524 - SMBot_V2 - INFO - GenerateTOTPToken:175 - Generated TOTP: 480872
+2026-05-03 15:07:38,031 - SMBot_V2 - INFO - GenerateTOTPToken:184 - verify_totp success
+2026-05-03 15:07:38,747 - SMBot_V2 - INFO - GenerateTOTPToken:192 - verify_pin success
+2026-05-03 15:07:39,259 - SMBot_V2 - INFO - GenerateTOTPToken:205 - token success
+2026-05-03 15:07:39,871 - SMBot_V2 - INFO - GenerateTOTPToken:216 - validate_authcode success
+2026-05-03 15:07:39,871 - SMBot_V2 - INFO - GenerateTOTPToken:223 - Final access_token: G0KMDMEH4T-100:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcDl4ZGtDZklncGJsZXhGRVU3U1ByR3ZmcnMwWVpJM2gtcXdiZzlFWnVld3pMUUhfVnhYNGU2MzNMRnFDa0tmeGJ3RS15LUVEcXVfelEyR0d4SXVrYTJJQm1KVFVQa2s1d3lJUHBsSk96dTc3MmIwTT0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiIzMWZkNzEwMTgwOTJhZmNlMWQxMmQ3ODYyNTZjYTgwNjIyMDg1ODI3YzIyMTRjNzc4Y2QzY2U4NyIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoxMDAsImV4cCI6MTc3Nzg1NDYwMCwiaWF0IjoxNzc3ODAxMDYwLCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3Nzc4MDEwNjAsInN1YiI6ImFjY2Vzc190b2tlbiJ9.dKEBDUm2UO46fA-4YlJ_8Cqbx4J-kkog8tcCnRnzfm4
+2026-05-03 15:07:39,878 - SMBot_V2 - INFO - GenerateTOTPToken:228 - AppId saved -> fyers_appid.txt
+2026-05-03 15:07:39,879 - SMBot_V2 - INFO - GenerateTOTPToken:232 - Token saved -> fyers_token.txt
+2026-05-03 15:07:39,882 - SMBot_V2 - INFO - GenerateTOTPToken:234 - Generated on: 03-05-2026 15:07:33
+2026-05-03 15:08:01,700 - SMBot_V2 - INFO - <module>:35 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-05-03 15:08:07,352 - SMBot_V2 - INFO - <module>:35 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-05-03 15:11:31,846 - SMBot_V2 - INFO - <module>:35 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-05-03 15:59:45,537 - SMBot_V2 - INFO - <module>:27 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-05-03 15:59:46,320 - SMBot_V2 - INFO - GenerateTOTPToken:167 - send_login_otp success
+2026-05-03 15:59:46,321 - SMBot_V2 - INFO - GenerateTOTPToken:174 - Generated TOTP: 151542
+2026-05-03 15:59:47,037 - SMBot_V2 - INFO - GenerateTOTPToken:183 - verify_totp success
+2026-05-03 15:59:47,857 - SMBot_V2 - INFO - GenerateTOTPToken:191 - verify_pin success
+2026-05-03 15:59:48,467 - SMBot_V2 - INFO - GenerateTOTPToken:204 - token success
+2026-05-03 15:59:49,188 - SMBot_V2 - INFO - GenerateTOTPToken:215 - validate_authcode success
+2026-05-03 15:59:49,188 - SMBot_V2 - INFO - GenerateTOTPToken:222 - Final access_token: 2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcDl5T2RXTEpnQXlDdU8taVFVS1ZvRUtRcTFLRzJob0k0Q0Jxc1BITG5fTUFXcUJHUFM5UVlvWXBZM1VXVkVUUi1wblljUkJsTDJzSERLNTRmaEZvajMtbzdUQndycWRRS1RxQUYtZl9hd0s4eHJnaz0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiIzYzNmYTZiZTFjOTFhOTRlZTAzMjE0NDFkYmFhYmJlZTY1ZmUzN2E4OGRiZmUzNGJjZDdlMDMyNCIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoyMDAsImV4cCI6MTc3Nzg1NDYwMCwiaWF0IjoxNzc3ODA0MTg5LCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3Nzc4MDQxODksInN1YiI6ImFjY2Vzc190b2tlbiJ9.J-dm5v2vH66LAfAyr-LVt-02yVbsGYoCLrBX4MVIHqQ
+2026-05-03 15:59:49,193 - SMBot_V2 - INFO - GenerateTOTPToken:226 - AppId saved -> fyers_appid.txt
+2026-05-03 15:59:49,197 - SMBot_V2 - INFO - GenerateTOTPToken:230 - Token saved -> fyers_token.txt
+2026-05-03 15:59:49,197 - SMBot_V2 - INFO - GenerateTOTPToken:232 - Generated on: 03-05-2026 15:59:45
+2026-05-03 16:02:25,358 - SMBot_V2 - INFO - <module>:27 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-05-03 16:02:25,358 - SMBot_V2 - INFO - main:42 - === SMBot Starting via Render Cron Job ===
+2026-05-03 16:02:25,358 - SMBot_V2 - INFO - main:45 - Generating TOTP Token...
+2026-05-03 16:02:26,057 - SMBot_V2 - INFO - GenerateTOTPToken:167 - send_login_otp success
+2026-05-03 16:02:26,057 - SMBot_V2 - INFO - GenerateTOTPToken:174 - Generated TOTP: 440947
+2026-05-03 16:02:28,928 - SMBot_V2 - INFO - GenerateTOTPToken:183 - verify_totp success
+2026-05-03 16:02:29,846 - SMBot_V2 - INFO - GenerateTOTPToken:191 - verify_pin success
+2026-05-03 16:02:30,463 - SMBot_V2 - INFO - GenerateTOTPToken:204 - token success
+2026-05-03 16:02:31,181 - SMBot_V2 - INFO - GenerateTOTPToken:215 - validate_authcode success
+2026-05-03 16:02:31,182 - SMBot_V2 - INFO - GenerateTOTPToken:222 - Final access_token: 2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcDl5UV9EUGIxWnhHbGlSVXBad2M1Ynd1dEhBZGJHSzFaRlN4S1EwUGV6OEZZQXhMY3o0ZDE3TnNoVTI3ZGJucVZtbjE4ZWtJRUd1VHVpSU1yb2ZfVVc4Rm5fNk93NVNtTHNEZTIxb2kxRS1MbEt4Zz0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiI1YTIzMzQ1ODE5ODFmNGVlMzU3NWU1YjYwNGI0NDc3YjA4ZmYyODkwYzA4NDQ1NmM0OGViYzlkNyIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoyMDAsImV4cCI6MTc3Nzg1NDYwMCwiaWF0IjoxNzc3ODA0MzUxLCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3Nzc4MDQzNTEsInN1YiI6ImFjY2Vzc190b2tlbiJ9.eqIkEDY3uUt_PPWn-AeYpsB7m2sTYO7KvZaGn01Utl8
+2026-05-03 16:02:31,186 - SMBot_V2 - INFO - GenerateTOTPToken:226 - AppId saved -> fyers_appid.txt
+2026-05-03 16:02:31,187 - SMBot_V2 - INFO - GenerateTOTPToken:230 - Token saved -> fyers_token.txt
+2026-05-03 16:02:31,187 - SMBot_V2 - INFO - GenerateTOTPToken:232 - Generated on: 03-05-2026 16:02:25
+2026-05-03 16:02:31,277 - SMBot_V2 - INFO - _init_fyers:328 - Fyers V3 API initialized for VAMLiveBot
+2026-05-03 16:02:31,281 - SMBot_V2 - INFO - __init__:311 - VAMLiveBot initialized (signals for live).
+2026-05-03 16:02:32,203 - SMBot_V2 - INFO - get_index_data:375 - Loaded NIFTY50 index data with 14060 rows [IST] in session (VAM)
+2026-05-03 16:02:32,206 - SMBot_V2 - INFO - __init__:817 - [VAM LIVE] Timeframe=1m, heartbeat threshold=120s
+2026-05-03 16:02:32,208 - SMBot_V2 - INFO - restore_state_on_startup:689 - [VAM OM] Checking for existing position on startup...
+2026-05-03 16:02:32,208 - SMBot_V2 - INFO - _load_state_from_file:565 - [VAM OM] No state file found at vam_position_state.json.
+2026-05-03 16:02:32,302 - SMBot_V2 - INFO - _restore_state_from_broker:644 - [VAM OM] Live positions on startup: {'code': 200, 'message': '', 's': 'ok', 'netPositions': [], 'overall': {'count_open': 0, 'count_total': 0, 'pl_realized': 0, 'pl_total': 0, 'pl_unrealized': 0}}
+2026-05-03 16:02:32,302 - SMBot_V2 - INFO - _restore_state_from_broker:681 - [VAM OM] No open positions at broker. Starting fresh.
+2026-05-03 16:02:32,310 - SMBot_V2 - INFO - stop_watcher:29 - Stop watcher started - will stop at 3:10 PM IST
+2026-05-03 16:02:32,312 - SMBot_V2 - INFO - stop_watcher:32 - 3:10 PM IST reached - stopping VAMLiveEngine
+2026-05-03 16:02:32,317 - SMBot_V2 - INFO - main:76 - Starting VAMLiveEngine...
+2026-05-03 16:02:32,323 - SMBot_V2 - INFO - start:1063 - Starting VAM WebSocket live engine with heartbeat watchdog.
+2026-05-03 16:02:32,323 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 16:02:32,502 - SMBot_V2 - INFO - _on_message:849 - [VAM LIVE] RAW WS MSG (once): {'type': 'cn', 'code': 200, 'message': 'Authentication done', 's': 'ok'}
+2026-05-03 16:02:34,333 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:04:40,398 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 125s (>120s). Reconnecting WS.
+2026-05-03 16:04:40,402 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 16:04:42,408 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:04:43,678 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 16:02:00+05:30
+2026-05-03 16:17:08,139 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 16:17:08,141 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 16:17:08,397 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 745s (>120s). Reconnecting WS.
+2026-05-03 16:17:08,818 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 16:17:10,928 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:17:12,059 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 16:04:00+05:30
+2026-05-03 16:17:15,871 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:17:20,888 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:19:12,046 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 16:19:19,050 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:19:20,726 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 16:17:00+05:30
+2026-05-03 16:21:22,059 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 121s (>120s). Reconnecting WS.
+2026-05-03 16:21:22,061 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 16:21:24,066 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:21:25,440 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 16:19:00+05:30
+2026-05-03 16:22:18,183 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 16:22:25,189 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:22:26,783 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 16:21:00+05:30
+2026-05-03 16:24:30,359 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 124s (>120s). Reconnecting WS.
+2026-05-03 16:24:30,363 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 16:24:32,372 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:24:33,883 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 16:22:00+05:30
+2026-05-03 16:26:29,393 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 16:26:36,400 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:26:38,071 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 16:24:00+05:30
+2026-05-03 16:28:38,894 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 121s (>120s). Reconnecting WS.
+2026-05-03 16:28:38,897 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 16:28:40,904 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:28:42,394 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 16:26:00+05:30
+2026-05-03 16:30:47,360 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 125s (>120s). Reconnecting WS.
+2026-05-03 16:30:47,363 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 16:30:49,370 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:30:50,756 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 16:28:00+05:30
+2026-05-03 16:32:18,137 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 16:32:25,146 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:32:26,587 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 16:30:00+05:30
+2026-05-03 16:32:47,352 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 16:32:54,359 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:34:55,721 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-05-03 16:34:55,721 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 16:34:57,733 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:34:59,078 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 16:32:00+05:30
+2026-05-03 16:35:38,121 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 16:35:38,121 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 16:35:45,130 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:35:46,519 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 16:34:00+05:30
+2026-05-03 16:35:50,130 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:37:54,028 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 123s (>120s). Reconnecting WS.
+2026-05-03 16:37:54,031 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 16:37:56,037 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:37:57,384 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 16:35:00+05:30
+2026-05-03 16:38:58,085 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 16:39:05,091 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:39:06,269 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 16:37:00+05:30
+2026-05-03 16:39:53,391 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 16:40:00,397 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:40:01,749 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 16:39:00+05:30
+2026-05-03 16:42:02,353 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 121s (>120s). Reconnecting WS.
+2026-05-03 16:42:02,353 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 16:42:04,362 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:42:05,678 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 16:40:00+05:30
+2026-05-03 16:42:18,070 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 16:42:25,082 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:44:30,650 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 124s (>120s). Reconnecting WS.
+2026-05-03 16:44:30,650 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 16:44:32,660 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:44:34,180 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 16:42:00+05:30
+2026-05-03 16:46:39,032 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 125s (>120s). Reconnecting WS.
+2026-05-03 16:46:39,036 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 16:46:41,045 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:46:42,484 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 16:44:00+05:30
+2026-05-03 16:48:47,391 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 125s (>120s). Reconnecting WS.
+2026-05-03 16:48:47,392 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 16:48:49,406 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:48:50,753 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 16:46:00+05:30
+2026-05-03 16:48:58,160 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 16:49:05,169 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:49:06,591 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 16:48:00+05:30
+2026-05-03 16:51:10,697 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 124s (>120s). Reconnecting WS.
+2026-05-03 16:51:10,698 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 16:51:12,710 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:51:14,089 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 16:49:00+05:30
+2026-05-03 16:53:19,040 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 125s (>120s). Reconnecting WS.
+2026-05-03 16:53:19,043 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 16:53:21,049 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:53:22,428 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 16:51:00+05:30
+2026-05-03 16:55:27,374 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 125s (>120s). Reconnecting WS.
+2026-05-03 16:55:27,374 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 16:55:29,381 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 16:55:30,713 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 16:53:00+05:30
+2026-05-03 17:26:10,596 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:26:10,599 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:26:10,622 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:26:10,622 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:26:10,624 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:26:10,624 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:26:10,624 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:26:10,624 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:26:10,625 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:26:10,626 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:26:10,628 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 1840s (>120s). Reconnecting WS.
+2026-05-03 17:26:10,628 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:26:10,628 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:26:10,629 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:26:10,629 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:26:10,630 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:26:10,630 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:26:11,912 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 17:26:13,982 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:26:15,320 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 16:55:00+05:30
+2026-05-03 17:26:17,791 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:26:22,903 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:26:28,057 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:26:33,572 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:26:38,667 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:26:43,784 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:26:48,823 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:26:53,893 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:26:58,902 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:27:00,154 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 17:26:00+05:30
+2026-05-03 17:27:03,910 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:27:08,925 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:27:13,953 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:27:18,977 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:27:23,979 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:27:28,980 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:27:33,981 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:28:58,002 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:28:58,002 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:28:58,002 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:28:58,002 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:29:01,731 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:29:05,009 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:29:06,258 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 17:27:00+05:30
+2026-05-03 17:29:10,010 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:29:11,722 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:29:15,013 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:29:18,728 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:29:20,014 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:29:21,728 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:29:26,212 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:29:28,733 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:29:28,734 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:29:38,220 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:31:40,247 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 121s (>120s). Reconnecting WS.
+2026-05-03 17:31:40,249 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 17:31:42,255 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:31:43,920 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 17:29:00+05:30
+2026-05-03 17:32:18,031 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:32:18,031 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:32:18,033 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:32:18,033 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:32:25,037 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:32:26,496 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 17:31:00+05:30
+2026-05-03 17:32:30,038 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:32:35,040 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:32:40,041 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:34:43,783 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 122s (>120s). Reconnecting WS.
+2026-05-03 17:34:43,784 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 17:34:45,789 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:34:47,096 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 17:32:00+05:30
+2026-05-03 17:35:38,053 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:35:38,053 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:35:38,053 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:35:38,056 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:35:45,063 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:35:46,534 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 17:34:00+05:30
+2026-05-03 17:35:50,067 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:35:55,066 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:36:00,067 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:36:01,482 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 17:35:00+05:30
+2026-05-03 17:38:02,040 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 121s (>120s). Reconnecting WS.
+2026-05-03 17:38:02,040 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 17:38:04,058 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:38:05,503 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 17:36:00+05:30
+2026-05-03 17:38:57,984 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:38:57,984 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:38:57,984 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:39:04,992 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:39:06,227 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 17:38:00+05:30
+2026-05-03 17:39:09,998 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:39:15,003 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:40:01,793 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:40:08,802 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:40:10,156 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 17:39:00+05:30
+2026-05-03 17:42:10,343 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-05-03 17:42:10,345 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 17:42:12,353 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:42:13,802 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 17:40:00+05:30
+2026-05-03 17:42:17,981 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:42:24,985 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:44:28,736 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 122s (>120s). Reconnecting WS.
+2026-05-03 17:44:28,738 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 17:44:30,744 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:44:32,000 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 17:42:00+05:30
+2026-05-03 17:45:38,008 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 17:45:45,013 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:45:46,464 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 17:44:00+05:30
+2026-05-03 17:47:47,998 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 121s (>120s). Reconnecting WS.
+2026-05-03 17:47:47,002 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 17:47:49,008 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:47:50,361 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 17:45:00+05:30
+2026-05-03 17:49:55,313 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 125s (>120s). Reconnecting WS.
+2026-05-03 17:49:55,317 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 17:49:57,326 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:49:58,652 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 17:47:00+05:30
+2026-05-03 17:52:03,595 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 125s (>120s). Reconnecting WS.
+2026-05-03 17:52:03,598 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 17:52:05,609 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:52:07,137 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 17:49:00+05:30
+2026-05-03 17:54:12,054 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 125s (>120s). Reconnecting WS.
+2026-05-03 17:54:12,057 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 17:54:14,064 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:54:15,450 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 17:52:00+05:30
+2026-05-03 17:56:20,403 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 125s (>120s). Reconnecting WS.
+2026-05-03 17:56:20,403 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 17:56:22,415 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:56:23,920 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 17:54:00+05:30
+2026-05-03 17:58:28,765 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 125s (>120s). Reconnecting WS.
+2026-05-03 17:58:28,767 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 17:58:30,782 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 17:58:32,117 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 17:56:00+05:30
+2026-05-03 18:00:37,084 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 125s (>120s). Reconnecting WS.
+2026-05-03 18:00:37,084 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 18:00:39,089 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:00:40,629 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 17:58:00+05:30
+2026-05-03 18:02:17,950 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:02:24,955 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:02:26,346 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:00:00+05:30
+2026-05-03 18:02:36,461 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:02:43,466 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:04:45,590 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 121s (>120s). Reconnecting WS.
+2026-05-03 18:04:45,591 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 18:04:47,595 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:04:48,956 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:02:00+05:30
+2026-05-03 18:05:38,020 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:05:45,024 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:05:46,687 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:04:00+05:30
+2026-05-03 18:06:43,961 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:06:50,970 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:06:52,371 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:05:00+05:30
+2026-05-03 18:08:53,896 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 122s (>120s). Reconnecting WS.
+2026-05-03 18:08:53,897 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 18:08:55,905 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:08:57,324 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:06:00+05:30
+2026-05-03 18:08:57,938 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:08:57,942 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:09:04,945 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:09:06,320 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:08:00+05:30
+2026-05-03 18:09:09,948 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:11:12,269 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 121s (>120s). Reconnecting WS.
+2026-05-03 18:11:12,278 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 18:11:14,284 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:11:15,559 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:09:00+05:30
+2026-05-03 18:12:17,988 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:12:17,988 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:12:24,997 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:12:26,487 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:11:00+05:30
+2026-05-03 18:12:29,997 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:14:35,517 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 124s (>120s). Reconnecting WS.
+2026-05-03 18:14:35,526 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 18:14:37,533 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:14:38,836 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:12:00+05:30
+2026-05-03 18:15:37,970 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:15:37,970 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:15:44,982 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:15:46,644 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:14:00+05:30
+2026-05-03 18:15:49,984 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:16:34,103 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:16:41,107 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:16:42,425 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:15:00+05:30
+2026-05-03 18:18:43,829 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 121s (>120s). Reconnecting WS.
+2026-05-03 18:18:43,831 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 18:18:45,835 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:18:47,147 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:16:00+05:30
+2026-05-03 18:18:57,961 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:19:04,967 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:19:06,358 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:18:00+05:30
+2026-05-03 18:21:07,086 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 121s (>120s). Reconnecting WS.
+2026-05-03 18:21:07,089 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 18:21:09,095 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:21:10,331 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:19:00+05:30
+2026-05-03 18:25:26,823 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,829 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,832 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,832 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,834 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,836 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,836 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,836 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,836 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,838 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,838 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,838 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,840 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,840 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,840 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,842 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,842 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,842 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,844 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,844 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,846 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,846 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,846 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,846 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,847 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,847 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,847 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,847 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,848 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,848 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,848 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,848 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,848 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,848 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,848 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:25:26,851 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 257s (>120s). Reconnecting WS.
+2026-05-03 18:25:26,932 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 18:25:28,938 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:25:30,295 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:21:00+05:30
+2026-05-03 18:25:33,872 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:25:33,936 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:25:38,878 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:25:38,960 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:25:43,897 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:25:43,975 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:25:48,899 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:25:49,006 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:25:53,899 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:25:58,899 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:26:00,221 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:25:00+05:30
+2026-05-03 18:26:03,903 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:26:08,904 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:26:13,905 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:26:18,907 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:26:23,907 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:26:28,908 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:26:33,912 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:26:38,913 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:26:43,921 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:26:48,920 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:26:53,927 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:26:58,923 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:27:00,189 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:26:00+05:30
+2026-05-03 18:27:03,923 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:27:08,924 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:27:13,928 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:27:18,930 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:27:23,932 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:27:28,932 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:27:33,933 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:27:38,935 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:27:43,935 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:27:48,934 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:27:53,935 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:27:58,935 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:28:00,022 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:27:00+05:30
+2026-05-03 18:28:03,936 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:28:57,915 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:28:57,920 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:28:57,921 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:28:57,921 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:28:57,921 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:28:57,921 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:28:57,921 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:28:57,921 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:28:57,921 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:28:57,921 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:28:57,921 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:28:57,921 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:28:57,921 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:29:00,086 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:29:04,930 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:29:06,105 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:28:00+05:30
+2026-05-03 18:29:09,932 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:29:10,391 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:29:14,937 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:29:15,221 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:29:17,397 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:29:19,937 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:29:22,225 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:29:24,938 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:29:25,301 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:29:29,940 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:29:32,305 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:29:34,940 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:29:35,035 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:29:39,942 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:29:40,313 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:29:42,039 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:29:44,940 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:29:47,317 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:29:49,941 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:29:50,337 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:29:54,944 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:29:57,346 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:29:59,944 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:30:01,170 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:29:00+05:30
+2026-05-03 18:30:04,943 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:30:12,096 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:32:15,320 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 122s (>120s). Reconnecting WS.
+2026-05-03 18:32:15,321 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 18:32:17,332 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:32:17,900 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:32:17,902 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:32:17,905 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:32:17,905 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:32:17,906 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:32:17,906 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:32:17,906 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:32:18,648 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:30:00+05:30
+2026-05-03 18:32:24,906 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:32:29,910 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:32:34,910 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:32:39,914 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:32:44,914 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:32:49,917 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:32:54,918 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:34:58,601 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 122s (>120s). Reconnecting WS.
+2026-05-03 18:34:58,603 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 18:35:00,607 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:35:02,085 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:32:00+05:30
+2026-05-03 18:35:37,893 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:35:37,896 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:35:44,937 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:35:49,902 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:37:52,037 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 121s (>120s). Reconnecting WS.
+2026-05-03 18:37:52,038 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 18:37:54,043 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:37:55,498 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:35:00+05:30
+2026-05-03 18:38:57,954 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:38:57,964 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:39:04,971 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:39:06,182 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:37:00+05:30
+2026-05-03 18:39:09,972 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:39:50,411 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:39:57,416 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:42:00,439 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 121s (>120s). Reconnecting WS.
+2026-05-03 18:42:00,442 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 18:42:02,446 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:42:03,831 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:39:00+05:30
+2026-05-03 18:42:17,883 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:42:17,887 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:42:24,889 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:42:29,891 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:44:33,759 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 123s (>120s). Reconnecting WS.
+2026-05-03 18:44:33,761 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 18:44:35,766 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:44:37,000 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:42:00+05:30
+2026-05-03 18:45:37,988 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:45:37,990 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:45:44,995 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:45:46,339 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:44:00+05:30
+2026-05-03 18:45:49,998 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:47:51,958 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 121s (>120s). Reconnecting WS.
+2026-05-03 18:47:51,960 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 18:47:53,966 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:47:55,243 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:45:00+05:30
+2026-05-03 18:48:57,929 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:49:04,937 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:49:06,247 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:47:00+05:30
+2026-05-03 18:49:50,475 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:49:57,480 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:52:00,190 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 121s (>120s). Reconnecting WS.
+2026-05-03 18:52:00,193 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 18:52:02,198 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:52:03,782 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:49:00+05:30
+2026-05-03 18:52:17,912 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:52:17,915 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:52:24,922 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:52:29,925 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:54:33,595 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 123s (>120s). Reconnecting WS.
+2026-05-03 18:54:33,596 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 18:54:35,600 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:54:36,810 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:52:00+05:30
+2026-05-03 18:55:37,900 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 18:55:44,905 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 18:55:46,233 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:54:00+05:30
+2026-05-03 18:56:33,172 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,620 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,652 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,620 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,622 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,630 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,630 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,635 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,635 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,637 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,639 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,641 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,641 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,641 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,641 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,645 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,645 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,647 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,647 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,647 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,647 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,647 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,647 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,649 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,649 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,650 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,650 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,650 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,652 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,652 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,620 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,652 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,652 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,652 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,652 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,652 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,652 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,652 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,656 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,656 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,656 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,656 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,656 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,656 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,656 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:21:34,683 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 15948s (>120s). Reconnecting WS.
+2026-05-03 23:21:34,685 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:21:35,516 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 23:21:37,517 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 18:55:00+05:30
+2026-05-03 23:21:37,584 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:21:42,573 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:21:42,915 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:21:47,574 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:21:47,916 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:21:52,581 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:21:52,917 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:21:57,589 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:21:57,916 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:22:29,757 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:22:29,757 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:22:29,757 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:22:29,759 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:22:29,761 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:22:29,761 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:22:29,761 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:22:29,767 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:22:29,806 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:22:33,242 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:22:34,244 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:22:34,244 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:22:34,244 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:22:34,244 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:22:34,244 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:22:34,364 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:22:34,647 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:22:34,647 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:22:34,649 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:22:34,649 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:22:34,762 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:22:35,363 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:22:35,411 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:22:37,942 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:22:38,028 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:22:42,885 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:22:43,829 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 23:21:00+05:30
+2026-05-03 23:22:47,853 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:22:52,863 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:22:57,866 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:23:00,257 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 23:22:00+05:30
+2026-05-03 23:23:02,869 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:23:07,873 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:23:12,880 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:23:17,912 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:23:22,890 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:23:27,891 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:23:32,894 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:23:37,895 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:23:42,901 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:23:47,903 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:23:52,906 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:23:57,907 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:24:00,282 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 23:23:00+05:30
+2026-05-03 23:24:02,911 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:24:07,911 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:24:12,911 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:24:17,912 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:25:37,526 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:25:37,526 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:25:37,528 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:25:37,528 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:25:37,530 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:25:37,530 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:25:37,530 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:25:37,531 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:25:37,532 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:25:37,532 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:25:37,532 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:25:37,532 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:25:37,537 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:25:37,537 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:25:39,932 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:25:44,543 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:25:47,520 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 23:24:00+05:30
+2026-05-03 23:25:49,547 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:25:50,287 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:25:54,548 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:25:55,598 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:25:57,293 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:25:57,656 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:25:59,549 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:26:00,161 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 23:25:00+05:30
+2026-05-03 23:26:00,233 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:26:04,554 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:26:07,243 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:26:09,555 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:26:14,557 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:26:14,931 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:26:19,560 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:26:21,938 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:26:24,561 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:26:29,564 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:26:34,568 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:26:39,572 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:26:44,573 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:26:49,575 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:26:56,943 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:27:01,192 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 23:26:00+05:30
+2026-05-03 23:28:57,565 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:28:57,569 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:28:57,570 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:28:57,570 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:28:57,571 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:28:57,571 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:28:57,571 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:28:57,575 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:29:04,586 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:29:04,948 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 124s (>120s). Reconnecting WS.
+2026-05-03 23:29:04,948 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 23:29:06,959 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:29:09,587 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:29:09,737 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 23:27:00+05:30
+2026-05-03 23:29:14,588 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:29:19,592 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:29:24,593 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:29:29,595 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:29:34,597 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:29:39,597 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:31:44,726 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 123s (>120s). Reconnecting WS.
+2026-05-03 23:31:44,728 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 23:31:46,737 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:31:48,837 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 23:29:00+05:30
+2026-05-03 23:32:17,508 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:32:17,512 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:32:17,512 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:32:17,515 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:32:24,517 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:32:26,708 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 23:31:00+05:30
+2026-05-03 23:32:29,518 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:32:34,521 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:32:39,528 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:34:43,806 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 122s (>120s). Reconnecting WS.
+2026-05-03 23:34:43,808 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 23:34:45,821 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:34:48,383 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 23:32:00+05:30
+2026-05-03 23:35:37,533 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:35:37,533 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:35:37,533 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:35:37,533 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:35:37,533 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:35:44,549 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:35:49,553 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:35:54,557 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:35:57,203 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 23:34:00+05:30
+2026-05-03 23:35:59,559 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:36:02,537 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 23:35:00+05:30
+2026-05-03 23:36:04,560 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:38:08,323 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 121s (>120s). Reconnecting WS.
+2026-05-03 23:38:08,327 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 23:38:10,334 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:38:13,392 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 23:36:00+05:30
+2026-05-03 23:38:57,528 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:38:57,529 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:39:04,538 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:39:07,252 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 23:38:00+05:30
+2026-05-03 23:39:09,540 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:40:08,357 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,004 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,009 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,011 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,013 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,017 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,389 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 137s (>120s). Reconnecting WS.
+2026-05-03 23:41:29,391 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,394 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,394 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,394 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,396 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,396 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,396 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,396 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,398 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,400 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,402 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,402 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,406 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:41:29,407 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,407 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,407 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,409 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,409 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,409 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,409 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,412 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,412 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,413 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,413 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,413 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,414 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,414 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,414 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,414 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,416 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,416 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,416 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,416 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,418 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,418 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:29,581 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:41:30,368 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 23:41:30,598 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-03 23:41:32,597 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:52:59,619 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 687s (>120s). Reconnecting WS.
+2026-05-03 23:52:59,697 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 23:52:59,715 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-03 23:52:59,748 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-03 23:52:59,751 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-03 23:52:59,842 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-03 23:53:00,189 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-03 23:53:00,443 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-03 23:53:01,722 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:01,777 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:01,777 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:01,809 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:01,859 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:02,460 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:02,992 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:06,804 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:11,874 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:11,818 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:13,289 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:13,531 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:13,531 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:17,061 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:17,738 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 23:39:00+05:30
+2026-05-03 23:53:17,814 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:17,861 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:22,067 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:22,579 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:22,851 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:27,220 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:27,468 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:27,610 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:27,815 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:32,631 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:32,816 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:37,654 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:37,851 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:42,687 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:42,870 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:47,706 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:47,882 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:52,716 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:52,818 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:57,717 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:53:57,877 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:54:00,063 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 23:53:00+05:30
+2026-05-03 23:54:02,720 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:54:02,865 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:54:07,723 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:54:07,865 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:54:12,727 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:54:12,840 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:54:17,731 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:54:17,832 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:54:22,735 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:54:22,870 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:54:27,736 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:54:27,849 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:54:32,746 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:55:37,506 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:55:37,506 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:55:37,506 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:55:37,512 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:55:37,513 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:55:37,522 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:55:37,522 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:55:37,522 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:55:40,414 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:55:44,521 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:55:46,860 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 23:54:00+05:30
+2026-05-03 23:55:49,522 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:55:50,656 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:55:54,530 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:55:55,593 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:55:56,387 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:55:57,675 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:55:59,535 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:56:02,641 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:56:03,396 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:56:04,536 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:56:04,670 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 23:55:00+05:30
+2026-05-03 23:56:05,704 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:56:06,053 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:56:09,538 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:56:11,187 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:56:12,720 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:56:13,237 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:56:14,541 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:56:15,660 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:56:18,065 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:56:19,543 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:56:20,591 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:56:22,673 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:56:26,127 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:56:27,422 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:56:27,670 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:56:33,134 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:58:37,774 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 123s (>120s). Reconnecting WS.
+2026-05-03 23:58:37,778 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-03 23:58:39,789 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:58:42,273 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 23:56:00+05:30
+2026-05-03 23:58:57,532 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:58:57,532 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:58:57,532 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:58:57,532 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:58:57,532 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-03 23:59:04,542 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:59:07,370 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-03 23:58:00+05:30
+2026-05-03 23:59:09,556 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:59:14,549 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:59:19,551 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-03 23:59:24,551 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 00:01:27,087 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-05-04 00:01:27,089 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 00:01:29,100 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 00:01:31,309 - SMBot_V2 - INFO - _finalize_index_bar:916 - [VAM LIVE] Skipping index bar from previous day: 2026-05-03 23:59:00+05:30
+2026-05-04 00:02:17,518 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:02:17,521 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:02:24,534 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 00:02:26,677 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-04 00:01:00+05:30
+2026-05-04 00:02:29,536 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 00:04:36,260 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 125s (>120s). Reconnecting WS.
+2026-05-04 00:04:36,262 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 00:04:38,273 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 00:04:40,578 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-04 00:02:00+05:30
+2026-05-04 00:05:37,462 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:05:37,464 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:05:44,469 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 00:05:46,541 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-04 00:04:00+05:30
+2026-05-04 00:05:49,471 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 00:06:36,125 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:06:43,132 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 00:06:46,015 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-04 00:05:00+05:30
+2026-05-04 00:08:50,454 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 124s (>120s). Reconnecting WS.
+2026-05-04 00:08:50,454 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 00:08:52,466 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 00:08:54,628 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-04 00:06:00+05:30
+2026-05-04 00:08:57,498 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:08:57,498 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:09:04,505 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 00:09:07,120 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-04 00:08:00+05:30
+2026-05-04 00:09:09,506 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 00:11:14,598 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 122s (>120s). Reconnecting WS.
+2026-05-04 00:11:14,601 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 00:11:16,612 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 00:11:18,861 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-04 00:09:00+05:30
+2026-05-04 00:12:17,474 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:12:17,474 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:12:24,482 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 00:12:26,874 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-04 00:11:00+05:30
+2026-05-04 00:12:29,483 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 00:14:33,815 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 122s (>120s). Reconnecting WS.
+2026-05-04 00:14:33,815 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 00:14:35,829 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 00:14:38,114 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-04 00:12:00+05:30
+2026-05-04 00:16:43,024 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 125s (>120s). Reconnecting WS.
+2026-05-04 00:16:43,027 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 00:16:45,038 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 00:16:47,662 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-04 00:14:00+05:30
+2026-05-04 00:18:52,588 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 125s (>120s). Reconnecting WS.
+2026-05-04 00:18:52,590 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 00:18:54,603 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 00:18:57,362 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-04 00:16:00+05:30
+2026-05-04 00:18:57,554 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:19:04,562 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 00:19:08,082 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-04 00:18:00+05:30
+2026-05-04 00:21:12,216 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 124s (>120s). Reconnecting WS.
+2026-05-04 00:21:12,222 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 00:21:14,236 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 00:21:16,750 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-04 00:19:00+05:30
+2026-05-04 00:22:17,528 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:22:17,530 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:22:24,537 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 00:22:27,088 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-04 00:21:00+05:30
+2026-05-04 00:22:29,539 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 00:24:36,653 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 125s (>120s). Reconnecting WS.
+2026-05-04 00:24:36,657 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 00:24:38,667 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 00:24:41,094 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-04 00:22:00+05:30
+2026-05-04 00:25:37,525 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:25:44,534 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 00:25:47,063 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-04 00:24:00+05:30
+2026-05-04 00:27:51,032 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 124s (>120s). Reconnecting WS.
+2026-05-04 00:27:51,035 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 00:27:53,044 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 00:27:55,554 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-04 00:25:00+05:30
+2026-05-04 00:30:00,507 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 125s (>120s). Reconnecting WS.
+2026-05-04 00:30:00,509 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 00:30:02,519 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 00:30:04,800 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-04 00:27:00+05:30
+2026-05-04 00:32:09,757 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 125s (>120s). Reconnecting WS.
+2026-05-04 00:32:09,759 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 00:32:11,769 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 00:32:14,489 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-04 00:30:00+05:30
+2026-05-04 00:34:19,445 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 125s (>120s). Reconnecting WS.
+2026-05-04 00:34:19,450 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 00:34:21,463 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 00:34:23,929 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-05-04 00:32:00+05:30
+2026-05-04 00:35:37,423 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,100 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 1342s (>120s). Reconnecting WS.
+2026-05-04 00:56:46,110 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,119 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,119 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,121 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,121 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,130 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,130 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,130 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,132 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,135 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,135 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,163 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,163 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,167 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,167 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,171 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,179 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,181 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,181 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,181 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,181 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,181 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,183 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,183 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,192 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,207 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,207 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,262 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,264 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,266 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 00:56:46,266 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,266 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,266 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,268 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,269 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,271 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,281 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,283 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,290 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,290 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,296 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,296 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,298 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,299 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,301 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,301 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,301 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,303 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,303 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,303 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,303 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,303 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,305 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,305 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,305 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:46,305 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-05-04 00:56:47,082 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 00:56:48,186 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 00:56:48,523 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 00:56:50,522 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:31,751 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 13661s (>120s). Reconnecting WS.
+2026-05-04 04:44:31,805 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 04:44:32,682 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:32,682 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:32,682 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:32,682 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:32,682 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:32,682 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:32,682 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:32,682 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:32,682 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:32,682 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:32,737 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:32,750 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:32,782 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:32,887 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:32,898 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:32,950 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:32,974 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:32,978 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:32,978 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:32,982 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,003 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,003 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,003 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,003 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,003 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,003 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,003 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,003 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,003 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,003 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,003 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,003 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,003 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,003 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,003 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,003 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,043 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,045 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,091 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,101 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,112 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,179 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,194 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,197 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,198 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,241 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,250 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,250 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,287 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,298 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,300 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,300 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,302 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,303 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,310 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,362 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,381 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,388 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,432 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,445 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,449 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,518 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,518 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,518 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,563 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,565 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,565 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,598 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-05-04 04:44:33,974 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,120 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,124 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,152 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,193 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,302 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,371 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,431 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,475 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,491 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,528 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,574 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,609 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,633 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,658 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,688 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,813 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,815 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,849 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,851 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,879 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,879 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,884 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,884 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,886 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,886 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,886 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,886 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,886 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,922 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,922 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,922 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,922 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,922 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,922 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:34,964 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,027 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,027 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,086 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,090 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,108 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,149 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,226 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,226 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,226 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,291 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,291 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,293 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,293 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,314 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,337 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,339 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,339 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,339 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,339 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,361 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,378 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,384 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,396 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,433 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,433 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,461 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,473 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,474 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,570 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,570 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,570 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:35,594 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 04:44:57,121 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 12:04:31,076 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 12:04:31,233 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 12:04:31,233 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 12:04:31,249 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 12:04:31,249 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 12:04:31,186 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 12:04:31,537 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 12:04:31,541 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [WinError 10053] An established connection was aborted by the software in your host machine
+2026-05-04 12:04:31,180 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [WinError 10053] An established connection was aborted by the software in your host machine
+2026-05-04 12:04:31,182 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: EOF occurred in violation of protocol (_ssl.c:2406)
+2026-05-04 12:04:31,182 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [WinError 10053] An established connection was aborted by the software in your host machine
+2026-05-04 12:04:31,196 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [WinError 10053] An established connection was aborted by the software in your host machine
+2026-05-04 12:04:31,196 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [WinError 10053] An established connection was aborted by the software in your host machine
+2026-05-04 12:04:31,196 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [WinError 10053] An established connection was aborted by the software in your host machine
+2026-05-04 12:04:31,336 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: EOF occurred in violation of protocol (_ssl.c:2406)
+2026-05-04 12:06:48,504 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-05-04 12:06:48,509 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 12:06:48,533 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-05-04 12:06:50,539 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 12:08:50,563 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-05-04 12:08:50,563 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 12:08:50,573 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-05-04 12:08:52,577 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 12:10:52,605 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-05-04 12:10:52,605 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 12:10:52,613 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-05-04 12:10:54,621 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 12:12:54,652 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-05-04 12:12:54,657 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 12:12:54,670 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-05-04 12:12:56,677 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 12:14:56,705 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-05-04 12:14:56,705 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 12:14:56,709 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-05-04 12:14:58,722 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 12:31:42,051 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 1003s (>120s). Reconnecting WS.
+2026-05-04 12:31:42,265 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 12:31:42,545 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-05-04 12:31:44,713 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 12:55:44,373 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 1440s (>120s). Reconnecting WS.
+2026-05-04 12:55:44,541 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 12:55:44,658 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-05-04 12:55:46,801 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 12:57:46,925 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-05-04 12:57:46,930 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 12:57:46,937 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-05-04 12:57:48,954 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 13:16:47,076 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 1138s (>120s). Reconnecting WS.
+2026-05-04 13:16:47,262 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 13:16:47,412 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-05-04 13:16:49,603 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 13:18:49,707 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-05-04 13:18:49,715 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 13:18:49,728 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-05-04 13:18:51,733 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 13:20:51,751 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-05-04 13:20:51,753 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 13:20:51,762 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-05-04 13:20:53,768 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 13:22:53,789 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-05-04 13:22:53,793 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 13:22:53,798 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-05-04 13:22:55,807 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 13:24:55,829 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-05-04 13:24:55,832 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 13:24:55,837 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-05-04 13:24:57,845 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 13:26:57,896 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-05-04 13:26:57,901 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 13:26:57,911 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-05-04 13:26:59,917 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 13:28:59,939 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-05-04 13:28:59,943 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 13:28:59,955 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-05-04 13:29:01,965 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 13:31:01,981 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-05-04 13:31:01,983 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 13:31:01,987 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-05-04 13:31:03,994 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 13:33:04,029 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-05-04 13:33:04,037 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 13:33:04,046 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-05-04 13:33:06,055 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 13:35:06,084 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-05-04 13:35:06,087 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 13:35:06,092 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-05-04 13:35:08,097 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-04 13:37:08,125 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-05-04 13:37:08,126 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-04 13:37:08,131 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-05-04 13:37:10,133 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol

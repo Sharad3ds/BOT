@@ -1,0 +1,23 @@
+2026-08-29 15:48:47,379 - SMBot_V2 - INFO - __init__:112 - Weekly expiry code 26901 | seq 3-3 candle reversal on 10s (EMA50 cross+close filter=off) healthy>=0.0 | vol=off | fastC2=off | BUY=on | moneyness=ITM | signalsFrom=09:35:00 | candleSL PE=c1_high CE=c1_low | premSL=off premTP=40.0% profitLock=12.0%->floor12.0%,trail5.0%after20.0% | DRY_RUN=True
+2026-08-29 16:23:04,494 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-08-29 16:23:04,746 - SMBot_V2 - INFO - GenerateTOTPToken:179 - send_login_otp success
+2026-08-29 16:23:04,746 - SMBot_V2 - INFO - GenerateTOTPToken:186 - Generated TOTP: 469564
+2026-08-29 16:23:04,831 - SMBot_V2 - INFO - GenerateTOTPToken:195 - verify_totp success
+2026-08-29 16:23:05,245 - SMBot_V2 - INFO - GenerateTOTPToken:203 - verify_pin success
+2026-08-29 16:23:05,416 - SMBot_V2 - INFO - GenerateTOTPToken:216 - token success
+2026-08-29 16:23:05,625 - SMBot_V2 - INFO - GenerateTOTPToken:227 - validate_authcode success
+2026-08-29 16:23:05,625 - SMBot_V2 - INFO - GenerateTOTPToken:234 - Final access_token: 2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcWtyb1JMNHE4Zk1XZk5xd3NzUkZYN0p1dS03ejh5V0ZWSVdIVW5yUWFzMFFNMXJtT2xENHZhRFNvV0xJUXlmMzdkQk1SU01nWGZ1c2NrclZRU1NTREFfYk5pLWF2SkJJanpidDBTa2gwZ2hwejlBVT0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiJlYjhlYWI2YTJmNmQ1ZmE1ZmQ5OWE1ZTg4YWU0ZjFiZWE3YmNkMzdhYTQyMjU1ODIzNjY5NGEwYyIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoyMDAsImV4cCI6MTc4ODA0OTgwMCwiaWF0IjoxNzg4MDAwNzg1LCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3ODgwMDA3ODUsInN1YiI6ImFjY2Vzc190b2tlbiJ9.eENdJ6eZH_0jaSpC5sZQeH84-gwR_fTcVKdsEc0JvZU
+2026-08-29 16:23:05,630 - SMBot_V2 - INFO - GenerateTOTPToken:238 - AppId saved -> fyers_appid.txt
+2026-08-29 16:23:05,630 - SMBot_V2 - INFO - GenerateTOTPToken:242 - Token saved -> fyers_token.txt
+2026-08-29 16:23:05,630 - SMBot_V2 - INFO - GenerateTOTPToken:244 - Generated on: 29-08-2026 16:23:04
+2026-08-29 16:27:12,399 - SMBot_V2 - INFO - __init__:136 - Weekly expiry code 26901 | C1/C2/C3 pattern: declining/rising closes OR body<1.2xC2, 1min bars | swing=lookback=10 prox=0.5% | SL=-10.0% TP=+20.0% | direction-alternating (resets daily) | DRY_RUN=True
+2026-08-29 16:34:53,076 - SMBot_V2 - INFO - __init__:136 - Weekly expiry code 26901 | C1/C2/C3 pattern: declining/rising closes OR body<1.2xC2, 1min bars | swing=lookback=10 prox=0.5% | SL=-10.0% TP=+20.0% | direction-alternating (resets daily) | DRY_RUN=True
+2026-08-29 19:04:58,846 - SMBot_V2 - INFO - __init__:136 - Weekly expiry code 26901 | C1/C2/C3 pattern: declining/rising closes OR body<1.2xC2, 1min bars | swing=lookback=10 prox=0.5% | SL=-10.0% TP=+20.0% | direction-alternating (resets daily) | DRY_RUN=True
+2026-08-29 19:04:59,090 - SMBot_V2 - INFO - _init_fyers:417 - [ENG] connected SHARAD ASHOK MISAL
+2026-08-29 19:04:59,090 - SMBot_V2 - INFO - __init__:405 - [ENG] ready. interval=20s
+2026-08-29 19:04:59,090 - SMBot_V2 - WARNING - __init__:407 - *** DRY-RUN — no real orders ***
+2026-08-29 19:04:59,090 - SMBot_V2 - INFO - run:566 - [ENG] starting Sequential Candle Reversal poll loop
+2026-08-29 19:04:59,090 - SMBot_V2 - INFO - _poll:509 - [ENG] New day 2026-08-29 — state reset.
+2026-08-29 21:20:18,919 - SMBot_V2 - INFO - run:576 - [ENG] interrupted
+2026-08-29 21:20:18,919 - SMBot_V2 - INFO - _export:589 - [ENG] no trades to export
+2026-08-29 21:20:18,922 - SMBot_V2 - INFO - _shutdown:585 - [ENG] shutdown complete

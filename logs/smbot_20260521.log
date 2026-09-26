@@ -1,0 +1,28 @@
+2026-05-21 22:40:41,468 - SMBot_V2 - INFO - <module>:27 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-05-21 22:40:42,442 - SMBot_V2 - ERROR - GenerateTOTPToken:165 - send_login_otp failure - HTTPSConnectionPool(host='api-t2.fyers.in', port=443): Max retries exceeded with url: /vagator/v2/send_login_otp (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2026-05-21 22:41:13,909 - SMBot_V2 - INFO - <module>:27 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-05-21 22:41:14,628 - SMBot_V2 - ERROR - GenerateTOTPToken:165 - send_login_otp failure - HTTPSConnectionPool(host='api-t2.fyers.in', port=443): Max retries exceeded with url: /vagator/v2/send_login_otp (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2026-05-21 22:41:37,484 - SMBot_V2 - INFO - <module>:27 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-05-21 22:41:37,484 - SMBot_V2 - INFO - main:41 - === SMBot Starting via Render Cron Job ===
+2026-05-21 22:41:37,484 - SMBot_V2 - INFO - main:44 - Generating TOTP Token...
+2026-05-21 22:41:38,643 - SMBot_V2 - ERROR - GenerateTOTPToken:165 - send_login_otp failure - HTTPSConnectionPool(host='api-t2.fyers.in', port=443): Max retries exceeded with url: /vagator/v2/send_login_otp (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2026-05-21 22:41:38,644 - SMBot_V2 - ERROR - main:47 - TOTP generation failed — exiting
+2026-05-21 22:44:53,857 - SMBot_V2 - INFO - <module>:27 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-05-21 22:44:53,861 - SMBot_V2 - INFO - main:41 - === SMBot Starting via Render Cron Job ===
+2026-05-21 22:44:53,861 - SMBot_V2 - INFO - main:44 - Generating TOTP Token...
+2026-05-21 22:44:55,701 - SMBot_V2 - ERROR - GenerateTOTPToken:165 - send_login_otp failure - HTTPSConnectionPool(host='api-t2.fyers.in', port=443): Max retries exceeded with url: /vagator/v2/send_login_otp (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2026-05-21 22:44:55,702 - SMBot_V2 - ERROR - main:47 - TOTP generation failed — exiting
+2026-05-21 22:45:10,279 - SMBot_V2 - INFO - <module>:27 - APP_ID_HASH: 182d245f9d55f141ec67a093ba4b9a15782225ae3db6b77ac5a307eff7c75d39
+2026-05-21 22:45:11,438 - SMBot_V2 - ERROR - GenerateTOTPToken:166 - send_login_otp failure - HTTPSConnectionPool(host='api-t2.fyers.in', port=443): Max retries exceeded with url: /vagator/v2/send_login_otp (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2026-05-21 22:46:03,550 - SMBot_V2 - INFO - <module>:27 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-05-21 22:46:03,922 - SMBot_V2 - ERROR - GenerateTOTPToken:165 - send_login_otp failure - HTTPSConnectionPool(host='api-t2.fyers.in', port=443): Max retries exceeded with url: /vagator/v2/send_login_otp (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2026-05-21 22:56:50,589 - SMBot_V2 - INFO - <module>:27 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-05-21 22:56:50,590 - SMBot_V2 - INFO - main:41 - === SMBot Starting via Render Cron Job ===
+2026-05-21 22:56:50,590 - SMBot_V2 - INFO - main:44 - Generating TOTP Token...
+2026-05-21 22:56:52,032 - SMBot_V2 - ERROR - GenerateTOTPToken:165 - send_login_otp failure - HTTPSConnectionPool(host='api-t2.fyers.in', port=443): Max retries exceeded with url: /vagator/v2/send_login_otp (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2026-05-21 22:56:52,032 - SMBot_V2 - ERROR - main:47 - TOTP generation failed — exiting
+2026-05-21 22:58:35,351 - SMBot_V2 - INFO - <module>:27 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-05-21 22:58:35,351 - SMBot_V2 - INFO - main:41 - === SMBot Starting via Render Cron Job ===
+2026-05-21 22:58:35,351 - SMBot_V2 - INFO - main:44 - Generating TOTP Token...
+2026-05-21 22:58:35,742 - SMBot_V2 - ERROR - GenerateTOTPToken:165 - send_login_otp failure - HTTPSConnectionPool(host='api-t2.fyers.in', port=443): Max retries exceeded with url: /vagator/v2/send_login_otp (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2026-05-21 22:58:35,742 - SMBot_V2 - ERROR - main:47 - TOTP generation failed — exiting

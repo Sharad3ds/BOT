@@ -1,0 +1,15 @@
+2026-02-28 00:15:57,761 - SMBot_V2 - INFO - _init_fyers:311 - Fyers V3 API initialized for VAMLiveBot
+2026-02-28 00:15:57,761 - SMBot_V2 - INFO - __init__:294 - VAMLiveBot initialized (signals for live).
+2026-02-28 00:15:58,670 - SMBot_V2 - INFO - get_index_data:358 - Loaded NIFTY50 index data with 16280 rows [IST] in session (VAM)
+2026-02-28 00:15:58,677 - SMBot_V2 - INFO - __init__:646 - [VAM LIVE] Timeframe = 1m, heartbeat threshold = 120 sec
+2026-02-28 00:15:58,679 - SMBot_V2 - INFO - start:931 - Starting VAM WebSocket live engine with heartbeat watchdog.
+2026-02-28 00:15:58,680 - SMBot_V2 - INFO - _create_and_connect_ws:916 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-02-28 00:15:58,971 - SMBot_V2 - INFO - _on_message:680 - [VAM LIVE] RAW WS MSG (once): {'type': 'cn', 'code': 200, 'message': 'Authentication done', 's': 'ok'}
+2026-02-28 00:16:00,684 - SMBot_V2 - INFO - _on_open:662 - [VAM LIVE] WS connected - subscribing to index symbol
+2026-02-28 00:18:06,962 - SMBot_V2 - WARNING - _heartbeat_loop:896 - [VAM LIVE] No ticks for 125s (> 120s). Triggering WS reconnect.
+2026-02-28 00:18:06,964 - SMBot_V2 - INFO - _create_and_connect_ws:916 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-02-28 00:18:08,968 - SMBot_V2 - INFO - _on_open:662 - [VAM LIVE] WS connected - subscribing to index symbol
+2026-02-28 00:18:10,013 - SMBot_V2 - INFO - _finalize_index_bar:756 - [VAM LIVE] Skipping index bar outside session: 2026-02-28 00:16:00+05:30
+2026-02-28 00:19:58,917 - SMBot_V2 - ERROR - _on_error:675 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-02-28 00:20:05,929 - SMBot_V2 - INFO - _on_open:662 - [VAM LIVE] WS connected - subscribing to index symbol
+2026-02-28 00:20:07,211 - SMBot_V2 - INFO - _finalize_index_bar:756 - [VAM LIVE] Skipping index bar outside session: 2026-02-28 00:18:00+05:30

@@ -1,0 +1,14 @@
+direction,option_symbol,zone_kind,zone_level,entry_time,entry_price,exit_time,exit_price,exit_reason,pnl_pts,pnl_rs,result,cum_pnl_rs
+SELL,NSE:NIFTY26SEP23400PE,resistance,23332.75,2026-09-18 12:40:00+05:30,193.11,2026-09-18 15:20:00+05:30,174.75,eod_exit,-18.36,-1193.45,loss,-1193.45
+BUY,NSE:NIFTY26SEP23300CE,support,23372.7,2026-09-21 10:18:00+05:30,198.84,2026-09-21 15:20:00+05:30,229.15,backtest_end,30.31,1970.2,profit,776.75
+
+METRICS,VALUE
+Total Trades,2
+Wins,1
+Losses,1
+Win Rate (%),50.0
+Net PnL (Rs),776.75
+TF Rule,1min
+Swing Len,20
+Zone Tol (xATR),0.1
+Lot Size,65

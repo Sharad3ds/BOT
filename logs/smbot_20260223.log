@@ -1,0 +1,135 @@
+2026-02-23 00:20:45,201 - SMBot_V2 - INFO - <module>:168 - Starting Schedule Service
+2026-02-23 00:21:03,826 - SMBot_V2 - INFO - start_schedule:103 - Schedule endpoint called at: 2026-02-23 00:21:03 IST
+2026-02-23 00:21:03,855 - SMBot_V2 - INFO - <module>:27 - APP_ID_HASH: 182d245f9d55f141ec67a093ba4b9a15782225ae3db6b77ac5a307eff7c75d39
+2026-02-23 00:21:04,562 - SMBot_V2 - INFO - GenerateTOTPToken:168 - send_login_otp success
+2026-02-23 00:21:04,565 - SMBot_V2 - INFO - GenerateTOTPToken:175 - Generated TOTP: 663203
+2026-02-23 00:21:05,276 - SMBot_V2 - INFO - GenerateTOTPToken:184 - verify_totp success
+2026-02-23 00:21:05,983 - SMBot_V2 - INFO - GenerateTOTPToken:192 - verify_pin success
+2026-02-23 00:21:06,449 - SMBot_V2 - INFO - GenerateTOTPToken:205 - token success
+2026-02-23 00:21:07,116 - SMBot_V2 - INFO - GenerateTOTPToken:216 - validate_authcode success
+2026-02-23 00:21:07,117 - SMBot_V2 - INFO - GenerateTOTPToken:223 - Final access_token: G0KMDMEH4T-100:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcG0xQVh3aGVKbG05ZUFsNHVSajRZck01ZDVIRkJxZHVLMFk5OW5jSnQ4bkhtTlI2ZV8yWmxUN0otejNuLTJiOU5hV0x4TWdHd2dPeTVqRm0tNEpXUkNpWm96ZWlMcTU0TDlPQ01WRlpLN1lrMGVhQT0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiIyMDYyNDQyMDgwZGJjMjA0MmIzZjIzMzNjY2VhYzYxY2MzODIxNDVlNjcxOTUzZGQ0ZWI5ZjFjNCIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoxMDAsImV4cCI6MTc3MTg5MzAwMCwiaWF0IjoxNzcxNzg2MjYzLCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3NzE3ODYyNjMsInN1YiI6ImFjY2Vzc190b2tlbiJ9.Lde2ZDhxnqY9SViAwrvvxEm_Wbs4G9pJSiSYEpmrD50
+2026-02-23 00:21:07,119 - SMBot_V2 - INFO - GenerateTOTPToken:228 - AppId saved -> fyers_appid.txt
+2026-02-23 00:21:07,120 - SMBot_V2 - INFO - GenerateTOTPToken:232 - Token saved -> fyers_token.txt
+2026-02-23 00:21:07,121 - SMBot_V2 - INFO - GenerateTOTPToken:234 - Generated on: 23-02-2026 00:21:03
+2026-02-23 00:21:07,121 - SMBot_V2 - INFO - run_until_3pm:37 - TOTP generated
+2026-02-23 00:23:57,920 - SMBot_V2 - INFO - <module>:168 - Starting Schedule Service
+2026-02-23 00:24:07,655 - SMBot_V2 - INFO - start_schedule:103 - Schedule endpoint called at: 2026-02-23 00:24:07 IST
+2026-02-23 00:24:07,669 - SMBot_V2 - INFO - <module>:27 - APP_ID_HASH: 182d245f9d55f141ec67a093ba4b9a15782225ae3db6b77ac5a307eff7c75d39
+2026-02-23 00:24:08,260 - SMBot_V2 - INFO - GenerateTOTPToken:168 - send_login_otp success
+2026-02-23 00:24:08,262 - SMBot_V2 - INFO - GenerateTOTPToken:175 - Generated TOTP: 612153
+2026-02-23 00:24:08,824 - SMBot_V2 - INFO - GenerateTOTPToken:184 - verify_totp success
+2026-02-23 00:24:09,589 - SMBot_V2 - INFO - GenerateTOTPToken:192 - verify_pin success
+2026-02-23 00:24:10,103 - SMBot_V2 - INFO - GenerateTOTPToken:205 - token success
+2026-02-23 00:24:11,024 - SMBot_V2 - INFO - GenerateTOTPToken:216 - validate_authcode success
+2026-02-23 00:24:11,025 - SMBot_V2 - INFO - GenerateTOTPToken:223 - Final access_token: G0KMDMEH4T-100:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcG0xRFBEd2lCRkZSVzY2NDZfWk10UWQwUVZKTVFVMzJfVkc4am9rV3M2OElhbkp2UDFNdVd1eTRHbUlSVFdWNmo3b3U2SEJ0d0lDalBINFA5U001WlNwNEdveDVJQ3FSbWVfV1haeGx0dGUzNXNfTT0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiIwNDMyMDhlOWVhNDM3YTM5N2Q0ODNmOGU5OGIyZWM2Y2ZiM2JiZTQ5MzVmMDM2OGUwYzc2NzM3MiIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoxMDAsImV4cCI6MTc3MTg5MzAwMCwiaWF0IjoxNzcxNzg2NDQ3LCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3NzE3ODY0NDcsInN1YiI6ImFjY2Vzc190b2tlbiJ9.lIgtf26IcJpjELvo46Zf7izB_yiwKqPQ-F7v079IcDQ
+2026-02-23 00:24:11,027 - SMBot_V2 - INFO - GenerateTOTPToken:228 - AppId saved -> fyers_appid.txt
+2026-02-23 00:24:11,029 - SMBot_V2 - INFO - GenerateTOTPToken:232 - Token saved -> fyers_token.txt
+2026-02-23 00:24:11,030 - SMBot_V2 - INFO - GenerateTOTPToken:234 - Generated on: 23-02-2026 00:24:07
+2026-02-23 00:24:11,032 - SMBot_V2 - INFO - run_until_3pm:37 - TOTP generated
+2026-02-23 00:24:11,037 - SMBot_V2 - INFO - _init_fyers:272 - Fyers V3 FyersModel initialized
+2026-02-23 00:24:11,038 - SMBot_V2 - INFO - __init__:253 - TradingBot initialized (backtest + live).
+2026-02-23 00:24:11,947 - SMBot_V2 - INFO - get_index_data:330 - Warmup candles loaded in-session: 22940
+2026-02-23 00:24:11,951 - SMBot_V2 - INFO - __init__:624 - Timeframe = 1m, heartbeat threshold = 120 sec
+2026-02-23 00:24:11,951 - SMBot_V2 - INFO - start:846 - Starting WebSocket live engine with heartbeat watchdog.
+2026-02-23 00:24:11,952 - SMBot_V2 - INFO - _create_and_connect_ws:831 - Creating new FyersDataSocket and connecting...
+2026-02-23 00:24:12,169 - SMBot_V2 - INFO - _on_message:653 - RAW WS MSG (once): {'type': 'cn', 'code': 200, 'message': 'Authentication done', 's': 'ok'}
+2026-02-23 00:24:13,961 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 00:25:27,686 - SMBot_V2 - INFO - <module>:168 - Starting Schedule Service
+2026-02-23 00:25:48,618 - SMBot_V2 - INFO - start_schedule:103 - Schedule endpoint called at: 2026-02-23 00:25:48 IST
+2026-02-23 00:25:48,627 - SMBot_V2 - INFO - <module>:27 - APP_ID_HASH: 182d245f9d55f141ec67a093ba4b9a15782225ae3db6b77ac5a307eff7c75d39
+2026-02-23 00:25:49,123 - SMBot_V2 - INFO - GenerateTOTPToken:168 - send_login_otp success
+2026-02-23 00:25:49,124 - SMBot_V2 - INFO - GenerateTOTPToken:175 - Generated TOTP: 957541
+2026-02-23 00:25:49,636 - SMBot_V2 - INFO - GenerateTOTPToken:184 - verify_totp success
+2026-02-23 00:25:50,402 - SMBot_V2 - INFO - GenerateTOTPToken:192 - verify_pin success
+2026-02-23 00:25:50,864 - SMBot_V2 - INFO - GenerateTOTPToken:205 - token success
+2026-02-23 00:25:51,473 - SMBot_V2 - INFO - GenerateTOTPToken:216 - validate_authcode success
+2026-02-23 00:25:51,474 - SMBot_V2 - INFO - GenerateTOTPToken:223 - Final access_token: G0KMDMEH4T-100:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcG0xRXpxTmxnUnZGZ3N1MzJLZ3NUcnJtelJxb0pxWUdVd1lWZ3FIalMzNWMxUGd0LXJmQmhaMnpadWQyNnRfMVBpSzJ0RmdHbHNrN1YzTm1mLVE1cFpXMDc4Qm9RZWFuczRUSEhXTTZrVFFiTGtfYz0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiIyNjk3MWJkMDk2ODZmZDRkN2MwMzU4OWQyYmU4MmQyYzg3NDc2MTgwOWZmMjM2YjExNTMzZDlkNSIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoxMDAsImV4cCI6MTc3MTg5MzAwMCwiaWF0IjoxNzcxNzg2NTQ3LCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3NzE3ODY1NDcsInN1YiI6ImFjY2Vzc190b2tlbiJ9.V5k5jiBURwkZ6e5sYbx89J8Gx6zCNU_Oic26lF6F268
+2026-02-23 00:25:51,475 - SMBot_V2 - INFO - GenerateTOTPToken:228 - AppId saved -> fyers_appid.txt
+2026-02-23 00:25:51,477 - SMBot_V2 - INFO - GenerateTOTPToken:232 - Token saved -> fyers_token.txt
+2026-02-23 00:25:51,478 - SMBot_V2 - INFO - GenerateTOTPToken:234 - Generated on: 23-02-2026 00:25:48
+2026-02-23 00:25:51,479 - SMBot_V2 - INFO - run_until_3pm:37 - TOTP generated
+2026-02-23 00:25:51,483 - SMBot_V2 - INFO - _init_fyers:272 - Fyers V3 FyersModel initialized
+2026-02-23 00:25:51,484 - SMBot_V2 - INFO - __init__:253 - TradingBot initialized (backtest + live).
+2026-02-23 00:25:52,276 - SMBot_V2 - INFO - get_index_data:330 - Warmup candles loaded in-session: 22940
+2026-02-23 00:25:52,277 - SMBot_V2 - INFO - __init__:624 - Timeframe = 1m, heartbeat threshold = 120 sec
+2026-02-23 00:25:52,277 - SMBot_V2 - INFO - start:846 - Starting WebSocket live engine with heartbeat watchdog.
+2026-02-23 00:25:52,278 - SMBot_V2 - INFO - _create_and_connect_ws:831 - Creating new FyersDataSocket and connecting...
+2026-02-23 00:25:52,520 - SMBot_V2 - INFO - _on_message:653 - RAW WS MSG (once): {'type': 'cn', 'code': 200, 'message': 'Authentication done', 's': 'ok'}
+2026-02-23 00:25:54,280 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 00:28:00,275 - SMBot_V2 - WARNING - _heartbeat_loop:812 - No ticks for 125s (> 120s). Triggering WS reconnect.
+2026-02-23 00:28:00,276 - SMBot_V2 - INFO - _create_and_connect_ws:831 - Creating new FyersDataSocket and connecting...
+2026-02-23 00:28:02,280 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 00:28:03,506 - SMBot_V2 - INFO - _finalize_bar:761 - Skipping bar outside session: 2026-02-23 00:25:00+05:30
+2026-02-23 00:29:52,535 - SMBot_V2 - ERROR - _on_error:648 - WS error: Connection to remote host was lost.
+2026-02-23 00:29:59,540 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 00:30:00,682 - SMBot_V2 - INFO - _finalize_bar:761 - Skipping bar outside session: 2026-02-23 00:28:00+05:30
+2026-02-23 00:32:03,461 - SMBot_V2 - WARNING - _heartbeat_loop:812 - No ticks for 123s (> 120s). Triggering WS reconnect.
+2026-02-23 00:32:03,462 - SMBot_V2 - INFO - _create_and_connect_ws:831 - Creating new FyersDataSocket and connecting...
+2026-02-23 00:32:05,467 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 00:32:07,325 - SMBot_V2 - INFO - _finalize_bar:761 - Skipping bar outside session: 2026-02-23 00:30:00+05:30
+2026-02-23 01:10:52,004 - SMBot_V2 - ERROR - _on_error:648 - WS error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-23 01:10:52,006 - SMBot_V2 - ERROR - _on_error:648 - WS error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-23 01:10:52,007 - SMBot_V2 - ERROR - _on_error:648 - WS error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-23 01:10:52,112 - SMBot_V2 - WARNING - _heartbeat_loop:812 - No ticks for 2325s (> 120s). Triggering WS reconnect.
+2026-02-23 01:10:52,985 - SMBot_V2 - INFO - _create_and_connect_ws:831 - Creating new FyersDataSocket and connecting...
+2026-02-23 01:10:53,219 - SMBot_V2 - ERROR - _on_error:648 - WS error: [Errno 11001] getaddrinfo failed
+2026-02-23 01:10:55,212 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 05:09:38,701 - SMBot_V2 - WARNING - _heartbeat_loop:812 - No ticks for 14323s (> 120s). Triggering WS reconnect.
+2026-02-23 05:09:38,724 - SMBot_V2 - INFO - _create_and_connect_ws:831 - Creating new FyersDataSocket and connecting...
+2026-02-23 05:09:38,759 - SMBot_V2 - ERROR - _on_error:648 - WS error: [Errno 11001] getaddrinfo failed
+2026-02-23 05:09:38,760 - SMBot_V2 - ERROR - _on_error:648 - WS error: [Errno 11001] getaddrinfo failed
+2026-02-23 05:09:38,801 - SMBot_V2 - ERROR - _on_error:648 - WS error: [Errno 11001] getaddrinfo failed
+2026-02-23 05:09:38,837 - SMBot_V2 - ERROR - _on_error:648 - WS error: [Errno 11001] getaddrinfo failed
+2026-02-23 05:09:38,851 - SMBot_V2 - ERROR - _on_error:648 - WS error: [Errno 11001] getaddrinfo failed
+2026-02-23 05:09:40,741 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 05:09:40,743 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 05:09:40,751 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 05:09:40,770 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 05:09:40,784 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 05:09:45,879 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 05:09:47,773 - SMBot_V2 - INFO - _finalize_bar:761 - Skipping bar outside session: 2026-02-23 00:32:00+05:30
+2026-02-23 05:09:50,842 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 05:09:55,843 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 05:10:00,869 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 05:10:02,338 - SMBot_V2 - INFO - _finalize_bar:761 - Skipping bar outside session: 2026-02-23 05:09:00+05:30
+2026-02-23 05:10:05,956 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 05:12:10,930 - SMBot_V2 - WARNING - _heartbeat_loop:812 - No ticks for 124s (> 120s). Triggering WS reconnect.
+2026-02-23 05:12:10,932 - SMBot_V2 - INFO - _create_and_connect_ws:831 - Creating new FyersDataSocket and connecting...
+2026-02-23 05:12:12,939 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 05:12:14,669 - SMBot_V2 - INFO - _finalize_bar:761 - Skipping bar outside session: 2026-02-23 05:10:00+05:30
+2026-02-23 06:18:20,577 - SMBot_V2 - ERROR - _on_error:648 - WS error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-23 06:18:20,586 - SMBot_V2 - ERROR - _on_error:648 - WS error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-23 06:18:20,587 - SMBot_V2 - ERROR - _on_error:648 - WS error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-23 06:18:20,596 - SMBot_V2 - ERROR - _on_error:648 - WS error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-23 06:18:20,597 - SMBot_V2 - ERROR - _on_error:648 - WS error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-23 06:18:20,601 - SMBot_V2 - ERROR - _on_error:648 - WS error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-23 06:18:20,609 - SMBot_V2 - WARNING - _heartbeat_loop:812 - No ticks for 3966s (> 120s). Triggering WS reconnect.
+2026-02-23 06:18:21,627 - SMBot_V2 - INFO - _create_and_connect_ws:831 - Creating new FyersDataSocket and connecting...
+2026-02-23 06:18:21,637 - SMBot_V2 - ERROR - _on_error:648 - WS error: [Errno 11001] getaddrinfo failed
+2026-02-23 06:18:23,637 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 09:05:08,194 - SMBot_V2 - WARNING - _heartbeat_loop:812 - No ticks for 10005s (> 120s). Triggering WS reconnect.
+2026-02-23 09:05:08,267 - SMBot_V2 - INFO - _create_and_connect_ws:831 - Creating new FyersDataSocket and connecting...
+2026-02-23 09:05:08,378 - SMBot_V2 - ERROR - _on_error:648 - WS error: [Errno 11001] getaddrinfo failed
+2026-02-23 09:05:08,401 - SMBot_V2 - ERROR - _on_error:648 - WS error: [Errno 11001] getaddrinfo failed
+2026-02-23 09:05:08,510 - SMBot_V2 - ERROR - _on_error:648 - WS error: [Errno 11001] getaddrinfo failed
+2026-02-23 09:05:08,511 - SMBot_V2 - ERROR - _on_error:648 - WS error: [Errno 11001] getaddrinfo failed
+2026-02-23 09:05:08,511 - SMBot_V2 - ERROR - _on_error:648 - WS error: [Errno 11001] getaddrinfo failed
+2026-02-23 09:05:08,522 - SMBot_V2 - ERROR - _on_error:648 - WS error: [Errno 11001] getaddrinfo failed
+2026-02-23 09:05:08,523 - SMBot_V2 - ERROR - _on_error:648 - WS error: [Errno 11001] getaddrinfo failed
+2026-02-23 09:05:08,541 - SMBot_V2 - ERROR - _on_error:648 - WS error: [Errno 11001] getaddrinfo failed
+2026-02-23 09:05:10,268 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 09:05:10,315 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 09:05:10,337 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 09:05:10,354 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 09:05:10,369 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 09:05:10,389 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 09:05:10,391 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 09:05:10,409 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 09:05:14,533 - SMBot_V2 - INFO - _finalize_bar:761 - Skipping bar outside session: 2026-02-23 05:12:00+05:30
+2026-02-23 09:05:15,560 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 09:05:20,498 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 09:05:25,534 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 09:05:30,538 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 09:05:35,555 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 09:05:40,559 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol
+2026-02-23 09:05:45,568 - SMBot_V2 - INFO - _on_open:640 - WS connected - subscribing to symbol

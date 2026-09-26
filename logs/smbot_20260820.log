@@ -1,0 +1,23 @@
+2026-08-20 22:38:05,711 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-08-20 22:38:05,850 - SMBot_V2 - ERROR - GenerateTOTPToken:177 - send_login_otp failure - {
+  "s": "error",
+  "code": 429,
+  "message": "Too many requests. Please try again later."
+}
+2026-08-20 22:38:33,173 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-08-20 22:38:34,395 - SMBot_V2 - INFO - GenerateTOTPToken:179 - send_login_otp success
+2026-08-20 22:38:34,401 - SMBot_V2 - INFO - GenerateTOTPToken:186 - Generated TOTP: 651735
+2026-08-20 22:38:34,469 - SMBot_V2 - INFO - GenerateTOTPToken:195 - verify_totp success
+2026-08-20 22:38:34,772 - SMBot_V2 - INFO - GenerateTOTPToken:203 - verify_pin success
+2026-08-20 22:38:34,944 - SMBot_V2 - INFO - GenerateTOTPToken:216 - token success
+2026-08-20 22:38:35,143 - SMBot_V2 - INFO - GenerateTOTPToken:227 - validate_authcode success
+2026-08-20 22:38:35,143 - SMBot_V2 - INFO - GenerateTOTPToken:234 - Final access_token: 2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcWh6U1NOMDh5YTdyYjE1Nk90NE1EalRPQ1JJVHZ0RHBiXzdTUHpVWG9mcjNFa1B0UDRXMGEzTFRBeDRnRE5yVGY3VDRhaDZzVGd3b1Q5bjhKaGpuU1VQbWk3WmVmTEtMSncxNXctM3JwUnRTaVhaST0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiIxODg1M2NhYzFjNDk0ZTYxMTg0OWY2ZmEwYTk1NTczZmFiMjA1ZmNhMmFiZDliMTNhNGQ5NGM5OSIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoyMDAsImV4cCI6MTc4NzI3MjIwMCwiaWF0IjoxNzg3MjQ1NzE0LCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3ODcyNDU3MTQsInN1YiI6ImFjY2Vzc190b2tlbiJ9.O1gD_1wio-Ra05hpD4APP-W5ZjRkmjg2bZZtpBiRCpw
+2026-08-20 22:38:35,143 - SMBot_V2 - INFO - GenerateTOTPToken:238 - AppId saved -> fyers_appid.txt
+2026-08-20 22:38:35,145 - SMBot_V2 - INFO - GenerateTOTPToken:242 - Token saved -> fyers_token.txt
+2026-08-20 22:38:35,146 - SMBot_V2 - INFO - GenerateTOTPToken:244 - Generated on: 20-08-2026 22:38:33
+2026-08-20 23:48:36,749 - SMBot_V2 - INFO - __init__:101 - Weekly expiry code 26AUG | S/R reversal on 1min swing_len=20 zone_tol=0.1xATR | SL=20.0% TP=30.0% | DRY_RUN=True
+2026-08-20 23:48:36,925 - SMBot_V2 - INFO - _init_fyers:384 - [ENG] connected SHARAD ASHOK MISAL
+2026-08-20 23:48:36,925 - SMBot_V2 - INFO - __init__:372 - [ENG] ready. interval=20s
+2026-08-20 23:48:36,925 - SMBot_V2 - WARNING - __init__:374 - *** DRY-RUN — no real orders ***
+2026-08-20 23:48:36,925 - SMBot_V2 - INFO - run:518 - [ENG] starting S/R reversal poll loop
+2026-08-20 23:48:36,925 - SMBot_V2 - INFO - _poll:464 - [ENG] New day 2026-08-20 — zone/dedup state reset.

@@ -1,0 +1,23 @@
+2026-08-14 19:47:53,064 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-08-14 19:47:53,180 - SMBot_V2 - ERROR - GenerateTOTPToken:177 - send_login_otp failure - {
+  "s": "error",
+  "code": 429,
+  "message": "Too many requests. Please try again later."
+}
+2026-08-14 19:47:56,586 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-08-14 19:47:56,703 - SMBot_V2 - ERROR - GenerateTOTPToken:177 - send_login_otp failure - {
+  "s": "error",
+  "code": 429,
+  "message": "Too many requests. Please try again later."
+}
+2026-08-14 19:48:20,737 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-08-14 19:48:20,957 - SMBot_V2 - INFO - GenerateTOTPToken:179 - send_login_otp success
+2026-08-14 19:48:20,960 - SMBot_V2 - INFO - GenerateTOTPToken:186 - Generated TOTP: 442172
+2026-08-14 19:48:21,049 - SMBot_V2 - INFO - GenerateTOTPToken:195 - verify_totp success
+2026-08-14 19:48:21,382 - SMBot_V2 - INFO - GenerateTOTPToken:203 - verify_pin success
+2026-08-14 19:48:21,518 - SMBot_V2 - INFO - GenerateTOTPToken:216 - token success
+2026-08-14 19:48:21,718 - SMBot_V2 - INFO - GenerateTOTPToken:227 - validate_authcode success
+2026-08-14 19:48:21,718 - SMBot_V2 - INFO - GenerateTOTPToken:234 - Final access_token: 2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcWZ5T3RPTTBMNXZoXzQtQ1FhNU4yTzczY2xpWmJ3YVQyUldVQ2pneU1TX2wzaGJXNzMyWVhZTnRGUkNzVE0xcHREZ3hvN3R1V21TTVhTZzhMQW9TNmlLaTNXemh4ajRmek1Bc2RBQWxrWGdwZ3NsYz0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiI1YWViYjhjZmI4OTQ4YzMxMjY1Y2YzNWU0MWI4MWQ2NDc4Mjc0NzYzZGI2YWYzZmFlYzIwNmY1YyIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoyMDAsImV4cCI6MTc4Njc1MzgwMCwiaWF0IjoxNzg2NzE3MTAxLCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3ODY3MTcxMDEsInN1YiI6ImFjY2Vzc190b2tlbiJ9.FL6OfxoImlm06SabXwvKEwFeG0xYsQeRemBuT6SbpPg
+2026-08-14 19:48:21,720 - SMBot_V2 - INFO - GenerateTOTPToken:238 - AppId saved -> fyers_appid.txt
+2026-08-14 19:48:21,722 - SMBot_V2 - INFO - GenerateTOTPToken:242 - Token saved -> fyers_token.txt
+2026-08-14 19:48:21,730 - SMBot_V2 - INFO - GenerateTOTPToken:244 - Generated on: 14-08-2026 19:48:20

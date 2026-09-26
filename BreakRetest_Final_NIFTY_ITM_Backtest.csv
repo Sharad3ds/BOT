@@ -1,0 +1,19 @@
+direction,option_symbol,zone_kind,entry_time,entry_price,exit_time,exit_price,exit_reason,pnl_pts,pnl_rs,result,cum_pnl_rs
+SELL,NSE:NIFTY2690124200PE,support,2026-08-19 10:35:00+05:30,207.43,2026-08-19 15:21:00+05:30,201.0,eod_exit,-6.43,-418.08,loss,-418.08
+BUY,NSE:NIFTY2690124100CE,resistance,2026-08-20 10:17:00+05:30,285.07,2026-08-20 15:21:00+05:30,286.4,eod_exit,1.33,86.56,profit,-331.52
+BUY,NSE:NIFTY2690124200CE,resistance,2026-08-21 11:01:00+05:30,221.75,2026-08-21 15:21:00+05:30,212.2,eod_exit,-9.55,-620.96,loss,-952.48
+SELL,NSE:NIFTY2690124400PE,support,2026-08-24 11:01:00+05:30,191.45,2026-08-24 11:29:00+05:30,233.2,target,41.75,2713.59,profit,1761.1100000000001
+SELL,NSE:NIFTY2690124400PE,support,2026-08-26 12:01:00+05:30,141.6,2026-08-26 15:21:00+05:30,130.8,eod_exit,-10.8,-702.29,loss,1058.8200000000002
+SELL,NSE:NIFTY2690124200PE,support,2026-08-28 12:13:00+05:30,121.15,2026-08-28 14:37:00+05:30,96.7,stop_loss,-24.45,-1589.43,loss,-530.6099999999999
+
+METRICS,VALUE
+Total Trades,6
+Wins,2
+Losses,4
+Win Rate (%),33.3
+Net PnL (Rs),-530.61
+Signals Skipped (no option data),3
+Signals Using Fallback Expiry Guess,3
+TF Rule,10s
+Lookback,8
+Lot Size,65

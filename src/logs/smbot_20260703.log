@@ -1,0 +1,3 @@
+2026-07-03 20:34:44,051 - SMBot_V2 - INFO - __init__:51 - Weekly expiry code 26707 | ST(10,3.0) 10min | moneyness=ITM | DRY_RUN=True
+2026-07-03 20:34:44,057 - SMBot_V2 - INFO - open:140 - [OM][DRY] BUY NSE:NIFTY2670724200CE (BUY) @ 204.60
+2026-07-03 20:34:44,285 - SMBot_V2 - INFO - close:152 - [OM][DRY] EXIT NSE:NIFTY2670724200CE @ 155.50 reason=flip_exit entry=204.60 PnL=Rs -3,191

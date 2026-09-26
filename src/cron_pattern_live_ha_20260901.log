@@ -1,0 +1,29 @@
+2026-09-01 09:04:02,648 - SMBot_V2 - INFO - __init__:152 - Weekly expiry code 26901 | HEIKIN ASHI signals (daily reset) | C1/C2/C3 pattern: declining/rising closes OR body<0.5xC2, 5min bars | swing=off | C2_doji_filter=True (max_body/range=12%) | SL=-10.0% TP=+30.0% | live_exit=dry-run sim | direction-alternating (resets daily) | no flip_exit | DRY_RUN=True
+2026-09-01 09:04:02 - ExpiryResolver - INFO - Weekly expiry code 26901 | HEIKIN ASHI signals (daily reset) | C1/C2/C3 pattern: declining/rising closes OR body<0.5xC2, 5min bars | swing=off | C2_doji_filter=True (max_body/range=12%) | SL=-10.0% TP=+30.0% | live_exit=dry-run sim | direction-alternating (resets daily) | no flip_exit | DRY_RUN=True
+2026-09-01 09:04:02,750 - SMBot_V2 - INFO - _init_fyers:682 - [ENG] connected SHARAD ASHOK MISAL
+2026-09-01 09:04:02 - ExpiryResolver - INFO - [ENG] connected SHARAD ASHOK MISAL
+2026-09-01 09:04:02,770 - SMBot_V2 - INFO - __init__:668 - [ENG] ready. interval=60s | HEIKIN ASHI signals
+2026-09-01 09:04:02 - ExpiryResolver - INFO - [ENG] ready. interval=60s | HEIKIN ASHI signals
+2026-09-01 09:04:02,770 - SMBot_V2 - WARNING - __init__:670 - *** DRY-RUN — no real orders ***
+2026-09-01 09:04:02 - ExpiryResolver - WARNING - *** DRY-RUN — no real orders ***
+2026-09-01 09:04:02,776 - SMBot_V2 - INFO - run:853 - [ENG] starting Sequential Candle Reversal (Heikin Ashi) poll loop
+2026-09-01 09:04:02 - ExpiryResolver - INFO - [ENG] starting Sequential Candle Reversal (Heikin Ashi) poll loop
+2026-09-01 09:04:02,777 - SMBot_V2 - INFO - _poll:785 - [ENG] New day 2026-09-01 — state reset.
+2026-09-01 09:04:02 - ExpiryResolver - INFO - [ENG] New day 2026-09-01 — state reset.
+2026-09-01 09:45:02 - ExpiryResolver - INFO - Loaded 18 distinct NIFTY expiry codes from Fyers symbol master
+2026-09-01 09:45:02,952 - SMBot_V2 - INFO - _poll:846 - [ENG] Signal SELL @ 2026-09-01 09:45:00+05:30 pattern=sell_pattern (HA candle) -> entering NSE:NIFTY2690124100PE @ 82.35
+2026-09-01 09:45:02 - ExpiryResolver - INFO - [ENG] Signal SELL @ 2026-09-01 09:45:00+05:30 pattern=sell_pattern (HA candle) -> entering NSE:NIFTY2690124100PE @ 82.35
+2026-09-01 09:45:02,954 - SMBot_V2 - INFO - open:525 - [OM][DRY] BUY NSE:NIFTY2690124100PE (SELL) @ 82.35 | pattern=sell_pattern
+2026-09-01 09:45:02 - ExpiryResolver - INFO - [OM][DRY] BUY NSE:NIFTY2690124100PE (SELL) @ 82.35 | pattern=sell_pattern
+2026-09-01 10:10:02,917 - SMBot_V2 - INFO - _poll:827 - [ENG] Signal BUY @ 2026-09-01 10:10:00+05:30 ignored — already in position.
+2026-09-01 10:10:02 - ExpiryResolver - INFO - [ENG] Signal BUY @ 2026-09-01 10:10:00+05:30 ignored — already in position.
+2026-09-01 10:16:02,850 - SMBot_V2 - INFO - close:578 - [OM][DRY] EXIT NSE:NIFTY2690124100PE @ 68.50 reason=stop_loss entry=82.35
+2026-09-01 10:16:02 - ExpiryResolver - INFO - [OM][DRY] EXIT NSE:NIFTY2690124100PE @ 68.50 reason=stop_loss entry=82.35
+2026-09-01 10:16:02,850 - SMBot_V2 - INFO - close:581 - [OM][DRY] PnL Rs -900
+2026-09-01 10:16:02 - ExpiryResolver - INFO - [OM][DRY] PnL Rs -900
+2026-09-01 15:10:03,401 - SMBot_V2 - INFO - _poll:832 - [ENG] Signal SELL @ 2026-09-01 15:10:00+05:30 skipped — same direction as last trade (SELL).
+2026-09-01 15:10:03 - ExpiryResolver - INFO - [ENG] Signal SELL @ 2026-09-01 15:10:00+05:30 skipped — same direction as last trade (SELL).
+2026-09-01 15:25:04,680 - SMBot_V2 - INFO - _export:888 - [ENG] exported 1 trades -> /root/SMBot_V2/src/logs/pattern_ha_trades_20260901.xlsx | net Rs -900 | wins 0/1
+2026-09-01 15:25:04 - ExpiryResolver - INFO - [ENG] exported 1 trades -> /root/SMBot_V2/src/logs/pattern_ha_trades_20260901.xlsx | net Rs -900 | wins 0/1
+2026-09-01 15:25:04,692 - SMBot_V2 - INFO - _shutdown:873 - [ENG] shutdown complete
+2026-09-01 15:25:04 - ExpiryResolver - INFO - [ENG] shutdown complete

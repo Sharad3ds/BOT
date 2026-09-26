@@ -65,13 +65,13 @@ def test_schedule_api():
         print(f"Error: {e}")
     
     # Test 6: Stop the schedule
-    print("\n7. Stopping schedule...")
-    try:
-        response = requests.post(f"{base_url}/schedule/stop")
-        print(f"Status: {response.status_code}")
-        print(f"Response: {json.dumps(response.json(), indent=2)}")
-    except Exception as e:
-        print(f"Error: {e}")
+    # print("\n7. Stopping schedule...")
+    # try:
+    #     response = requests.post(f"{base_url}/schedule/stop")
+    #     print(f"Status: {response.status_code}")
+    #     print(f"Response: {json.dumps(response.json(), indent=2)}")
+    # except Exception as e:
+    #     print(f"Error: {e}")
     
     # Test 7: Final status check
     print("\n8. Final status check...")

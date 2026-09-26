@@ -1,0 +1,56 @@
+2026-03-02 23:48:33,710 - SMBot_V2 - INFO - <module>:27 - APP_ID_HASH: 182d245f9d55f141ec67a093ba4b9a15782225ae3db6b77ac5a307eff7c75d39
+2026-03-02 23:48:51,951 - SMBot_V2 - INFO - <module>:27 - APP_ID_HASH: 182d245f9d55f141ec67a093ba4b9a15782225ae3db6b77ac5a307eff7c75d39
+2026-03-02 23:49:03,965 - SMBot_V2 - INFO - _init_fyers:310 - Fyers V3 API initialized for VAMLiveBot
+2026-03-02 23:49:03,965 - SMBot_V2 - INFO - __init__:293 - VAMLiveBot initialized (signals for live).
+2026-03-02 23:49:04,509 - SMBot_V2 - WARNING - _fetch_history:331 - API error for NSE:NIFTY50-INDEX: {'code': -16, 'message': 'Could not authenticate the user', 's': 'error'}
+2026-03-02 23:49:04,535 - SMBot_V2 - INFO - __init__:651 - [VAM LIVE] Timeframe = 1m, heartbeat threshold = 120 sec
+2026-03-02 23:49:04,539 - SMBot_V2 - INFO - start:870 - Starting VAM WebSocket live engine with heartbeat watchdog.
+2026-03-02 23:49:04,540 - SMBot_V2 - INFO - _create_and_connect_ws:855 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-02 23:49:04,542 - SMBot_V2 - ERROR - _on_error:675 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-02 23:49:06,548 - SMBot_V2 - INFO - _on_open:667 - [VAM LIVE] WS connected - subscribing to index symbol
+2026-03-02 23:50:04,801 - SMBot_V2 - INFO - <module>:27 - APP_ID_HASH: 182d245f9d55f141ec67a093ba4b9a15782225ae3db6b77ac5a307eff7c75d39
+2026-03-02 23:50:19,372 - SMBot_V2 - INFO - <module>:27 - APP_ID_HASH: 182d245f9d55f141ec67a093ba4b9a15782225ae3db6b77ac5a307eff7c75d39
+2026-03-02 23:50:50,060 - SMBot_V2 - INFO - <module>:188 - Starting Schedule Service
+2026-03-02 23:51:31,327 - SMBot_V2 - INFO - <module>:188 - Starting Schedule Service
+2026-03-02 23:53:46,628 - SMBot_V2 - INFO - <module>:188 - Starting Schedule Service
+2026-03-02 23:54:05,365 - SMBot_V2 - INFO - start_schedule:123 - Schedule endpoint called at: 2026-03-02 23:54:05 IST
+2026-03-02 23:54:05,378 - SMBot_V2 - INFO - <module>:27 - APP_ID_HASH: 182d245f9d55f141ec67a093ba4b9a15782225ae3db6b77ac5a307eff7c75d39
+2026-03-02 23:54:05,969 - SMBot_V2 - INFO - GenerateTOTPToken:168 - send_login_otp success
+2026-03-02 23:54:05,969 - SMBot_V2 - INFO - GenerateTOTPToken:175 - Generated TOTP: 834787
+2026-03-02 23:54:06,477 - SMBot_V2 - INFO - GenerateTOTPToken:184 - verify_totp success
+2026-03-02 23:54:07,194 - SMBot_V2 - INFO - GenerateTOTPToken:192 - verify_pin success
+2026-03-02 23:54:07,604 - SMBot_V2 - INFO - GenerateTOTPToken:205 - token success
+2026-03-02 23:54:08,160 - SMBot_V2 - INFO - GenerateTOTPToken:216 - validate_authcode success
+2026-03-02 23:54:08,160 - SMBot_V2 - INFO - GenerateTOTPToken:223 - Final access_token: G0KMDMEH4T-100:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcHBkWEhRc19xRDV0dFptQThJX1FJYnNLdm1DakJBOFVkZzJMY3U1aDVoNHZkQWpmWFpJT3EtQWdEdFRUaklBVHpRMXE0OUYxdjZDREpzYmt1NWRvbklHZEg2d1JpaWpjVElZYkFyY3RRWGdNb0xnWT0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiI5ZmMzMGRhM2IxMGUyZGM4ZGRjMTlmYmNkMzgyN2ZhMGVjMzUzYWRlMzljZWU1ZWE5OTZmMDUzYyIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoxMDAsImV4cCI6MTc3MjQ5NzgwMCwiaWF0IjoxNzcyNDc1ODQ3LCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3NzI0NzU4NDcsInN1YiI6ImFjY2Vzc190b2tlbiJ9.P4EWjBoY1UfDMEjRdsWF9yZnwrIfSBp_oaChtdS6qnU
+2026-03-02 23:54:08,160 - SMBot_V2 - INFO - GenerateTOTPToken:228 - AppId saved -> fyers_appid.txt
+2026-03-02 23:54:08,170 - SMBot_V2 - INFO - GenerateTOTPToken:232 - Token saved -> fyers_token.txt
+2026-03-02 23:54:08,171 - SMBot_V2 - INFO - GenerateTOTPToken:234 - Generated on: 02-03-2026 23:54:05
+2026-03-02 23:54:08,171 - SMBot_V2 - INFO - run_until_3pm:43 - TOTP generated
+2026-03-02 23:54:08,171 - SMBot_V2 - INFO - _init_fyers:256 - Fyers V3 API initialized for SwiftTrendBot
+2026-03-02 23:54:08,179 - SMBot_V2 - INFO - __init__:239 - SwiftTrendBot initialized (signals for backtest + live).
+2026-03-02 23:54:08,982 - SMBot_V2 - INFO - get_index_data:303 - Loaded NIFTY50 index data with 15910 rows [IST] in session
+2026-03-02 23:54:08,982 - SMBot_V2 - INFO - __init__:564 - Timeframe = 1m, heartbeat threshold = 120 sec
+2026-03-02 23:54:08,982 - SMBot_V2 - INFO - start:783 - Starting SwiftTrend WebSocket live engine with heartbeat watchdog.
+2026-03-02 23:54:08,982 - SMBot_V2 - INFO - _create_and_connect_ws:768 - Creating new FyersDataSocket and connecting (SwiftTrend)...
+2026-03-02 23:54:09,256 - SMBot_V2 - INFO - _on_message:593 - RAW WS MSG (once): {'type': 'cn', 'code': 200, 'message': 'Authentication done', 's': 'ok'}
+2026-03-02 23:54:10,992 - SMBot_V2 - INFO - _on_open:580 - WS connected - subscribing to symbol
+2026-03-02 23:55:08,042 - SMBot_V2 - INFO - _init_fyers:310 - Fyers V3 API initialized for VAMLiveBot
+2026-03-02 23:55:08,042 - SMBot_V2 - INFO - __init__:293 - VAMLiveBot initialized (signals for live).
+2026-03-02 23:55:08,819 - SMBot_V2 - INFO - get_index_data:357 - Loaded NIFTY50 index data with 15910 rows [IST] in session (VAM)
+2026-03-02 23:55:08,819 - SMBot_V2 - INFO - __init__:651 - [VAM LIVE] Timeframe = 1m, heartbeat threshold = 120 sec
+2026-03-02 23:55:08,819 - SMBot_V2 - INFO - start:870 - Starting VAM WebSocket live engine with heartbeat watchdog.
+2026-03-02 23:55:08,819 - SMBot_V2 - INFO - _create_and_connect_ws:855 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-02 23:55:09,060 - SMBot_V2 - INFO - _on_message:680 - [VAM LIVE] RAW WS MSG (once): {'type': 'cn', 'code': 200, 'message': 'Authentication done', 's': 'ok'}
+2026-03-02 23:55:10,827 - SMBot_V2 - INFO - _on_open:667 - [VAM LIVE] WS connected - subscribing to index symbol
+2026-03-02 23:57:16,831 - SMBot_V2 - WARNING - _heartbeat_loop:835 - [VAM LIVE] No ticks for 125s (> 120s). Triggering WS reconnect.
+2026-03-02 23:57:16,831 - SMBot_V2 - INFO - _create_and_connect_ws:855 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-02 23:57:18,840 - SMBot_V2 - INFO - _on_open:667 - [VAM LIVE] WS connected - subscribing to index symbol
+2026-03-02 23:57:21,119 - SMBot_V2 - INFO - _finalize_index_bar:754 - [VAM LIVE] Skipping index bar outside session: 2026-03-02 23:55:00+05:30
+2026-03-02 23:59:26,051 - SMBot_V2 - WARNING - _heartbeat_loop:835 - [VAM LIVE] No ticks for 125s (> 120s). Triggering WS reconnect.
+2026-03-02 23:59:26,051 - SMBot_V2 - INFO - _create_and_connect_ws:855 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-02 23:59:28,058 - SMBot_V2 - INFO - _on_open:667 - [VAM LIVE] WS connected - subscribing to index symbol
+2026-03-02 23:59:30,014 - SMBot_V2 - INFO - _finalize_index_bar:754 - [VAM LIVE] Skipping index bar outside session: 2026-03-02 23:57:00+05:30
+2026-03-03 00:01:34,953 - SMBot_V2 - WARNING - _heartbeat_loop:835 - [VAM LIVE] No ticks for 125s (> 120s). Triggering WS reconnect.
+2026-03-03 00:01:34,957 - SMBot_V2 - INFO - _create_and_connect_ws:855 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-03 00:01:36,975 - SMBot_V2 - INFO - _on_open:667 - [VAM LIVE] WS connected - subscribing to index symbol
+2026-03-03 00:01:38,897 - SMBot_V2 - INFO - _finalize_index_bar:750 - [VAM LIVE] Skipping index bar from previous day: 2026-03-02 23:59:00+05:30

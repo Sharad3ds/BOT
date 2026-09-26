@@ -1,0 +1,142 @@
+2026-06-09 21:37:34,180 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-06-09 21:37:34,429 - SMBot_V2 - INFO - GenerateTOTPToken:179 - send_login_otp success
+2026-06-09 21:37:34,430 - SMBot_V2 - INFO - GenerateTOTPToken:186 - Generated TOTP: 117362
+2026-06-09 21:37:34,728 - SMBot_V2 - INFO - GenerateTOTPToken:195 - verify_totp success
+2026-06-09 21:37:35,062 - SMBot_V2 - INFO - GenerateTOTPToken:203 - verify_pin success
+2026-06-09 21:37:35,159 - SMBot_V2 - INFO - GenerateTOTPToken:216 - token success
+2026-06-09 21:37:35,347 - SMBot_V2 - INFO - GenerateTOTPToken:227 - validate_authcode success
+2026-06-09 21:37:35,347 - SMBot_V2 - INFO - GenerateTOTPToken:234 - Final access_token: 2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcUtEcEhGZG5pc0pJMzVqdjYwUjhOaUZtLXBIek1hUklQRk0yc3o2dHpSa0UwcDFXX005RWRjeEY2UkJLQ29ORWxGaDFLVWxaY1UwYTNDMGp0THlzT2FKNmNvN3QwZHdKSnZQWVNOR0RVQnRLMVRJUT0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiJlY2Q3MjdiM2NlMjVkMTExNzRlNWVkNzdhM2Q4OTllYWQ1ZmQ4NjMzNjA5Y2IzOGFiMTQwZjk4ZCIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoyMDAsImV4cCI6MTc4MTA1MTQwMCwiaWF0IjoxNzgxMDIxMjU1LCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3ODEwMjEyNTUsInN1YiI6ImFjY2Vzc190b2tlbiJ9.5PLtlm64wf6sj_c2_5vQxKwZAydW1WKce4KXrTHFgAk
+2026-06-09 21:37:35,348 - SMBot_V2 - INFO - GenerateTOTPToken:238 - AppId saved -> fyers_appid.txt
+2026-06-09 21:37:35,349 - SMBot_V2 - INFO - GenerateTOTPToken:242 - Token saved -> fyers_token.txt
+2026-06-09 21:37:35,349 - SMBot_V2 - INFO - GenerateTOTPToken:244 - Generated on: 09-06-2026 21:37:34
+2026-06-09 21:52:55,147 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-06-09 21:52:55,147 - SMBot_V2 - INFO - main:57 - === VAM Polling Bot Starting ===
+2026-06-09 21:52:55,147 - SMBot_V2 - INFO - main:60 - Generating TOTP Token...
+2026-06-09 21:52:55,431 - SMBot_V2 - INFO - GenerateTOTPToken:179 - send_login_otp success
+2026-06-09 21:52:55,431 - SMBot_V2 - INFO - GenerateTOTPToken:186 - Generated TOTP: 925199
+2026-06-09 21:52:55,498 - SMBot_V2 - INFO - GenerateTOTPToken:195 - verify_totp success
+2026-06-09 21:52:55,812 - SMBot_V2 - INFO - GenerateTOTPToken:203 - verify_pin success
+2026-06-09 21:52:55,953 - SMBot_V2 - INFO - GenerateTOTPToken:216 - token success
+2026-06-09 21:52:56,122 - SMBot_V2 - INFO - GenerateTOTPToken:227 - validate_authcode success
+2026-06-09 21:52:56,122 - SMBot_V2 - INFO - GenerateTOTPToken:234 - Final access_token: 2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcUtEM2Z6Zy11bmJPSU9CYjVUVlhhOGlVb3ZiZTI3Mjk3MGg4T2JKQllzNzJ3NGVrQzhWQTRoamlPUlBtUU1QTDYtQXNVN3U3M2NiN0d1alJReW5LdUY3eEJZMmlVU1ZKQ1plTUxUOVd5cjlxcW5mMD0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiJhOTExMDEyMjBjZTMyZGZkNDQ1OTdhODk1N2ExOGVhMjYyOTgzZDgzZWI5ODY0MzQ4Y2QzZTQ2NSIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoyMDAsImV4cCI6MTc4MTA1MTQwMCwiaWF0IjoxNzgxMDIyMTc1LCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3ODEwMjIxNzUsInN1YiI6ImFjY2Vzc190b2tlbiJ9._CCIfp3HHctOVJ0N1aMNKOmddSlpBJcoKzcgRnbembE
+2026-06-09 21:52:56,122 - SMBot_V2 - INFO - GenerateTOTPToken:238 - AppId saved -> fyers_appid.txt
+2026-06-09 21:52:56,122 - SMBot_V2 - INFO - GenerateTOTPToken:242 - Token saved -> fyers_token.txt
+2026-06-09 21:52:56,127 - SMBot_V2 - INFO - GenerateTOTPToken:244 - Generated on: 09-06-2026 21:52:55
+2026-06-09 21:52:56,135 - SMBot_V2 - INFO - __init__:186 - FyersHTTP init | app_id=2NWM6G5K7Y-200 | auth=2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5c...
+2026-06-09 21:52:56,283 - SMBot_V2 - INFO - restore_state_on_startup:485 - [OM] Checking for existing position on startup...
+2026-06-09 21:52:56,324 - SMBot_V2 - INFO - _restore_state_from_broker:452 - [OM] Live positions on startup: {'code': 200, 'message': '', 's': 'ok', 'netPositions': [], 'overall': {'count_open': 0, 'count_total': 0, 'pl_realized': 0, 'pl_total': 0, 'pl_unrealized': 0}}
+2026-06-09 21:52:56,325 - SMBot_V2 - INFO - _restore_state_from_broker:478 - [OM] No open positions at broker. Starting fresh.
+2026-06-09 21:52:56,326 - SMBot_V2 - INFO - __init__:951 - [POLL] Engine ready. Interval=5s, TF=10S, HTF=30min, SL=20.0% TP=20.0%
+2026-06-09 21:52:56,327 - SMBot_V2 - INFO - stop_watcher:45 - Stop watcher started — will stop at 15:25 IST
+2026-06-09 21:52:56,328 - SMBot_V2 - INFO - main:81 - Starting VAMPollingEngine...
+2026-06-09 21:52:56,330 - SMBot_V2 - INFO - start:1399 - [POLL] Starting VAM 10S Polling Engine (interval=5s)
+2026-06-09 21:52:56,330 - SMBot_V2 - INFO - _poll_once:1207 - [POLL] Outside session (21:52:56 IST), next check in 5s.
+2026-06-09 21:53:01,331 - SMBot_V2 - INFO - _poll_once:1207 - [POLL] Outside session (21:53:01 IST), next check in 5s.
+2026-06-09 21:53:06,332 - SMBot_V2 - INFO - _poll_once:1207 - [POLL] Outside session (21:53:06 IST), next check in 5s.
+2026-06-09 21:53:11,334 - SMBot_V2 - INFO - _poll_once:1207 - [POLL] Outside session (21:53:11 IST), next check in 5s.
+2026-06-09 21:53:16,336 - SMBot_V2 - INFO - _poll_once:1207 - [POLL] Outside session (21:53:16 IST), next check in 5s.
+2026-06-09 21:53:21,338 - SMBot_V2 - INFO - _poll_once:1207 - [POLL] Outside session (21:53:21 IST), next check in 5s.
+2026-06-09 21:53:26,329 - SMBot_V2 - INFO - stop_watcher:49 - 15:25 IST reached — running EOD cleanup and stopping
+2026-06-09 21:53:26,329 - SMBot_V2 - INFO - _shutdown:1422 - [POLL] Shutdown: resolving open trades and exporting Excel.
+2026-06-09 21:53:26,329 - SMBot_V2 - INFO - resolve_open_trade_at_eod:721 - [TL] No open trade to resolve at EOD.
+2026-06-09 21:53:26,329 - SMBot_V2 - INFO - export_to_excel:752 - [TL] No trades today — nothing to export.
+2026-06-09 21:53:26,329 - SMBot_V2 - INFO - _shutdown:1427 - [POLL] Shutdown complete.
+2026-06-09 23:45:02,745 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-06-09 23:45:02,753 - SMBot_V2 - INFO - main:57 - === VAM Polling Bot Starting ===
+2026-06-09 23:45:02,754 - SMBot_V2 - INFO - main:60 - Generating TOTP Token...
+2026-06-09 23:45:03,190 - SMBot_V2 - INFO - GenerateTOTPToken:179 - send_login_otp success
+2026-06-09 23:45:03,195 - SMBot_V2 - INFO - GenerateTOTPToken:186 - Generated TOTP: 830784
+2026-06-09 23:45:03,392 - SMBot_V2 - INFO - GenerateTOTPToken:195 - verify_totp success
+2026-06-09 23:45:03,695 - SMBot_V2 - INFO - GenerateTOTPToken:203 - verify_pin success
+2026-06-09 23:45:04,109 - SMBot_V2 - INFO - GenerateTOTPToken:216 - token success
+2026-06-09 23:45:04,317 - SMBot_V2 - INFO - GenerateTOTPToken:227 - validate_authcode success
+2026-06-09 23:45:04,317 - SMBot_V2 - INFO - GenerateTOTPToken:234 - Final access_token: 2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcUtGZ29UdjNFOGtPUlh1RUY4MUhBMTk1RmloS3MwdV9YUWRiVVpBWUZOeVhadjNzci02V3dZVEJVaTNHMk5xZDFURmhlRE9EdDlpa2E2eWZ5YW5iUVhGdk41RnNwUG1aRGMybnRSdFJLYmZLTGpraz0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiI3YTk2MjdjNDVkZjg1OWYyMmFkM2YzZTEzNzMxZTBlYjZhNTM4NWJmYzU0YjZmNzM3ZGU2ZjI5OSIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoyMDAsImV4cCI6MTc4MTA1MTQwMCwiaWF0IjoxNzgxMDI4OTA0LCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3ODEwMjg5MDQsInN1YiI6ImFjY2Vzc190b2tlbiJ9.PSMZfg9Mv-HwpupjU8kSkkMzx5c0wIsH2lQFWzaik70
+2026-06-09 23:45:04,317 - SMBot_V2 - INFO - GenerateTOTPToken:238 - AppId saved -> fyers_appid.txt
+2026-06-09 23:45:04,317 - SMBot_V2 - INFO - GenerateTOTPToken:242 - Token saved -> fyers_token.txt
+2026-06-09 23:45:04,317 - SMBot_V2 - INFO - GenerateTOTPToken:244 - Generated on: 09-06-2026 23:45:02
+2026-06-09 23:45:04,337 - SMBot_V2 - INFO - __init__:142 - FyersHTTP init | app_id=2NWM6G5K7Y-200 | auth=2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5c...
+2026-06-09 23:45:04,633 - SMBot_V2 - INFO - restore_state_on_startup:432 - [OM] Checking for existing position on startup...
+2026-06-09 23:45:04,714 - SMBot_V2 - INFO - _restore_state_from_broker:399 - [OM] Live positions on startup: {'code': 200, 'message': '', 's': 'ok', 'netPositions': [], 'overall': {'count_open': 0, 'count_total': 0, 'pl_realized': 0, 'pl_total': 0, 'pl_unrealized': 0}}
+2026-06-09 23:45:04,716 - SMBot_V2 - INFO - _restore_state_from_broker:425 - [OM] No open positions at broker. Starting fresh.
+2026-06-09 23:45:04,716 - SMBot_V2 - INFO - __init__:848 - [POLL] Engine ready. Interval=5s, TF=10S, HTF=15min, SL=20.0% TP=15.0%
+2026-06-09 23:45:04,716 - SMBot_V2 - INFO - stop_watcher:45 - Stop watcher started — will stop at 15:25 IST
+2026-06-09 23:45:04,726 - SMBot_V2 - INFO - main:81 - Starting VAMPollingEngine...
+2026-06-09 23:45:04,728 - SMBot_V2 - INFO - start:1238 - [POLL] Starting VAM 10S Polling Engine (interval=5s)
+2026-06-09 23:45:04,730 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:45:04 IST), next check in 5s.
+2026-06-09 23:45:09,732 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:45:09 IST), next check in 5s.
+2026-06-09 23:45:14,733 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:45:14 IST), next check in 5s.
+2026-06-09 23:45:19,736 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:45:19 IST), next check in 5s.
+2026-06-09 23:45:24,737 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:45:24 IST), next check in 5s.
+2026-06-09 23:45:29,739 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:45:29 IST), next check in 5s.
+2026-06-09 23:45:34,721 - SMBot_V2 - INFO - stop_watcher:49 - 15:25 IST reached — running EOD cleanup and stopping
+2026-06-09 23:45:34,721 - SMBot_V2 - INFO - _shutdown:1261 - [POLL] Shutdown: resolving open trades and exporting Excel.
+2026-06-09 23:45:34,721 - SMBot_V2 - INFO - resolve_open_trade_at_eod:654 - [TL] No open trade to resolve at EOD.
+2026-06-09 23:45:34,721 - SMBot_V2 - INFO - export_to_excel:685 - [TL] No trades today — nothing to export.
+2026-06-09 23:45:34,721 - SMBot_V2 - INFO - _shutdown:1266 - [POLL] Shutdown complete.
+2026-06-09 23:48:59,597 - SMBot_V2 - INFO - __init__:142 - FyersHTTP init | app_id=2NWM6G5K7Y-200 | auth=2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5c...
+2026-06-09 23:49:00,141 - SMBot_V2 - INFO - restore_state_on_startup:432 - [OM] Checking for existing position on startup...
+2026-06-09 23:49:00,240 - SMBot_V2 - INFO - _restore_state_from_broker:399 - [OM] Live positions on startup: {'code': 200, 'message': '', 's': 'ok', 'netPositions': [], 'overall': {'count_open': 0, 'count_total': 0, 'pl_realized': 0, 'pl_total': 0, 'pl_unrealized': 0}}
+2026-06-09 23:49:00,244 - SMBot_V2 - INFO - _restore_state_from_broker:425 - [OM] No open positions at broker. Starting fresh.
+2026-06-09 23:49:00,244 - SMBot_V2 - WARNING - __init__:845 - [POLL] *** DRY-RUN MODE ENABLED — no real orders will be placed ***
+2026-06-09 23:49:00,246 - SMBot_V2 - INFO - __init__:848 - [POLL] Engine ready. Interval=5s, TF=10S, HTF=15min, SL=20.0% TP=15.0%
+2026-06-09 23:49:00,246 - SMBot_V2 - INFO - start:1238 - [POLL] Starting VAM 10S Polling Engine (interval=5s)
+2026-06-09 23:49:00,246 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:49:00 IST), next check in 5s.
+2026-06-09 23:49:05,250 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:49:05 IST), next check in 5s.
+2026-06-09 23:49:10,253 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:49:10 IST), next check in 5s.
+2026-06-09 23:49:15,243 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:49:15 IST), next check in 5s.
+2026-06-09 23:49:20,245 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:49:20 IST), next check in 5s.
+2026-06-09 23:49:25,247 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:49:25 IST), next check in 5s.
+2026-06-09 23:49:30,248 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:49:30 IST), next check in 5s.
+2026-06-09 23:49:35,252 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:49:35 IST), next check in 5s.
+2026-06-09 23:49:40,244 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:49:40 IST), next check in 5s.
+2026-06-09 23:49:45,247 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:49:45 IST), next check in 5s.
+2026-06-09 23:49:50,250 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:49:50 IST), next check in 5s.
+2026-06-09 23:49:55,253 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:49:55 IST), next check in 5s.
+2026-06-09 23:50:00,241 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:50:00 IST), next check in 5s.
+2026-06-09 23:50:05,243 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:50:05 IST), next check in 5s.
+2026-06-09 23:50:10,246 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:50:10 IST), next check in 5s.
+2026-06-09 23:50:15,252 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:50:15 IST), next check in 5s.
+2026-06-09 23:50:20,241 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:50:20 IST), next check in 5s.
+2026-06-09 23:50:25,244 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:50:25 IST), next check in 5s.
+2026-06-09 23:50:30,246 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:50:30 IST), next check in 5s.
+2026-06-09 23:50:35,249 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:50:35 IST), next check in 5s.
+2026-06-09 23:50:40,251 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:50:40 IST), next check in 5s.
+2026-06-09 23:50:45,241 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:50:45 IST), next check in 5s.
+2026-06-09 23:50:50,243 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:50:50 IST), next check in 5s.
+2026-06-09 23:50:55,246 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:50:55 IST), next check in 5s.
+2026-06-09 23:51:00,248 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:51:00 IST), next check in 5s.
+2026-06-09 23:51:05,251 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:51:05 IST), next check in 5s.
+2026-06-09 23:51:14,113 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-06-09 23:51:14,114 - SMBot_V2 - INFO - main:57 - === VAM Polling Bot Starting ===
+2026-06-09 23:51:14,114 - SMBot_V2 - INFO - main:60 - Generating TOTP Token...
+2026-06-09 23:51:14,645 - SMBot_V2 - INFO - GenerateTOTPToken:179 - send_login_otp success
+2026-06-09 23:51:14,645 - SMBot_V2 - INFO - GenerateTOTPToken:186 - Generated TOTP: 799281
+2026-06-09 23:51:14,790 - SMBot_V2 - INFO - GenerateTOTPToken:195 - verify_totp success
+2026-06-09 23:51:15,204 - SMBot_V2 - INFO - GenerateTOTPToken:203 - verify_pin success
+2026-06-09 23:51:15,714 - SMBot_V2 - INFO - GenerateTOTPToken:216 - token success
+2026-06-09 23:51:15,918 - SMBot_V2 - INFO - GenerateTOTPToken:227 - validate_authcode success
+2026-06-09 23:51:15,918 - SMBot_V2 - INFO - GenerateTOTPToken:234 - Final access_token: 2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcUtGbWJaMTJTeklDSWNwZUp5SVdCdzBtNU1IUVZIWUxrN0FVXy0yUzNlUHdTRmhzR3p5VjhMZ2p4alA4VFVyOWdUSG1La1hlOWFRM2NNd19waG80eHQtTlBDRVBLendOcjBCUjhWQml2bjd2SDFXST0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiIwMzUxZDFjZjBkYWViYWNjMGVjOWU2ZjNiMmUwNDRlOTdiYTMxYWQ4YWEwMjljZTdlNzkwMzk5MiIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoyMDAsImV4cCI6MTc4MTA1MTQwMCwiaWF0IjoxNzgxMDI5Mjc1LCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3ODEwMjkyNzUsInN1YiI6ImFjY2Vzc190b2tlbiJ9.0DA89uFAh5DjIjq66fiQ8K-ZYOihHOgOhR6le6ZI0Mg
+2026-06-09 23:51:15,918 - SMBot_V2 - INFO - GenerateTOTPToken:238 - AppId saved -> fyers_appid.txt
+2026-06-09 23:51:15,918 - SMBot_V2 - INFO - GenerateTOTPToken:242 - Token saved -> fyers_token.txt
+2026-06-09 23:51:15,926 - SMBot_V2 - INFO - GenerateTOTPToken:244 - Generated on: 09-06-2026 23:51:14
+2026-06-09 23:51:15,945 - SMBot_V2 - INFO - __init__:142 - FyersHTTP init | app_id=2NWM6G5K7Y-200 | auth=2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5c...
+2026-06-09 23:51:16,337 - SMBot_V2 - INFO - restore_state_on_startup:432 - [OM] Checking for existing position on startup...
+2026-06-09 23:51:16,395 - SMBot_V2 - INFO - _restore_state_from_broker:399 - [OM] Live positions on startup: {'code': 200, 'message': '', 's': 'ok', 'netPositions': [], 'overall': {'count_open': 0, 'count_total': 0, 'pl_realized': 0, 'pl_total': 0, 'pl_unrealized': 0}}
+2026-06-09 23:51:16,398 - SMBot_V2 - INFO - _restore_state_from_broker:425 - [OM] No open positions at broker. Starting fresh.
+2026-06-09 23:51:16,398 - SMBot_V2 - WARNING - __init__:845 - [POLL] *** DRY-RUN MODE ENABLED — no real orders will be placed ***
+2026-06-09 23:51:16,398 - SMBot_V2 - INFO - __init__:848 - [POLL] Engine ready. Interval=5s, TF=10S, HTF=15min, SL=20.0% TP=15.0%
+2026-06-09 23:51:16,398 - SMBot_V2 - INFO - stop_watcher:45 - Stop watcher started — will stop at 15:25 IST
+2026-06-09 23:51:16,404 - SMBot_V2 - INFO - main:81 - Starting VAMPollingEngine...
+2026-06-09 23:51:16,405 - SMBot_V2 - INFO - start:1238 - [POLL] Starting VAM 10S Polling Engine (interval=5s)
+2026-06-09 23:51:16,405 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:51:16 IST), next check in 5s.
+2026-06-09 23:51:21,407 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:51:21 IST), next check in 5s.
+2026-06-09 23:51:26,408 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:51:26 IST), next check in 5s.
+2026-06-09 23:51:31,397 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:51:31 IST), next check in 5s.
+2026-06-09 23:51:36,399 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:51:36 IST), next check in 5s.
+2026-06-09 23:51:41,401 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:51:41 IST), next check in 5s.
+2026-06-09 23:51:46,401 - SMBot_V2 - INFO - stop_watcher:49 - 15:25 IST reached — running EOD cleanup and stopping
+2026-06-09 23:51:46,401 - SMBot_V2 - INFO - _shutdown:1261 - [POLL] Shutdown: resolving open trades and exporting Excel.
+2026-06-09 23:51:46,404 - SMBot_V2 - INFO - _poll_once:1076 - [POLL] Outside session (23:51:46 IST), next check in 5s.
+2026-06-09 23:51:46,404 - SMBot_V2 - INFO - resolve_open_trade_at_eod:654 - [TL] No open trade to resolve at EOD.
+2026-06-09 23:51:46,406 - SMBot_V2 - INFO - export_to_excel:685 - [TL] No trades today — nothing to export.
+2026-06-09 23:51:46,408 - SMBot_V2 - INFO - _shutdown:1266 - [POLL] Shutdown complete.

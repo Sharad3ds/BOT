@@ -1,6 +1,0 @@
-2026-01-31 13:53:57,860 - SMBot_V2 - INFO - <module>:128 - Starting Schedule Service
-2026-01-31 13:54:11,272 - SMBot_V2 - INFO - start_schedule:70 - Schedule endpoint called at: 2026-01-31 13:54:11 IST
-2026-01-31 13:54:11,273 - SMBot_V2 - INFO - run_until_3pm:28 - Starting scheduled task - will run until 3 PM IST
-2026-01-31 13:54:11,273 - SMBot_V2 - INFO - run_until_3pm:42 - Scheduled task running - Current time: 2026-01-31 13:54:11 IST
-2026-01-31 13:54:27,359 - SMBot_V2 - INFO - stop_schedule:110 - Schedule task stopped manually
-2026-01-31 13:55:11,274 - SMBot_V2 - INFO - run_until_3pm:51 - Scheduled task completed

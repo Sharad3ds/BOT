@@ -1,0 +1,53 @@
+2026-09-01 21:31:35,575 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-09-01 21:31:35,846 - SMBot_V2 - INFO - GenerateTOTPToken:179 - send_login_otp success
+2026-09-01 21:31:35,846 - SMBot_V2 - INFO - GenerateTOTPToken:186 - Generated TOTP: 218108
+2026-09-01 21:31:35,950 - SMBot_V2 - INFO - GenerateTOTPToken:195 - verify_totp success
+2026-09-01 21:31:36,508 - SMBot_V2 - INFO - GenerateTOTPToken:203 - verify_pin success
+2026-09-01 21:31:36,695 - SMBot_V2 - INFO - GenerateTOTPToken:216 - token success
+2026-09-01 21:31:36,918 - SMBot_V2 - INFO - GenerateTOTPToken:227 - validate_authcode success
+2026-09-01 21:31:36,920 - SMBot_V2 - INFO - GenerateTOTPToken:234 - Final access_token: 2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcWx2YmYyWWFRMUxoX0FIQmpaSUZ5bWxZTG5Hb21UMTFWMjd3cVd3ZmhXNG5CZUNJVUxfRDlLX3FkUFdXQWJXTzVyQVVLZHZ5aUszWVh5Rk1QQmM1bWx6cUpQbk5wU214VkNHTnEwR1p0OXFHMmswTT0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiI2NjY5MGE3MTRhYTkxNjFkYTUxMGM2YTNhMWFmMWY0YTYxMDg0MGI1MzIwZTY2Mjk0NTg5YjAxZiIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoyMDAsImV4cCI6MTc4ODMwOTAwMCwiaWF0IjoxNzg4Mjc4NDk1LCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3ODgyNzg0OTUsInN1YiI6ImFjY2Vzc190b2tlbiJ9.uETlKT69UjdrhoasUYDrjr0sS_R-M_rkaoJKoIhRjf8
+2026-09-01 21:31:36,921 - SMBot_V2 - INFO - GenerateTOTPToken:238 - AppId saved -> fyers_appid.txt
+2026-09-01 21:31:36,921 - SMBot_V2 - INFO - GenerateTOTPToken:242 - Token saved -> fyers_token.txt
+2026-09-01 21:31:36,921 - SMBot_V2 - INFO - GenerateTOTPToken:244 - Generated on: 01-09-2026 21:31:35
+2026-09-01 21:31:49,945 - SMBot_V2 - INFO - __init__:248 - Weekly expiry code 26901 | HEIKIN ASHI signals (daily reset) | C1/C2/C3 pattern: declining/rising closes OR body<0.5xC2, 5min bars | swing=off | C2_doji_filter=True (max_body/range=12%) | SL=-10.0% TP=+30.0% | profit_lock=True [(10.0, 2.0), (15.0, 5.0), (20.0, 10.0)] (live via PATCH /positions, unexercised) | live_exit=dry-run sim | direction-alternating (resets daily) | flip_exit=True | DRY_RUN=True
+2026-09-01 21:31:50,205 - SMBot_V2 - INFO - _init_fyers:916 - [ENG] connected SHARAD ASHOK MISAL
+2026-09-01 21:31:50,205 - SMBot_V2 - INFO - __init__:901 - [ENG] ready. interval=60s | HEIKIN ASHI signals
+2026-09-01 21:31:50,205 - SMBot_V2 - WARNING - __init__:903 - *** DRY-RUN — no real orders ***
+2026-09-01 21:31:50,205 - SMBot_V2 - INFO - run:1124 - [ENG] starting Sequential Candle Reversal (Heikin Ashi) poll loop
+2026-09-01 21:31:50,205 - SMBot_V2 - INFO - _poll:1025 - [ENG] New day 2026-09-01 — state reset.
+2026-09-01 22:20:55,325 - SMBot_V2 - INFO - run:1134 - [ENG] interrupted
+2026-09-01 22:20:55,327 - SMBot_V2 - INFO - _export:1148 - [ENG] no trades to export
+2026-09-01 22:20:55,327 - SMBot_V2 - INFO - _shutdown:1144 - [ENG] shutdown complete
+2026-09-01 22:21:05,504 - SMBot_V2 - INFO - __init__:261 - Weekly expiry code 26901 | HEIKIN ASHI signals (daily reset) | C1/C2/C3 pattern: declining/rising closes OR body<0.5xC2, 5min bars | swing=off | C2_doji_filter=True (max_body/range=12%) | SL=-10.0% TP=+30.0% | profit_lock=True [(10.0, 2.0), (15.0, 5.0), (20.0, 10.0)] (live via PATCH /positions, unexercised) | live_exit=dry-run sim | direction-alternating (resets daily) | flip_exit=True | DRY_RUN=True
+2026-09-01 22:21:05,765 - SMBot_V2 - INFO - _init_fyers:959 - [ENG] connected SHARAD ASHOK MISAL
+2026-09-01 22:21:05,765 - SMBot_V2 - INFO - __init__:944 - [ENG] ready. interval=60s | HEIKIN ASHI signals
+2026-09-01 22:21:05,765 - SMBot_V2 - WARNING - __init__:946 - *** DRY-RUN — no real orders ***
+2026-09-01 22:21:05,771 - SMBot_V2 - INFO - run:1167 - [ENG] starting Sequential Candle Reversal (Heikin Ashi) poll loop
+2026-09-01 22:21:05,771 - SMBot_V2 - INFO - _poll:1068 - [ENG] New day 2026-09-01 — state reset.
+2026-09-02 00:00:05,855 - SMBot_V2 - INFO - _poll:1068 - [ENG] New day 2026-09-02 — state reset.
+2026-09-05 12:38:14,753 - SMBot_V2 - INFO - _poll:1068 - [ENG] New day 2026-09-05 — state reset.
+2026-09-05 12:38:15,162 - SMBot_V2 - WARNING - _fetch_today_bars:967 - [ENG] history err: {'code': -16, 'message': 'Could not authenticate the user', 's': 'error'}
+2026-09-05 12:39:12,632 - SMBot_V2 - WARNING - _fetch_today_bars:967 - [ENG] history err: {'code': -16, 'message': 'Could not authenticate the user', 's': 'error'}
+2026-09-05 12:40:12,620 - SMBot_V2 - WARNING - _fetch_today_bars:967 - [ENG] history err: {'code': -16, 'message': 'Could not authenticate the user', 's': 'error'}
+2026-09-05 12:41:12,631 - SMBot_V2 - WARNING - _fetch_today_bars:967 - [ENG] history err: {'code': -16, 'message': 'Could not authenticate the user', 's': 'error'}
+2026-09-05 12:42:12,623 - SMBot_V2 - WARNING - _fetch_today_bars:967 - [ENG] history err: {'code': -16, 'message': 'Could not authenticate the user', 's': 'error'}
+2026-09-05 12:43:12,631 - SMBot_V2 - WARNING - _fetch_today_bars:967 - [ENG] history err: {'code': -16, 'message': 'Could not authenticate the user', 's': 'error'}
+2026-09-05 12:44:12,628 - SMBot_V2 - WARNING - _fetch_today_bars:967 - [ENG] history err: {'code': -16, 'message': 'Could not authenticate the user', 's': 'error'}
+2026-09-05 12:45:12,631 - SMBot_V2 - WARNING - _fetch_today_bars:967 - [ENG] history err: {'code': -16, 'message': 'Could not authenticate the user', 's': 'error'}
+2026-09-05 12:46:12,636 - SMBot_V2 - WARNING - _fetch_today_bars:967 - [ENG] history err: {'code': -16, 'message': 'Could not authenticate the user', 's': 'error'}
+2026-09-05 12:47:12,635 - SMBot_V2 - WARNING - _fetch_today_bars:967 - [ENG] history err: {'code': -16, 'message': 'Could not authenticate the user', 's': 'error'}
+2026-09-05 12:48:12,624 - SMBot_V2 - WARNING - _fetch_today_bars:967 - [ENG] history err: {'code': -16, 'message': 'Could not authenticate the user', 's': 'error'}
+2026-09-05 12:49:12,644 - SMBot_V2 - WARNING - _fetch_today_bars:967 - [ENG] history err: {'code': -16, 'message': 'Could not authenticate the user', 's': 'error'}
+2026-09-05 12:50:12,621 - SMBot_V2 - WARNING - _fetch_today_bars:967 - [ENG] history err: {'code': -16, 'message': 'Could not authenticate the user', 's': 'error'}
+2026-09-05 12:51:12,644 - SMBot_V2 - WARNING - _fetch_today_bars:967 - [ENG] history err: {'code': -16, 'message': 'Could not authenticate the user', 's': 'error'}
+2026-09-05 12:52:12,630 - SMBot_V2 - WARNING - _fetch_today_bars:967 - [ENG] history err: {'code': -16, 'message': 'Could not authenticate the user', 's': 'error'}
+2026-09-05 12:53:12,648 - SMBot_V2 - WARNING - _fetch_today_bars:967 - [ENG] history err: {'code': -16, 'message': 'Could not authenticate the user', 's': 'error'}
+2026-09-05 12:54:12,636 - SMBot_V2 - WARNING - _fetch_today_bars:967 - [ENG] history err: {'code': -16, 'message': 'Could not authenticate the user', 's': 'error'}
+2026-09-05 12:55:12,634 - SMBot_V2 - WARNING - _fetch_today_bars:967 - [ENG] history err: {'code': -16, 'message': 'Could not authenticate the user', 's': 'error'}
+2026-09-05 12:56:12,655 - SMBot_V2 - WARNING - _fetch_today_bars:967 - [ENG] history err: {'code': -16, 'message': 'Could not authenticate the user', 's': 'error'}
+2026-09-05 12:57:12,643 - SMBot_V2 - WARNING - _fetch_today_bars:967 - [ENG] history err: {'code': -16, 'message': 'Could not authenticate the user', 's': 'error'}
+2026-09-05 12:58:12,659 - SMBot_V2 - WARNING - _fetch_today_bars:967 - [ENG] history err: {'code': -16, 'message': 'Could not authenticate the user', 's': 'error'}
+2026-09-05 12:59:12,651 - SMBot_V2 - WARNING - _fetch_today_bars:967 - [ENG] history err: {'code': -16, 'message': 'Could not authenticate the user', 's': 'error'}
+2026-09-05 13:00:12,645 - SMBot_V2 - WARNING - _fetch_today_bars:967 - [ENG] history err: {'code': -16, 'message': 'Could not authenticate the user', 's': 'error'}
+2026-09-05 13:01:12,646 - SMBot_V2 - WARNING - _fetch_today_bars:967 - [ENG] history err: {'code': -16, 'message': 'Could not authenticate the user', 's': 'error'}
+2026-09-05 13:02:12,649 - SMBot_V2 - WARNING - _fetch_today_bars:967 - [ENG] history err: {'code': -16, 'message': 'Could not authenticate the user', 's': 'error'}

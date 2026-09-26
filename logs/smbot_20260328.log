@@ -1,0 +1,1279 @@
+2026-03-28 19:24:42,661 - SMBot_V2 - INFO - _init_fyers:328 - Fyers V3 API initialized for VAMLiveBot
+2026-03-28 19:24:42,661 - SMBot_V2 - INFO - __init__:311 - VAMLiveBot initialized (signals for live).
+2026-03-28 19:24:43,444 - SMBot_V2 - WARNING - _fetch_history:349 - API error for NSE:NIFTY50-INDEX: {'code': -16, 'message': 'Could not authenticate the user', 's': 'error'}
+2026-03-28 19:24:43,463 - SMBot_V2 - INFO - __init__:817 - [VAM LIVE] Timeframe=1m, heartbeat threshold=120s
+2026-03-28 19:24:43,465 - SMBot_V2 - INFO - restore_state_on_startup:689 - [VAM OM] Checking for existing position on startup...
+2026-03-28 19:24:43,468 - SMBot_V2 - INFO - _load_state_from_file:565 - [VAM OM] No state file found at vam_position_state.json.
+2026-03-28 19:24:43,615 - SMBot_V2 - INFO - _restore_state_from_broker:644 - [VAM OM] Live positions on startup: {'code': -16, 'message': 'Could not authenticate the user', 's': 'error'}
+2026-03-28 19:24:43,615 - SMBot_V2 - WARNING - _restore_state_from_broker:647 - [VAM OM] Could not fetch positions from broker.
+2026-03-28 19:24:43,622 - SMBot_V2 - INFO - start:1063 - Starting VAM WebSocket live engine with heartbeat watchdog.
+2026-03-28 19:24:43,623 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-28 19:24:43,625 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-28 19:24:45,630 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 19:25:04,630 - SMBot_V2 - INFO - start:1071 - KeyboardInterrupt received, stopping VAM engine.
+2026-03-28 19:25:13,784 - SMBot_V2 - INFO - <module>:35 - APP_ID_HASH: 182d245f9d55f141ec67a093ba4b9a15782225ae3db6b77ac5a307eff7c75d39
+2026-03-28 19:25:13,785 - SMBot_V2 - INFO - main:42 - === SMBot Starting via Render Cron Job ===
+2026-03-28 19:25:13,785 - SMBot_V2 - INFO - main:45 - Generating TOTP Token...
+2026-03-28 19:25:14,466 - SMBot_V2 - INFO - GenerateTOTPToken:176 - send_login_otp success
+2026-03-28 19:25:14,473 - SMBot_V2 - INFO - GenerateTOTPToken:183 - Generated TOTP: 750757
+2026-03-28 19:25:15,291 - SMBot_V2 - INFO - GenerateTOTPToken:192 - verify_totp success
+2026-03-28 19:25:16,311 - SMBot_V2 - INFO - GenerateTOTPToken:200 - verify_pin success
+2026-03-28 19:25:17,127 - SMBot_V2 - INFO - GenerateTOTPToken:213 - token success
+2026-03-28 19:25:18,052 - SMBot_V2 - INFO - GenerateTOTPToken:224 - validate_authcode success
+2026-03-28 19:25:18,052 - SMBot_V2 - INFO - GenerateTOTPToken:231 - Final access_token: G0KMDMEH4T-100:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcHg5M0dha2hwR2EzSk9yZEhBanE3TDhnMGFnY1gzNy03TWFYV1E4ZTU4RG0weUM2S3hjR0tqNnpDbHNYWGhVdUtEWFY4N0lRTDg0YmZtTEZpT1JNZG1obWFmZDZhUmVBWWZzYnRzMlhiYUpOWktPST0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiIyNDQ0ZTJhNzQ3MTMzYzczYjkwNzUyNGZmOTg5N2ZiNmZiODc5ZGRjODk0N2IzODhlN2RjODYxZCIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoxMDAsImV4cCI6MTc3NDc0NDIwMCwiaWF0IjoxNzc0NzA2MTE4LCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3NzQ3MDYxMTgsInN1YiI6ImFjY2Vzc190b2tlbiJ9.LtMGxpI7xD4D9EKhNod6l2hmN2b7RSXMILMZHqjtELI
+2026-03-28 19:25:18,057 - SMBot_V2 - INFO - GenerateTOTPToken:236 - AppId saved -> fyers_appid.txt
+2026-03-28 19:25:18,059 - SMBot_V2 - INFO - GenerateTOTPToken:240 - Token saved -> fyers_token.txt
+2026-03-28 19:25:18,059 - SMBot_V2 - INFO - GenerateTOTPToken:242 - Generated on: 28-03-2026 19:25:13
+2026-03-28 19:25:18,076 - SMBot_V2 - INFO - _init_fyers:328 - Fyers V3 API initialized for VAMLiveBot
+2026-03-28 19:25:18,076 - SMBot_V2 - INFO - __init__:311 - VAMLiveBot initialized (signals for live).
+2026-03-28 19:25:19,140 - SMBot_V2 - INFO - get_index_data:375 - Loaded NIFTY50 index data with 15910 rows [IST] in session (VAM)
+2026-03-28 19:25:19,142 - SMBot_V2 - INFO - __init__:817 - [VAM LIVE] Timeframe=1m, heartbeat threshold=120s
+2026-03-28 19:25:19,142 - SMBot_V2 - INFO - restore_state_on_startup:689 - [VAM OM] Checking for existing position on startup...
+2026-03-28 19:25:19,145 - SMBot_V2 - INFO - _load_state_from_file:565 - [VAM OM] No state file found at vam_position_state.json.
+2026-03-28 19:25:19,272 - SMBot_V2 - INFO - _restore_state_from_broker:644 - [VAM OM] Live positions on startup: {'code': 200, 'message': '', 's': 'ok', 'netPositions': [], 'overall': {'count_open': 0, 'count_total': 0, 'pl_realized': 0, 'pl_total': 0, 'pl_unrealized': 0}}
+2026-03-28 19:25:19,281 - SMBot_V2 - INFO - _restore_state_from_broker:681 - [VAM OM] No open positions at broker. Starting fresh.
+2026-03-28 19:25:19,283 - SMBot_V2 - INFO - stop_watcher:29 - Stop watcher started - will stop at 3:10 PM IST
+2026-03-28 19:25:19,285 - SMBot_V2 - INFO - stop_watcher:32 - 3:10 PM IST reached - stopping VAMLiveEngine
+2026-03-28 19:25:19,292 - SMBot_V2 - INFO - main:76 - Starting VAMLiveEngine...
+2026-03-28 19:25:19,294 - SMBot_V2 - INFO - start:1063 - Starting VAM WebSocket live engine with heartbeat watchdog.
+2026-03-28 19:25:19,296 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-28 19:25:20,615 - SMBot_V2 - INFO - _on_message:849 - [VAM LIVE] RAW WS MSG (once): {'type': 'cn', 'code': 200, 'message': 'Authentication done', 's': 'ok'}
+2026-03-28 19:25:21,302 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 19:27:27,567 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 125s (>120s). Reconnecting WS.
+2026-03-28 19:27:27,567 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-28 19:27:29,576 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 19:27:30,872 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-03-28 19:25:00+05:30
+2026-03-28 19:29:20,326 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-28 19:29:27,334 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 19:29:28,782 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-03-28 19:27:00+05:30
+2026-03-28 19:31:14,424 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-28 19:31:14,431 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-28 20:45:28,254 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 4559s (>120s). Reconnecting WS.
+2026-03-28 20:45:28,310 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-28 20:45:28,324 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-03-28 20:45:28,324 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-03-28 20:45:28,347 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-03-28 20:45:30,305 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 20:45:30,306 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 20:45:30,325 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 20:45:35,339 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 20:45:37,449 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-03-28 19:29:00+05:30
+2026-03-28 20:45:40,348 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 20:45:45,354 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 20:47:48,487 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 121s (>120s). Reconnecting WS.
+2026-03-28 20:47:48,489 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-28 20:47:50,496 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 20:47:52,643 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-03-28 20:45:00+05:30
+2026-03-28 20:48:32,154 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-28 20:48:39,166 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 20:48:41,292 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-03-28 20:47:00+05:30
+2026-03-28 20:50:00,111 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-28 20:50:00,115 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-28 20:50:00,134 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-28 20:50:00,136 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-28 21:00:33,732 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 712s (>120s). Reconnecting WS.
+2026-03-28 21:00:33,767 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-28 21:00:33,802 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-03-28 21:00:33,802 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-03-28 21:00:33,802 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-03-28 21:00:33,822 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-03-28 21:00:33,826 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-03-28 21:00:35,778 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 21:00:35,782 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 21:00:35,790 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 21:00:35,794 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 21:00:35,794 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 21:00:40,818 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 21:00:43,721 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-03-28 20:48:00+05:30
+2026-03-28 21:00:45,819 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 21:00:50,822 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 21:00:55,841 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 21:01:00,844 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 21:01:02,961 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-03-28 21:00:00+05:30
+2026-03-28 21:02:48,230 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-28 21:02:53,144 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-28 21:02:55,237 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 21:02:57,956 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-03-28 21:01:00+05:30
+2026-03-28 21:02:58,262 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-28 21:03:05,151 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 21:03:05,271 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 21:03:07,640 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-03-28 21:02:00+05:30
+2026-03-28 21:05:52,471 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-28 21:05:52,473 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-28 21:05:52,474 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-28 21:05:52,485 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-28 21:05:52,488 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-28 21:05:52,490 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 165s (>120s). Reconnecting WS.
+2026-03-28 21:05:52,677 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-28 21:05:54,754 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 21:05:57,243 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-03-28 21:03:00+05:30
+2026-03-28 21:05:59,610 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 21:06:02,173 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-03-28 21:05:00+05:30
+2026-03-28 21:06:04,668 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 21:06:09,674 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 21:06:14,677 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 21:06:19,680 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 21:08:26,773 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 125s (>120s). Reconnecting WS.
+2026-03-28 21:08:26,774 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-28 21:08:28,792 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 21:08:31,192 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-03-28 21:06:00+05:30
+2026-03-28 21:08:31,470 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-28 21:08:31,470 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-28 21:08:31,982 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-28 21:08:38,477 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 21:08:43,478 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 21:08:48,990 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-28 21:12:36,529 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-28 21:12:36,530 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 225s (>120s). Reconnecting WS.
+2026-03-28 21:12:36,535 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-28 21:12:36,536 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-28 21:12:36,537 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-28 21:12:36,538 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-28 21:12:36,468 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-28 21:12:36,562 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-28 21:12:36,912 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-28 21:12:37,225 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-03-28 21:12:39,223 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 02:22:03,715 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 18564s (>120s). Reconnecting WS.
+2026-03-29 02:22:03,790 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 02:22:03,960 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-03-29 02:22:03,985 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-03-29 02:22:04,177 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-03-29 02:22:04,178 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-03-29 02:22:04,258 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-03-29 02:22:04,355 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-03-29 02:22:04,411 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-03-29 02:22:04,413 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-03-29 02:22:04,416 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: [Errno 11001] getaddrinfo failed
+2026-03-29 02:22:05,846 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 02:22:05,935 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 02:22:05,965 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 02:22:05,968 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 02:22:06,105 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 02:22:06,221 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 02:22:06,290 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 02:22:06,318 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 02:22:06,321 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 02:22:11,397 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 02:22:13,030 - SMBot_V2 - INFO - _finalize_index_bar:916 - [VAM LIVE] Skipping index bar from previous day: 2026-03-28 21:08:00+05:30
+2026-03-29 02:22:16,401 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:35:32,125 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 11599s (>120s). Reconnecting WS.
+2026-03-29 05:35:32,125 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:35:32,170 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 05:35:34,531 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:35:35,923 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:35:37,124 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-03-29 02:22:00+05:30
+2026-03-29 05:35:37,667 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 05:35:37,667 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 05:35:40,712 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:35:44,682 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:35:45,782 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:35:49,671 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:35:50,764 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:35:55,770 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:36:00,787 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:36:05,524 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-03-29 05:35:00+05:30
+2026-03-29 05:38:06,976 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 121s (>120s). Reconnecting WS.
+2026-03-29 05:38:06,977 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 05:38:08,982 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:38:11,087 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-03-29 05:36:00+05:30
+2026-03-29 05:38:32,774 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 05:38:32,774 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 05:38:39,778 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:38:44,779 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:40:50,725 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 124s (>120s). Reconnecting WS.
+2026-03-29 05:40:50,727 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 05:40:52,733 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:40:55,284 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-03-29 05:38:00+05:30
+2026-03-29 05:41:53,125 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 05:42:00,129 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:42:02,590 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-03-29 05:40:00+05:30
+2026-03-29 05:44:04,953 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 122s (>120s). Reconnecting WS.
+2026-03-29 05:44:04,955 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 05:44:06,961 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:44:09,063 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-03-29 05:42:00+05:30
+2026-03-29 05:45:13,203 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 05:45:20,207 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:45:24,677 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-03-29 05:44:00+05:30
+2026-03-29 05:46:04,697 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 05:46:11,704 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:46:13,776 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-03-29 05:45:00+05:30
+2026-03-29 05:48:18,755 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 125s (>120s). Reconnecting WS.
+2026-03-29 05:48:18,757 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 05:48:20,763 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:48:22,712 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-03-29 05:46:00+05:30
+2026-03-29 05:48:33,146 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 05:48:40,152 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:50:42,354 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 05:50:42,355 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 05:50:44,362 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:50:46,278 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-03-29 05:48:00+05:30
+2026-03-29 05:51:53,103 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 05:52:00,107 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:52:02,151 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-03-29 05:50:00+05:30
+2026-03-29 05:52:41,869 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 05:52:48,873 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:54:50,934 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 05:54:50,937 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 05:54:52,943 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:54:54,850 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-03-29 05:52:00+05:30
+2026-03-29 05:55:13,064 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 05:55:20,071 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:55:22,234 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-03-29 05:54:00+05:30
+2026-03-29 05:57:24,472 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 122s (>120s). Reconnecting WS.
+2026-03-29 05:57:24,475 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 05:57:26,483 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:57:28,472 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-03-29 05:55:00+05:30
+2026-03-29 05:58:33,153 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 05:58:33,153 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 05:58:40,160 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:58:42,585 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-03-29 05:57:00+05:30
+2026-03-29 05:58:45,161 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:59:24,863 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 05:59:31,868 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 05:59:34,486 - SMBot_V2 - INFO - _finalize_index_bar:920 - [VAM LIVE] Skipping index bar outside session: 2026-03-29 05:58:00+05:30
+2026-03-29 06:01:38,165 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 124s (>120s). Reconnecting WS.
+2026-03-29 06:01:38,167 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 06:01:38,171 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:01:40,173 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:01:53,138 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 06:01:58,142 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:02:00,145 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:03:40,194 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 06:03:40,196 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 06:03:40,200 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:03:42,204 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:05:42,222 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 06:05:42,222 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 06:05:42,226 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:05:44,229 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:07:44,244 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 06:07:44,245 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 06:07:44,249 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:07:46,251 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:14:36,312 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 06:14:36,316 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 06:14:36,323 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 06:14:36,323 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 06:14:36,323 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 06:14:36,323 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 06:14:36,323 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 06:14:36,324 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 06:14:36,325 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 06:14:36,325 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 06:14:36,325 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 06:14:36,326 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 06:14:36,326 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 06:14:36,326 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 06:14:36,326 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 06:14:36,326 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: Connection to remote host was lost.
+2026-03-29 06:14:36,339 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 410s (>120s). Reconnecting WS.
+2026-03-29 06:14:36,441 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 06:14:36,444 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:14:38,446 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:14:41,353 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:14:43,356 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:14:46,360 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:14:48,364 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:14:51,363 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:14:53,367 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:14:56,371 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:14:58,374 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:15:01,397 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:15:03,403 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:15:06,400 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:15:08,405 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:15:11,410 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:15:13,414 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:15:16,413 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:15:18,418 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:15:21,417 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:15:23,420 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:15:26,421 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:15:28,424 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:15:31,427 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:15:33,431 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:15:36,430 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:15:38,434 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:15:41,433 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:15:43,437 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:15:46,437 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:15:48,441 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:15:51,442 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:15:53,446 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:15:56,444 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:15:58,452 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:16:38,469 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 06:16:38,471 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 06:16:38,475 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:16:40,478 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:18:40,493 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 06:18:40,495 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 06:18:40,501 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:18:42,504 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:20:42,518 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 06:20:42,520 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 06:20:42,523 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:20:44,526 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:22:44,548 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 06:22:44,549 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 06:22:44,553 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:22:46,559 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:24:46,575 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 06:24:46,577 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 06:24:46,579 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:24:48,582 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:26:48,596 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 06:26:48,598 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 06:26:48,602 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:26:50,606 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:28:50,621 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 06:28:50,622 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 06:28:50,627 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:28:52,630 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:30:52,644 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 06:30:52,645 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 06:30:52,650 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:30:54,654 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:32:54,669 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 06:32:54,669 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 06:32:54,673 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:32:56,675 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:34:56,692 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 06:34:56,692 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 06:34:56,692 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:34:58,702 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:36:58,721 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 06:36:58,727 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 06:36:58,729 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:37:00,732 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:39:00,745 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 06:39:00,745 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 06:39:00,750 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:39:02,752 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:41:02,773 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 06:41:02,773 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 06:41:02,788 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:41:04,792 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:43:04,816 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 06:43:04,818 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 06:43:04,825 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:43:06,827 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:45:06,842 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 06:45:06,848 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 06:45:06,852 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:45:08,859 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:47:08,889 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 06:47:08,889 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 06:47:08,893 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:47:10,902 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:49:10,930 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 06:49:10,930 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 06:49:10,935 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:49:12,939 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:51:12,958 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 06:51:12,964 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 06:51:12,968 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:51:14,970 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:53:14,998 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 06:53:14,999 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 06:53:15,999 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:53:17,010 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:55:17,027 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 06:55:17,029 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 06:55:17,031 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:55:19,033 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:57:19,054 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 06:57:19,062 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 06:57:19,066 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:57:21,071 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 06:59:21,101 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 06:59:21,102 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 06:59:21,102 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 06:59:23,114 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 07:01:23,138 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 07:01:23,138 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 07:01:23,141 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 07:01:25,144 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 07:03:25,169 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 07:03:25,170 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 07:03:25,173 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 07:03:27,179 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 07:05:27,203 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 07:05:27,207 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 07:05:27,213 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 07:05:29,219 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 07:16:06,527 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 637s (>120s). Reconnecting WS.
+2026-03-29 07:16:06,548 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 07:16:06,566 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 07:16:08,581 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 07:18:08,617 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 07:18:08,617 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 07:18:08,623 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 07:18:10,629 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 07:19:39,303 - SMBot_V2 - INFO - start:1071 - KeyboardInterrupt received, stopping VAM engine.
+2026-03-29 07:19:39,309 - SMBot_V2 - INFO - main:78 - === SMBot Stopped ===
+2026-03-29 07:20:10,649 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 07:20:10,649 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 07:20:10,649 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 07:20:12,654 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 07:22:12,669 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 07:22:12,669 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 07:22:12,672 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 07:22:14,676 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 07:24:14,695 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 07:24:14,698 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 07:24:14,702 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 07:24:16,704 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 07:26:16,728 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 07:26:16,738 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 07:26:16,742 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 07:26:18,749 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 07:28:18,774 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 07:28:18,781 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 07:28:18,787 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 07:28:20,793 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 07:30:20,821 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 07:30:20,824 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 07:30:20,826 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 07:30:22,835 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 07:32:22,869 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 07:32:22,872 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 07:32:22,872 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 07:32:24,885 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 07:34:24,905 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 07:34:24,906 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 07:34:24,909 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 07:34:26,912 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 07:36:26,935 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 07:36:26,935 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 07:36:26,935 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 07:36:28,942 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 07:38:28,965 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 07:38:28,968 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 07:38:28,974 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 07:38:30,981 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 07:40:30,999 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 07:40:30,999 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 07:40:31,004 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 07:40:33,010 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 07:42:33,037 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 07:42:33,043 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 07:42:33,050 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 07:42:35,062 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 07:44:38,000 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 123s (>120s). Reconnecting WS.
+2026-03-29 07:44:38,000 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 07:44:38,006 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 07:44:40,009 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 07:46:40,032 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 07:46:40,040 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 07:46:40,043 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 07:46:42,053 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 07:48:42,098 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 07:48:42,099 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 07:48:42,109 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 07:48:44,114 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 07:50:44,140 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 07:50:44,143 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 07:50:44,149 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 07:50:46,159 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 07:53:29,217 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 163s (>120s). Reconnecting WS.
+2026-03-29 07:53:29,332 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 07:53:29,404 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 07:53:31,435 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 11:01:50,385 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 11299s (>120s). Reconnecting WS.
+2026-03-29 11:01:50,499 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 11:01:50,583 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 11:01:52,678 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 11:03:52,769 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 11:03:52,775 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 11:03:52,782 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 11:03:54,787 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 11:05:54,808 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 11:05:54,808 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 11:05:54,816 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 11:05:56,820 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 11:07:56,846 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 11:07:56,850 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 11:07:56,858 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 11:07:58,862 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 11:09:58,884 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 11:09:58,893 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 11:09:58,903 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 11:10:00,912 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 11:12:00,938 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 11:12:00,938 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 11:12:00,942 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 11:12:02,952 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 11:14:06,378 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 123s (>120s). Reconnecting WS.
+2026-03-29 11:14:06,385 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 11:14:06,392 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 11:14:08,395 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 11:16:08,425 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 11:16:08,428 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 11:16:08,435 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 11:16:10,442 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 11:18:10,467 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 11:18:10,467 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 11:18:10,472 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 11:18:12,477 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 11:20:12,509 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 11:20:12,509 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 11:20:12,509 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 11:20:14,524 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 11:22:14,548 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 11:22:14,548 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 11:22:14,553 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 11:22:16,562 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 11:24:16,611 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 11:24:16,617 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 11:24:16,623 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 11:24:18,633 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 11:26:18,670 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 11:26:18,672 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 11:26:18,676 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 11:26:20,684 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 11:28:20,716 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 11:28:20,716 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 11:28:20,722 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 11:28:22,726 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 11:30:22,748 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 11:30:22,756 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 11:30:22,761 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 11:30:24,769 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 11:32:33,194 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 128s (>120s). Reconnecting WS.
+2026-03-29 11:32:33,332 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 11:32:33,383 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 11:32:35,397 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 11:43:00,709 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 625s (>120s). Reconnecting WS.
+2026-03-29 11:43:00,731 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 11:43:00,793 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 11:43:02,884 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 11:45:02,928 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 11:45:02,928 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 11:45:02,935 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 11:45:04,942 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 11:57:36,682 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 752s (>120s). Reconnecting WS.
+2026-03-29 11:57:36,750 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 11:57:36,877 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 11:57:38,945 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 11:59:38,990 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 11:59:38,992 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 11:59:39,001 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 11:59:41,014 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 12:01:41,047 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 12:01:41,047 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 12:01:41,066 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 12:01:43,072 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 12:03:43,102 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 12:03:43,106 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 12:03:43,113 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 12:03:45,118 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 12:05:45,138 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 12:05:45,139 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 12:05:45,149 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 12:05:47,157 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 12:07:47,242 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 12:07:47,245 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 12:07:47,252 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 12:07:49,257 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 12:09:49,279 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 12:09:49,282 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 12:09:49,287 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 12:09:51,296 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 12:11:55,657 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 124s (>120s). Reconnecting WS.
+2026-03-29 12:11:55,659 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 12:11:55,671 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 12:11:57,677 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 12:13:57,697 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 12:13:57,711 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 12:13:57,720 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 12:13:59,730 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 12:15:59,766 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 12:15:59,769 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 12:15:59,774 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 12:16:01,777 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 12:18:01,798 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 12:18:01,803 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 12:18:01,809 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 12:18:03,815 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 12:20:29,598 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 146s (>120s). Reconnecting WS.
+2026-03-29 12:20:29,687 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 12:20:29,713 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 12:20:31,734 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 12:22:31,776 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 12:22:31,776 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 12:22:31,787 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 12:22:33,791 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 12:25:25,611 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 172s (>120s). Reconnecting WS.
+2026-03-29 12:25:25,674 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 12:25:25,761 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 12:25:27,800 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 12:27:27,868 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 12:27:27,868 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 12:27:27,872 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 12:27:29,881 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 12:29:29,908 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 12:29:29,914 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 12:29:29,923 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 12:29:31,934 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 12:33:13,718 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 222s (>120s). Reconnecting WS.
+2026-03-29 12:33:13,817 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 12:33:13,878 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 12:33:15,909 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 12:35:19,073 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 123s (>120s). Reconnecting WS.
+2026-03-29 12:35:19,081 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 12:35:19,086 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 12:35:21,092 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 12:37:21,126 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 12:37:21,129 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 12:37:21,135 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 12:37:23,141 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 12:39:23,169 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 12:39:23,172 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 12:39:23,186 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 12:39:25,198 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 12:41:25,219 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 12:41:25,224 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 12:41:25,224 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 12:41:27,236 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 12:45:09,471 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 222s (>120s). Reconnecting WS.
+2026-03-29 12:45:09,595 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 12:45:09,652 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 12:45:11,728 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 13:51:25,686 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 3974s (>120s). Reconnecting WS.
+2026-03-29 13:51:25,768 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 13:51:25,888 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 13:51:28,961 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 13:53:28,179 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 13:53:28,180 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 13:53:28,187 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 13:53:30,191 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 13:55:30,211 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 13:55:30,211 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 13:55:30,219 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 13:55:32,225 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 13:57:32,260 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 13:57:32,262 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 13:57:32,266 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 13:57:34,272 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 13:59:34,295 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 13:59:34,298 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 13:59:34,299 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 13:59:36,312 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 14:01:36,334 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 14:01:36,335 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 14:01:36,347 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 14:01:38,356 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 14:03:38,381 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 14:03:38,385 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 14:03:38,393 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 14:03:40,402 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 14:05:40,425 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 14:05:40,427 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 14:05:40,432 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 14:05:42,435 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 14:07:42,472 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 14:07:42,472 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 14:07:42,487 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 14:07:44,498 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 14:09:44,517 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 14:09:44,519 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 14:09:44,522 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 14:09:46,525 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 14:11:46,546 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 14:11:46,547 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 14:11:46,547 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 14:11:48,561 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 14:13:48,585 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 14:13:48,586 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 14:13:48,600 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 14:13:50,608 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 14:15:50,634 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 14:15:50,639 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 14:15:50,645 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 14:15:52,650 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 14:17:52,679 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 14:17:52,681 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 14:17:52,685 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 14:17:54,688 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 14:19:54,709 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 14:19:54,711 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 14:19:54,716 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 14:19:56,721 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 14:26:49,916 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 413s (>120s). Reconnecting WS.
+2026-03-29 14:26:50,062 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 14:26:50,158 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 14:26:52,192 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 14:59:38,392 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 1966s (>120s). Reconnecting WS.
+2026-03-29 14:59:38,495 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 14:59:38,708 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 14:59:40,817 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 15:01:40,875 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 15:01:40,878 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 15:01:40,883 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 15:01:42,887 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 15:03:42,910 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 15:03:42,910 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 15:03:42,919 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 15:03:44,923 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 15:05:44,951 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 15:05:44,959 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 15:05:44,960 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 15:05:46,972 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 15:08:14,909 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 148s (>120s). Reconnecting WS.
+2026-03-29 15:08:15,997 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 15:08:15,077 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 15:08:17,105 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 15:23:44,035 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 927s (>120s). Reconnecting WS.
+2026-03-29 15:23:44,081 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 15:23:44,193 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 15:23:46,280 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 15:25:46,337 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 15:25:46,337 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 15:25:46,342 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 15:25:48,348 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 15:27:48,373 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 15:27:48,373 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 15:27:48,377 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 15:27:50,384 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 15:29:50,409 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 15:29:50,410 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 15:29:50,416 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 15:29:52,420 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 15:32:59,825 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 187s (>120s). Reconnecting WS.
+2026-03-29 15:32:59,960 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 15:33:00,022 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 15:33:02,058 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 15:35:51,847 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 170s (>120s). Reconnecting WS.
+2026-03-29 15:35:51,889 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 15:35:51,959 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 15:35:54,013 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 15:37:54,032 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 15:37:54,032 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 15:37:54,034 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 15:37:56,039 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 15:39:56,076 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 15:39:56,077 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 15:39:56,078 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 15:39:58,083 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 15:41:58,101 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 15:41:58,101 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 15:41:58,108 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 15:42:00,110 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 15:44:00,135 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 15:44:00,135 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 15:44:00,142 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 15:44:02,145 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 15:46:02,170 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 15:46:02,172 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 15:46:02,176 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 15:46:04,178 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 15:48:04,198 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 15:48:04,198 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 15:48:04,209 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 15:48:06,212 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 15:50:06,234 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 15:50:06,234 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 15:50:06,241 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 15:50:08,243 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 15:52:08,261 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 15:52:08,267 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 15:52:08,271 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 15:52:10,274 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 15:54:10,291 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 15:54:10,292 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 15:54:10,295 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 15:54:12,296 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 15:56:12,316 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 15:56:12,323 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 15:56:12,328 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 15:56:14,331 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 15:58:14,349 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 15:58:14,355 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 15:58:14,358 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 15:58:16,361 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 16:00:16,377 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 16:00:16,383 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 16:00:16,387 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 16:00:18,391 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 16:02:18,411 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 16:02:18,416 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 16:02:18,422 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 16:02:20,428 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 16:04:20,451 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 16:04:20,458 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 16:04:20,459 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 16:04:22,467 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 16:06:22,536 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 16:06:22,538 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 16:06:22,541 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 16:06:24,546 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 16:08:24,564 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 16:08:24,570 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 16:08:24,576 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 16:08:26,580 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 16:10:26,606 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 16:10:26,607 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 16:10:26,616 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 16:10:28,621 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 16:12:28,642 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 16:12:28,648 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 16:12:28,652 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 16:12:30,658 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 16:14:30,681 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 16:14:30,683 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 16:14:30,685 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 16:14:32,687 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 16:16:32,703 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 16:16:32,704 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 16:16:32,707 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 16:16:34,711 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 16:18:34,730 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 16:18:34,735 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 16:18:34,738 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 16:18:36,743 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 16:20:36,761 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 16:20:36,768 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 16:20:36,774 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 16:20:38,776 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 16:22:38,794 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 16:22:38,796 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 16:22:38,799 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 16:22:40,801 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 16:24:40,818 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 16:24:40,822 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 16:24:40,826 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 16:24:42,830 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 16:26:42,852 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 16:26:42,857 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 16:26:42,861 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 16:26:44,866 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 17:00:59,056 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 2054s (>120s). Reconnecting WS.
+2026-03-29 17:00:59,173 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 17:00:59,262 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 17:01:01,334 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 17:06:43,224 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 342s (>120s). Reconnecting WS.
+2026-03-29 17:06:43,292 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 17:06:43,334 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 17:06:45,366 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 21:08:08,496 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 14483s (>120s). Reconnecting WS.
+2026-03-29 21:08:08,522 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 21:08:08,558 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 21:08:10,586 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 23:37:07,520 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 8937s (>120s). Reconnecting WS.
+2026-03-29 23:37:07,522 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 23:37:08,129 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 23:37:10,176 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 23:39:10,280 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 23:39:10,281 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 23:39:10,281 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 23:39:12,285 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 23:41:12,306 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 23:41:12,309 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 23:41:12,311 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 23:41:14,315 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 23:43:14,343 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 23:43:14,345 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 23:43:14,348 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 23:43:16,355 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 23:45:16,379 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 23:45:16,379 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 23:45:16,383 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 23:45:18,385 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 23:47:18,441 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 23:47:18,443 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 23:47:18,447 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 23:47:20,450 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 23:49:20,466 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 23:49:20,466 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 23:49:20,466 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 23:49:22,474 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 23:51:22,503 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 23:51:22,505 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 23:51:22,510 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 23:51:24,517 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 23:53:24,538 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 23:53:24,538 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 23:53:24,547 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 23:53:26,551 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 23:55:26,584 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 23:55:26,585 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 23:55:26,589 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 23:55:28,592 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 23:57:28,630 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 23:57:28,630 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 23:57:28,635 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 23:57:30,644 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-29 23:59:30,671 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-29 23:59:30,680 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-29 23:59:30,689 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-29 23:59:32,697 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 00:14:42,591 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 910s (>120s). Reconnecting WS.
+2026-03-30 00:14:42,718 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 00:14:42,834 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 00:14:44,895 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 04:14:42,588 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 14398s (>120s). Reconnecting WS.
+2026-03-30 04:14:42,708 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 04:14:42,841 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 04:14:45,077 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 06:14:48,820 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 7204s (>120s). Reconnecting WS.
+2026-03-30 06:14:48,938 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 06:14:49,213 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 06:14:51,312 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 06:16:51,441 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 06:16:51,441 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 06:16:51,447 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 06:16:53,450 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 06:18:53,475 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 06:18:53,476 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 06:18:53,476 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 06:18:55,480 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 06:20:55,503 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 06:20:55,503 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 06:20:55,509 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 06:20:57,516 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 06:22:57,538 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 06:22:57,541 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 06:22:57,547 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 06:22:59,551 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 06:24:59,581 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 06:24:59,590 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 06:24:59,602 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 06:25:01,610 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 06:27:01,635 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 06:27:01,635 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 06:27:01,643 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 06:27:03,652 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 06:29:03,681 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 06:29:03,681 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 06:29:03,685 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 06:29:05,688 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 06:31:05,719 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 06:31:05,719 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 06:31:05,726 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 06:31:07,729 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 06:33:07,754 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 06:33:07,756 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 06:33:07,760 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 06:33:09,767 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 06:35:09,793 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 06:35:09,793 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 06:35:09,799 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 06:35:11,808 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 06:37:11,825 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 06:37:11,825 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 06:37:11,827 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 06:37:13,837 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 06:39:13,863 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 06:39:13,863 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 06:39:13,865 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 06:39:15,871 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 06:41:15,899 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 06:41:15,899 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 06:41:15,906 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 06:41:17,913 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 06:43:17,940 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 06:43:17,957 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 06:43:17,965 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 06:43:19,971 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 06:45:20,003 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 06:45:20,003 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 06:45:20,013 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 06:45:22,019 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 06:49:48,037 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 266s (>120s). Reconnecting WS.
+2026-03-30 06:49:48,132 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 06:49:48,183 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 06:49:50,214 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 10:15:47,707 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 12357s (>120s). Reconnecting WS.
+2026-03-30 10:15:47,812 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 10:15:47,873 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 10:15:50,033 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 10:17:50,255 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 10:17:50,257 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 10:17:50,260 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 10:17:52,270 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 10:19:52,299 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 10:19:52,309 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 10:19:52,316 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 10:19:54,320 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 10:21:54,359 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 10:21:54,359 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 10:21:54,369 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 10:21:56,378 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 10:23:56,403 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 10:23:56,403 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 10:23:56,411 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 10:23:58,415 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 10:25:58,441 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 10:25:58,444 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 10:25:58,447 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 10:26:00,460 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 10:28:16,820 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 136s (>120s). Reconnecting WS.
+2026-03-30 10:28:16,906 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 10:28:16,953 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 10:28:18,987 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 12:02:05,810 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 5627s (>120s). Reconnecting WS.
+2026-03-30 12:02:05,877 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 12:02:05,939 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 12:02:08,025 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 13:10:25,645 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 4098s (>120s). Reconnecting WS.
+2026-03-30 13:10:25,700 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 13:10:25,764 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 13:10:27,804 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 13:12:27,835 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 13:12:27,835 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 13:12:27,842 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 13:12:29,847 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 13:14:29,870 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 13:14:29,872 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 13:14:29,872 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 13:14:31,881 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 13:16:31,908 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 13:16:31,910 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 13:16:31,918 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 13:16:33,924 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 13:18:33,981 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 13:18:33,981 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 13:18:33,985 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 13:18:35,995 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 13:20:36,020 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 13:20:36,020 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 13:20:36,023 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 13:20:38,029 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 13:22:38,058 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 13:22:38,061 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 13:22:38,065 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 13:22:40,073 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 13:24:40,098 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 13:24:40,100 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 13:24:40,108 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 13:24:42,114 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 13:26:42,136 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 13:26:42,140 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 13:26:42,145 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 13:26:44,151 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 13:28:44,187 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-30 13:28:44,193 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 13:28:44,202 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 13:28:46,206 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 13:36:09,551 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 443s (>120s). Reconnecting WS.
+2026-03-30 13:36:09,641 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 13:36:09,711 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 13:36:11,751 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-30 17:20:34,925 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 13463s (>120s). Reconnecting WS.
+2026-03-30 17:20:35,013 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-30 17:20:35,085 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-30 17:20:37,172 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 21:22:47,298 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 100930s (>120s). Reconnecting WS.
+2026-03-31 21:22:47,398 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 21:22:47,900 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 21:22:49,933 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 21:24:49,988 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 21:24:49,991 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 21:24:50,002 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 21:24:52,004 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 21:26:52,039 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 21:26:52,041 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 21:26:52,044 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 21:26:54,047 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 21:28:54,060 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 21:28:54,061 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 21:28:54,067 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 21:28:56,069 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 21:30:56,088 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 21:30:56,088 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 21:30:56,094 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 21:30:58,095 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 21:32:58,115 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 21:32:58,122 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 21:32:58,123 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 21:33:00,132 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 21:35:00,151 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 21:35:00,154 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 21:35:00,158 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 21:35:02,160 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 21:37:02,180 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 21:37:02,181 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 21:37:02,185 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 21:37:04,187 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 21:39:04,206 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 21:39:04,207 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 21:39:04,209 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 21:39:06,214 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 21:41:06,230 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 21:41:06,231 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 21:41:06,234 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 21:41:08,237 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 21:43:08,258 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 21:43:08,263 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 21:43:08,266 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 21:43:10,267 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 21:45:10,287 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 21:45:10,287 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 21:45:10,291 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 21:45:12,293 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 21:47:12,310 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 21:47:12,311 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 21:47:12,313 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 21:47:14,317 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 21:49:14,340 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 21:49:14,341 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 21:49:14,342 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 21:49:16,348 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 21:51:16,382 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 21:51:16,385 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 21:51:16,388 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 21:51:18,391 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 21:53:18,409 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 21:53:18,409 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 21:53:18,417 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 21:53:20,420 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 21:55:20,439 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 21:55:20,441 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 21:55:20,445 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 21:55:22,448 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 21:57:22,469 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 21:57:22,469 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 21:57:22,472 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 21:57:24,479 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 21:59:24,500 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 21:59:24,503 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 21:59:24,508 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 21:59:26,511 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 22:01:26,533 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 22:01:26,533 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 22:01:26,538 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 22:01:28,541 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 22:03:28,557 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 22:03:28,559 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 22:03:28,559 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 22:03:30,568 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 22:05:30,590 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 22:05:30,596 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 22:05:30,601 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 22:05:32,609 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 22:07:32,627 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 22:07:32,627 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 22:07:32,634 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 22:07:34,638 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 22:09:34,668 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 22:09:34,679 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 22:09:34,686 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 22:09:36,689 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 22:11:36,710 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 22:11:36,710 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 22:11:36,718 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 22:11:38,724 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 22:13:38,745 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 22:13:38,750 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 22:13:38,759 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 22:13:40,766 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 22:15:40,822 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 22:15:40,822 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 22:15:40,824 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 22:15:42,827 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 22:17:42,852 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 22:17:42,852 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 22:17:42,861 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 22:17:44,866 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 22:19:44,887 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 22:19:44,891 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 22:19:44,899 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 22:19:46,906 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-03-31 22:21:46,926 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-03-31 22:21:46,930 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-03-31 22:21:46,936 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-03-31 23:15:27,043 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-04-01 04:36:56,499 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 19289s (>120s). Reconnecting WS.
+2026-04-01 04:36:56,673 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-04-01 04:36:56,880 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-04-01 04:36:59,073 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-04-01 06:08:45,552 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 5506s (>120s). Reconnecting WS.
+2026-04-01 06:08:45,552 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-04-01 06:08:46,306 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-04-01 06:08:48,391 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-04-01 06:10:48,474 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-04-01 06:10:48,474 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-04-01 06:10:48,481 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-04-01 06:10:50,486 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-04-01 06:12:50,505 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-04-01 06:12:50,507 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-04-01 06:12:50,509 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-04-01 06:12:52,517 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-04-01 06:14:52,538 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-04-01 06:14:52,538 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-04-01 06:14:52,549 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-04-01 06:14:54,559 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-04-01 06:16:54,586 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-04-01 06:16:54,586 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-04-01 06:16:54,592 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-04-01 06:49:37,670 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-04-01 06:51:37,828 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-04-01 06:51:37,829 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-04-01 06:51:37,835 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-04-01 06:51:39,839 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-04-01 06:53:39,861 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-04-01 06:53:39,861 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-04-01 06:53:39,870 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-04-01 06:53:41,875 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-04-01 07:29:02,183 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 2120s (>120s). Reconnecting WS.
+2026-04-01 07:29:02,357 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-04-01 07:29:02,466 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-04-01 07:29:04,556 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-04-01 09:50:23,839 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 8479s (>120s). Reconnecting WS.
+2026-04-01 09:50:23,894 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-04-01 09:50:23,970 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-04-01 09:50:26,069 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-04-01 09:52:26,133 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-04-01 09:52:26,134 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-04-01 09:52:26,140 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-04-01 09:52:28,143 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-04-01 09:54:28,168 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-04-01 09:54:28,173 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-04-01 09:54:28,175 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-04-01 09:54:30,182 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-04-01 09:56:30,221 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-04-01 09:56:30,224 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-04-01 09:56:30,228 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-04-01 09:56:32,257 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-04-01 09:58:32,279 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-04-01 09:58:32,284 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-04-01 09:58:32,287 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-04-01 09:58:34,292 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-04-01 10:00:34,314 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-04-01 10:00:34,322 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-04-01 10:00:34,322 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-04-01 10:00:36,336 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-04-01 10:02:36,369 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-04-01 10:02:36,369 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-04-01 10:02:36,373 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-04-01 10:02:38,380 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-04-01 10:06:22,930 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 225s (>120s). Reconnecting WS.
+2026-04-01 10:06:23,013 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-04-01 10:06:23,055 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-04-01 10:06:25,134 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-04-01 10:08:25,184 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-04-01 10:08:25,185 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-04-01 10:08:25,197 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-04-01 10:08:27,202 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-04-01 10:10:27,225 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-04-01 10:10:27,227 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-04-01 10:10:27,227 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-04-01 10:54:26,749 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-04-01 11:49:36,342 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 3309s (>120s). Reconnecting WS.
+2026-04-01 11:49:36,434 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-04-01 11:49:36,575 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-04-01 11:49:38,637 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-04-01 15:56:29,119 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 14810s (>120s). Reconnecting WS.
+2026-04-01 15:56:29,264 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-04-01 15:56:29,401 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-04-01 15:56:31,526 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-04-04 23:10:16,232 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 285225s (>120s). Reconnecting WS.
+2026-04-04 23:10:16,324 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-04-04 23:10:16,703 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-04-04 23:10:18,794 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-04-04 23:12:19,124 - SMBot_V2 - WARNING - _heartbeat_loop:1028 - [VAM LIVE] No ticks for 120s (>120s). Reconnecting WS.
+2026-04-04 23:12:19,168 - SMBot_V2 - INFO - _create_and_connect_ws:1048 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-04-04 23:12:19,264 - SMBot_V2 - ERROR - _on_error:844 - [VAM LIVE] WS error: {'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+2026-04-04 23:12:21,279 - SMBot_V2 - INFO - _on_open:836 - [VAM LIVE] WS connected — subscribing to index symbol

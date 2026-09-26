@@ -1,0 +1,1 @@
+2026-08-30 22:16:30,517 - SMBot_V2 - INFO - __init__:152 - Weekly expiry code 26901 | HEIKIN ASHI signals (daily reset) | C1/C2/C3 pattern: declining/rising closes OR body<0.5xC2, 5min bars | swing=off | C2_doji_filter=True (max_body/range=12%) | SL=-10.0% TP=+30.0% | live_exit=dry-run sim | direction-alternating (resets daily) | no flip_exit | DRY_RUN=True

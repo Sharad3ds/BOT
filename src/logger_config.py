@@ -34,7 +34,9 @@ class Logger:
         os.makedirs('logs', exist_ok=True)
         
         # File handler with rotation
-        log_file = f'logs/smbot_{datetime.now().strftime("%Y%m%d")}.log'
+        # BOT_NAME env var lets each bot write its own log file (poll / live / hybrid)
+        bot_name = os.getenv('BOT_NAME', 'smbot')
+        log_file = f'logs/{bot_name}_{datetime.now().strftime("%Y%m%d")}.log'
         file_handler = logging.handlers.RotatingFileHandler(
             log_file, maxBytes=10*1024*1024, backupCount=5
         )

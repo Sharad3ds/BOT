@@ -1,0 +1,103 @@
+2026-06-24 20:31:48,637 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-06-24 20:31:49,005 - SMBot_V2 - INFO - GenerateTOTPToken:179 - send_login_otp success
+2026-06-24 20:31:49,007 - SMBot_V2 - INFO - GenerateTOTPToken:186 - Generated TOTP: 184779
+2026-06-24 20:31:49,109 - SMBot_V2 - INFO - GenerateTOTPToken:195 - verify_totp success
+2026-06-24 20:31:49,522 - SMBot_V2 - INFO - GenerateTOTPToken:203 - verify_pin success
+2026-06-24 20:31:50,433 - SMBot_V2 - INFO - GenerateTOTPToken:216 - token success
+2026-06-24 20:31:50,633 - SMBot_V2 - INFO - GenerateTOTPToken:227 - validate_authcode success
+2026-06-24 20:31:50,647 - SMBot_V2 - INFO - GenerateTOTPToken:234 - Final access_token: 2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcU9fRmR5WHRhSTBUX0hPLWJ1N0Z1SFo4c3Q0QjhjMnNETWxqaERJczlqZXRDNUpOaGtFN2lTQXhWS3JwTjc5OHlPSkxVaGlLSUR4bVpUOG5HUXczSm0tb1lTTjlSc2cxVC1wQWd0Vy10U3Q0cnBKUT0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiI4ZTFjZGRhYmU2ZjYwZDIzNzM5M2I4N2ZkOWIwOGZjYzZmMTQzMzBkODhlMDQyMzcwNTU4ZmU5NSIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoyMDAsImV4cCI6MTc4MjM0NzQwMCwiaWF0IjoxNzgyMzEzMzA5LCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3ODIzMTMzMDksInN1YiI6ImFjY2Vzc190b2tlbiJ9.dVhr07zisLTsI-p6T_MhhJmDvBBCRiECNcRj4xq2XDA
+2026-06-24 20:31:50,647 - SMBot_V2 - INFO - GenerateTOTPToken:238 - AppId saved -> fyers_appid.txt
+2026-06-24 20:31:50,647 - SMBot_V2 - INFO - GenerateTOTPToken:242 - Token saved -> fyers_token.txt
+2026-06-24 20:31:50,647 - SMBot_V2 - INFO - GenerateTOTPToken:244 - Generated on: 24-06-2026 20:31:48
+2026-06-24 21:28:35,767 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-06-24 21:28:35,771 - SMBot_V2 - INFO - main:57 - === VAM Polling Bot Starting ===
+2026-06-24 21:28:35,774 - SMBot_V2 - INFO - main:60 - Generating TOTP Token...
+2026-06-24 21:28:36,123 - SMBot_V2 - INFO - GenerateTOTPToken:179 - send_login_otp success
+2026-06-24 21:28:36,124 - SMBot_V2 - INFO - GenerateTOTPToken:186 - Generated TOTP: 661626
+2026-06-24 21:28:36,217 - SMBot_V2 - INFO - GenerateTOTPToken:195 - verify_totp success
+2026-06-24 21:28:36,624 - SMBot_V2 - INFO - GenerateTOTPToken:203 - verify_pin success
+2026-06-24 21:28:36,832 - SMBot_V2 - INFO - GenerateTOTPToken:216 - token success
+2026-06-24 21:28:37,038 - SMBot_V2 - INFO - GenerateTOTPToken:227 - validate_authcode success
+2026-06-24 21:28:37,039 - SMBot_V2 - INFO - GenerateTOTPToken:234 - Final access_token: 2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcU9fNnNzcGFEdlV0eVZmUjVWS3JYcE9Ba0ZPLUg3ZmhMRGRydldfUGpkby04LXhtcV9IRm1DSUJ5dXViUDZlRVlfN2NxRW82ZlhBVjg2bVhjVTRPdExQWEZzaG1ISDU4VkxPOHFJT1c0VnZWRE9nTT0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiI3NzMwNDdjM2VlNThkNWE3ZDFjZjI1ZmNhZjFmYTU1MmM1Zjk3OTk4NTBmOTAzZmIxYTEzZTA2OCIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoyMDAsImV4cCI6MTc4MjM0NzQwMCwiaWF0IjoxNzgyMzE2NzE2LCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3ODIzMTY3MTYsInN1YiI6ImFjY2Vzc190b2tlbiJ9.7mDcRJVuQPMAf6flvJa4Q9xPrzHZdgI1SPY0xq5XGHE
+2026-06-24 21:28:37,039 - SMBot_V2 - INFO - GenerateTOTPToken:238 - AppId saved -> fyers_appid.txt
+2026-06-24 21:28:37,039 - SMBot_V2 - INFO - GenerateTOTPToken:242 - Token saved -> fyers_token.txt
+2026-06-24 21:28:37,045 - SMBot_V2 - INFO - GenerateTOTPToken:244 - Generated on: 24-06-2026 21:28:35
+2026-06-24 21:28:37,075 - SMBot_V2 - INFO - __init__:186 - FyersHTTP init | app_id=2NWM6G5K7Y-200 | auth=2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5c...
+2026-06-24 21:28:37,349 - SMBot_V2 - INFO - restore_state_on_startup:500 - [OM] Checking for existing position on startup...
+2026-06-24 21:28:37,445 - SMBot_V2 - INFO - _restore_state_from_broker:467 - [OM] Live positions on startup: {'code': 200, 'message': '', 's': 'ok', 'netPositions': [], 'overall': {'count_open': 0, 'count_total': 0, 'pl_realized': 0, 'pl_total': 0, 'pl_unrealized': 0}}
+2026-06-24 21:28:37,449 - SMBot_V2 - INFO - _restore_state_from_broker:493 - [OM] No open positions at broker. Starting fresh.
+2026-06-24 21:28:37,449 - SMBot_V2 - WARNING - __init__:970 - [POLL] *** DRY-RUN MODE ENABLED — no real orders will be placed ***
+2026-06-24 21:28:37,449 - SMBot_V2 - INFO - __init__:973 - [POLL] Engine ready. Interval=5s, TF=10S, HTF=15min, SL=20.0% TP=15.0%
+2026-06-24 21:28:37,449 - SMBot_V2 - INFO - stop_watcher:45 - Stop watcher started — will stop at 15:25 IST
+2026-06-24 21:28:37,462 - SMBot_V2 - INFO - main:81 - Starting VAMPollingEngine...
+2026-06-24 21:28:37,465 - SMBot_V2 - INFO - start:1477 - [POLL] Starting VAM 10S Polling Engine (interval=5s)
+2026-06-24 21:28:37,466 - SMBot_V2 - INFO - _poll_once:1244 - [POLL] Outside session (21:28:37 IST), next check in 5s.
+2026-06-24 21:28:42,468 - SMBot_V2 - INFO - _poll_once:1244 - [POLL] Outside session (21:28:42 IST), next check in 5s.
+2026-06-24 21:28:47,471 - SMBot_V2 - INFO - _poll_once:1244 - [POLL] Outside session (21:28:47 IST), next check in 5s.
+2026-06-24 21:28:52,466 - SMBot_V2 - INFO - _poll_once:1244 - [POLL] Outside session (21:28:52 IST), next check in 5s.
+2026-06-24 21:28:57,470 - SMBot_V2 - INFO - _poll_once:1244 - [POLL] Outside session (21:28:57 IST), next check in 5s.
+2026-06-24 21:29:02,479 - SMBot_V2 - INFO - _poll_once:1244 - [POLL] Outside session (21:29:02 IST), next check in 5s.
+2026-06-24 21:29:07,459 - SMBot_V2 - INFO - stop_watcher:49 - 15:25 IST reached — running EOD cleanup and stopping
+2026-06-24 21:29:07,459 - SMBot_V2 - INFO - _shutdown:1500 - [POLL] Shutdown: resolving open trades and exporting Excel.
+2026-06-24 21:29:07,462 - SMBot_V2 - INFO - resolve_open_trade_at_eod:738 - [TL] No open trade to resolve at EOD.
+2026-06-24 21:29:07,462 - SMBot_V2 - INFO - export_to_excel:769 - [TL] No trades today — nothing to export.
+2026-06-24 21:29:07,465 - SMBot_V2 - INFO - _shutdown:1505 - [POLL] Shutdown complete.
+2026-06-24 22:03:11,547 - SMBot_V2 - INFO - main:56 - === VAM Live (WebSocket) Bot Starting ===
+2026-06-24 22:03:11,549 - SMBot_V2 - INFO - _init_fyers:305 - Fyers V3 API initialized for VAMLiveBot
+2026-06-24 22:03:11,549 - SMBot_V2 - INFO - __init__:294 - VAMLiveBot initialized.
+2026-06-24 22:03:12,967 - SMBot_V2 - INFO - get_index_data:345 - Loaded NIFTY50 index data: 53280 rows in session
+2026-06-24 22:03:12,967 - SMBot_V2 - INFO - restore_state_on_startup:609 - [VAM OM] Checking for existing position on startup...
+2026-06-24 22:03:13,070 - SMBot_V2 - INFO - _restore_state_from_broker:577 - [VAM OM] Live positions on startup: {'code': 200, 'message': '', 's': 'ok', 'netPositions': [], 'overall': {'count_open': 0, 'count_total': 0, 'pl_realized': 0, 'pl_total': 0, 'pl_unrealized': 0}}
+2026-06-24 22:03:13,070 - SMBot_V2 - INFO - _restore_state_from_broker:603 - [VAM OM] No open positions at broker. Starting fresh.
+2026-06-24 22:03:13,074 - SMBot_V2 - INFO - stop_watcher:42 - [runBotLive] Stop watcher started — will stop at 15:25 IST
+2026-06-24 22:03:13,083 - SMBot_V2 - INFO - main:73 - [runBotLive] Starting VAMLiveEngine...
+2026-06-24 22:03:13,084 - SMBot_V2 - INFO - start:1375 - Starting VAM live engine with pivot wait + EOD exit.
+2026-06-24 22:03:13,084 - SMBot_V2 - INFO - _create_and_connect_ws:1275 - [VAM LIVE] Closing 0 existing WS socket(s).
+2026-06-24 22:03:15,087 - SMBot_V2 - INFO - _create_and_connect_ws:1284 - [VAM LIVE] Creating new FyersDataSocket...
+2026-06-24 22:03:15,408 - SMBot_V2 - INFO - _on_message:960 - [VAM LIVE] RAW WS MSG (once): {'type': 'cn', 'code': 200, 'message': 'Authentication done', 's': 'ok'}
+2026-06-24 22:03:17,093 - SMBot_V2 - INFO - _on_open:947 - [VAM LIVE] WS connected — subscribing
+2026-06-24 22:03:18,095 - SMBot_V2 - INFO - start:1381 - [VAM LIVE] Threads started (API refresh every 300s).
+2026-06-24 22:03:43,077 - SMBot_V2 - INFO - stop_watcher:46 - [runBotLive] 15:25 IST reached — stopping WebSocket engine
+2026-06-24 22:03:43,077 - SMBot_V2 - INFO - stop:1363 - [VAM LIVE] stop() — EOD cleanup...
+2026-06-24 22:03:43,077 - SMBot_V2 - ERROR - stop:1368 - [VAM LIVE] WS close error: 'FyersDataSocket' object has no attribute 'close'
+2026-06-24 22:03:43,080 - SMBot_V2 - INFO - resolve_open_trade_at_eod:770 - [TRADE LOG] No open trade to resolve at EOD.
+2026-06-24 22:03:43,080 - SMBot_V2 - INFO - export_to_excel:800 - [TRADE LOG] No trades — nothing to export.
+2026-06-24 22:03:43,082 - SMBot_V2 - INFO - stop:1372 - [VAM LIVE] EOD cleanup complete.
+2026-06-24 22:07:28,231 - SMBot_V2 - INFO - main:56 - === VAM Live (WebSocket) Bot Starting ===
+2026-06-24 22:07:28,231 - SMBot_V2 - INFO - _init_fyers:308 - Fyers V3 API initialized for VAMLiveBot
+2026-06-24 22:07:28,234 - SMBot_V2 - INFO - __init__:297 - VAMLiveBot initialized.
+2026-06-24 22:07:29,884 - SMBot_V2 - INFO - get_index_data:348 - Loaded NIFTY50 index data: 53280 rows in session
+2026-06-24 22:07:29,884 - SMBot_V2 - WARNING - __init__:511 - [VAM OM] *** DRY-RUN MODE ENABLED — no real orders will be placed ***
+2026-06-24 22:07:29,884 - SMBot_V2 - INFO - restore_state_on_startup:614 - [VAM OM] Checking for existing position on startup...
+2026-06-24 22:07:29,981 - SMBot_V2 - INFO - _restore_state_from_broker:582 - [VAM OM] Live positions on startup: {'code': 200, 'message': '', 's': 'ok', 'netPositions': [], 'overall': {'count_open': 0, 'count_total': 0, 'pl_realized': 0, 'pl_total': 0, 'pl_unrealized': 0}}
+2026-06-24 22:07:29,982 - SMBot_V2 - INFO - _restore_state_from_broker:608 - [VAM OM] No open positions at broker. Starting fresh.
+2026-06-24 22:07:29,984 - SMBot_V2 - INFO - stop_watcher:42 - [runBotLive] Stop watcher started — will stop at 15:25 IST
+2026-06-24 22:07:29,992 - SMBot_V2 - INFO - main:73 - [runBotLive] Starting VAMLiveEngine...
+2026-06-24 22:07:29,992 - SMBot_V2 - INFO - start:1401 - [VAM LIVE] Starting engine with pivot wait + EOD exit.
+2026-06-24 22:07:29,992 - SMBot_V2 - INFO - _create_and_connect_ws:1301 - [VAM LIVE] Closing 0 existing WS socket(s).
+2026-06-24 22:07:31,996 - SMBot_V2 - INFO - _create_and_connect_ws:1310 - [VAM LIVE] Creating new FyersDataSocket...
+2026-06-24 22:07:32,362 - SMBot_V2 - INFO - _on_message:986 - [VAM LIVE] RAW WS MSG (once): {'type': 'cn', 'code': 200, 'message': 'Authentication done', 's': 'ok'}
+2026-06-24 22:07:33,000 - SMBot_V2 - INFO - _on_open:973 - [VAM LIVE] WS connected — subscribing
+2026-06-24 22:07:34,995 - SMBot_V2 - INFO - start:1407 - [VAM LIVE] Threads started (API refresh every 300s).
+2026-06-24 22:07:59,986 - SMBot_V2 - INFO - stop_watcher:46 - [runBotLive] 15:25 IST reached — stopping WebSocket engine
+2026-06-24 22:07:59,986 - SMBot_V2 - INFO - stop:1423 - [VAM LIVE] stop() called — closing WebSocket connections.
+2026-06-24 22:23:11,197 - SMBot_V2 - INFO - main:49 - === VAM Hybrid Bot Starting ===
+2026-06-24 22:23:11,197 - SMBot_V2 - INFO - main:50 - [runBotHybrid] Assumes token already generated by runBot.py
+2026-06-24 22:23:11,204 - SMBot_V2 - INFO - __init__:188 - [HYBRID] FyersHTTP init | app_id=2NWM6G5K7Y-200 | auth=2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5c...
+2026-06-24 22:23:11,622 - SMBot_V2 - INFO - _seed_from_api:417 - [HTF] Seeding 15-min bar history from API...
+2026-06-24 22:23:11,845 - SMBot_V2 - INFO - _seed_from_api:465 - [HTF] Seed complete: 125 completed 15-min bars, trend=down
+2026-06-24 22:23:11,845 - SMBot_V2 - INFO - start:626 - [HTF] WebSocket thread started.
+2026-06-24 22:23:11,849 - SMBot_V2 - WARNING - __init__:650 - [OM] *** DRY-RUN MODE ENABLED — no real orders will be placed ***
+2026-06-24 22:23:11,849 - SMBot_V2 - INFO - restore_state_on_startup:747 - [OM] Checking for existing position on startup...
+2026-06-24 22:23:11,908 - SMBot_V2 - INFO - _restore_state_from_broker:717 - [OM] Live positions on startup: {'code': 200, 'message': '', 's': 'ok', 'netPositions': [], 'overall': {'count_open': 0, 'count_total': 0, 'pl_realized': 0, 'pl_total': 0, 'pl_unrealized': 0}}
+2026-06-24 22:23:11,908 - SMBot_V2 - INFO - _restore_state_from_broker:741 - [OM] No open positions at broker. Starting fresh.
+2026-06-24 22:23:11,911 - SMBot_V2 - WARNING - __init__:1134 - [HYBRID] *** DRY-RUN MODE — no real orders will be placed ***
+2026-06-24 22:23:11,912 - SMBot_V2 - INFO - __init__:1135 - [HYBRID] Engine ready. Interval=5s, TF=10S, HTF=15min (WebSocket), SL=20.0% TP=25.0%
+2026-06-24 22:23:11,914 - SMBot_V2 - INFO - stop_watcher:35 - [runBotHybrid] Stop watcher started — will stop at 15:25 IST
+2026-06-24 22:23:11,918 - SMBot_V2 - INFO - main:67 - [runBotHybrid] Starting VAMHybridEngine...
+2026-06-24 22:23:11,918 - SMBot_V2 - INFO - start:1537 - [HYBRID] Starting VAM Hybrid Engine (poll=5s, HTF via WebSocket)
+2026-06-24 22:23:41,915 - SMBot_V2 - INFO - stop_watcher:39 - [runBotHybrid] 15:25 IST reached — stopping hybrid engine
+2026-06-24 22:23:41,915 - SMBot_V2 - INFO - _shutdown:1558 - [HYBRID] Shutdown: stopping WebSocket and exporting trades.
+2026-06-24 22:23:41,917 - SMBot_V2 - INFO - resolve_open_trade_at_eod:935 - [TL] No open trade to resolve at EOD.
+2026-06-24 22:23:41,917 - SMBot_V2 - INFO - export_to_excel:965 - [TL] No trades today — nothing to export.
+2026-06-24 22:23:41,917 - SMBot_V2 - INFO - _shutdown:1564 - [HYBRID] Shutdown complete.

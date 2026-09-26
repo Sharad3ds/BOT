@@ -8,8 +8,8 @@ def test_live_app():
     # Replace with your actual Render URL
     # Your app URL will be: https://your-app-name.onrender.com
     # Check your Render dashboard for the exact URL
-    # base_url = "https://smbot-v2.onrender.com"  # Replace with your actual URL
-    base_url = "http://localhost:5000"
+    base_url = "https://smbot-v2.onrender.com"  # Replace with your actual URL
+    #base_url = "http://127.0.0.1:5000"
     print("=== Testing Live Render App ===")
     print(f"Base URL: {base_url}")
     
@@ -26,7 +26,7 @@ def test_live_app():
     # Test 2: Start schedule
     print("\n2. Starting schedule...")
     try:
-        response = requests.post(f"{base_url}/schedule", timeout=10)
+        response = requests.post(f"{base_url}/schedule", timeout=50)
         print(f"Status: {response.status_code}")
         print(f"Response: {json.dumps(response.json(), indent=2)}")
     except Exception as e:

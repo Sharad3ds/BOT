@@ -1,65 +1,69 @@
 import json
 import requests
+import urllib3
 import pyotp
-import sys
 import hashlib
-import time
 from datetime import datetime
 from urllib import parse
 from logger_config import get_logger
 
-logger = get_logger()
-# Client Info (ENTER YOUR OWN INFO HERE!! Data varies from users and app types)
-FY_ID = "FAD11910"  # Your fyers ID
-APP_ID_TYPE = "2"   # Keep default as 2, It denotes web login
-TOTP_KEY = "FRBD7YQKTA6QSTFH276PS6BSIJ2TJR6R"  # TOTP secret
-PIN = "8866"        # User pin for fyers account
-APP_ID = "G0KMDMEH4T"  # App ID from myapi dashboard
-Secret_ID = "91AXVYV32M"
-REDIRECT_URI = "https://www.google.com"  # Redirect url from the app
+# Disable SSL warnings (SSL verification disabled due to local CA chain issue)
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-# FY_ID = os.environ.get("FY_ID", "FAD11910")
-# APP_ID_TYPE = "2"
-# TOTP_KEY = os.environ.get("TOTP_KEY", "")
-# PIN = os.environ.get("PIN", "")
-# APP_ID = os.environ.get("APP_ID", "")
-# Secret_ID = os.environ.get("SECRET_ID", "")
-# REDIRECT_URI = os.environ.get("REDIRECT_URI", "https://www.google.com")
+logger = get_logger()
+
+# ── CLIENT INFO ─────────────────────────────────────
+FY_ID        = "FAD11910"                               # Your fyers ID
+APP_ID_TYPE  = "2"                                      # Keep default as 2
+TOTP_KEY     = "PKQ36PCDIDG7D6DBWPD723WG2HRTRGGR"      # TOTP secret
+PIN          = "1288"                                   # User pin for fyers account
+APP_ID       = "2NWM6G5K7Y"                             # App ID from myapi dashboard
+Secret_ID    = "UIN2uCF0UYogoTOU"                       # Secret ID
+REDIRECT_URI = "https://fyers.in"                       # Redirect url from the app
+APP_TYPE     = "200"                                    # App type
+# ────────────────────────────────────────────────────
 
 # Initialize datetime at start
 dt1 = datetime.now()
 
-APP_TYPE = "100"
 APP_ID_colon_Secret_ID = f"{APP_ID}-{APP_TYPE}:{Secret_ID}"
 APP_ID_HASH = hashlib.sha256(APP_ID_colon_Secret_ID.encode('utf-8')).hexdigest()
 logger.info(f"APP_ID_HASH: {APP_ID_HASH}")
 
 # API endpoints
-BASE_URL = "https://api-t2.fyers.in/vagator/v2"
-BASE_URL_2 = "https://api-t1.fyers.in/api/v3"
-URL_SEND_LOGIN_OTP = BASE_URL + "/send_login_otp"
-URL_VERIFY_TOTP = BASE_URL + "/verify_otp"
-URL_VERIFY_PIN = BASE_URL + "/verify_pin"
-URL_TOKEN = BASE_URL_2 + "/token"
+BASE_URL               = "https://api-t2.fyers.in/vagator/v2"
+BASE_URL_2             = "https://api-t1.fyers.in/api/v3"
+URL_SEND_LOGIN_OTP     = BASE_URL   + "/send_login_otp"
+URL_VERIFY_TOTP        = BASE_URL   + "/verify_otp"
+URL_VERIFY_PIN         = BASE_URL   + "/verify_pin"
+URL_TOKEN              = BASE_URL_2 + "/token"
 URL_VALIDATE_AUTH_CODE = BASE_URL_2 + "/validate-authcode"
 
 SUCCESS = 1
-ERROR = -1
+ERROR   = -1
+
+# ── Shared session — SSL verification disabled ───────
+# Windows sometimes can't resolve the local issuer certificate,
+# especially behind antivirus SSL inspection or corporate proxies.
+# verify=False bypasses that check for all requests in this session.
+session = requests.Session()
+session.verify = False
+# ────────────────────────────────────────────────────
 
 
 def send_login_otp(fy_id, app_id):
     """Send login OTP to Fyers"""
     try:
         payload = {"fy_id": fy_id, "app_id": app_id}
-        result_string = requests.post(url=URL_SEND_LOGIN_OTP, json=payload)
-        
+        result_string = session.post(url=URL_SEND_LOGIN_OTP, json=payload)
+
         if result_string.status_code != 200:
             return [ERROR, result_string.text]
 
         result = json.loads(result_string.text)
         request_key = result["request_key"]
         return [SUCCESS, request_key]
-    
+
     except Exception as e:
         return [ERROR, str(e)]
 
@@ -69,7 +73,7 @@ def generate_totp(secret):
     try:
         generated_totp = pyotp.TOTP(secret).now()
         return [SUCCESS, generated_totp]
-    
+
     except Exception as e:
         return [ERROR, str(e)]
 
@@ -78,15 +82,15 @@ def verify_totp(request_key, totp):
     """Verify TOTP and get updated request key"""
     try:
         payload = {"request_key": request_key, "otp": totp}
-        result_string = requests.post(url=URL_VERIFY_TOTP, json=payload)
-        
+        result_string = session.post(url=URL_VERIFY_TOTP, json=payload)
+
         if result_string.status_code != 200:
             return [ERROR, result_string.text]
 
         result = json.loads(result_string.text)
         request_key = result["request_key"]
         return [SUCCESS, request_key]
-    
+
     except Exception as e:
         return [ERROR, str(e)]
 
@@ -95,19 +99,19 @@ def verify_PIN(request_key, pin):
     """Verify PIN and get access token"""
     try:
         payload = {
-            "request_key": request_key,
+            "request_key"  : request_key,
             "identity_type": "pin",
-            "identifier": pin
+            "identifier"   : pin
         }
-        result_string = requests.post(url=URL_VERIFY_PIN, json=payload)
-        
+        result_string = session.post(url=URL_VERIFY_PIN, json=payload)
+
         if result_string.status_code != 200:
             return [ERROR, result_string.text]
 
         result = json.loads(result_string.text)
         access_token = result["data"]["access_token"]
         return [SUCCESS, access_token]
-    
+
     except Exception as e:
         return [ERROR, str(e)]
 
@@ -116,21 +120,20 @@ def token(fy_id, app_id, redirect_uri, app_type, access_token):
     """Get auth code using access token"""
     try:
         payload = {
-            "fyers_id": fy_id,
-            "app_id": app_id,
-            "redirect_uri": redirect_uri,
-            "appType": app_type,
+            "fyers_id"      : fy_id,
+            "app_id"        : app_id,
+            "redirect_uri"  : redirect_uri,
+            "appType"       : app_type,
             "code_challenge": "",
-            "state": "sample_state",
-            "scope": "",
-            "nonce": "",
-            "response_type": "code",
-            "create_cookie": True
+            "state"         : "sample_state",
+            "scope"         : "",
+            "nonce"         : "",
+            "response_type" : "code",
+            "create_cookie" : True
         }
         headers = {'Authorization': f'Bearer {access_token}'}
+        result_string = session.post(url=URL_TOKEN, json=payload, headers=headers)
 
-        result_string = requests.post(url=URL_TOKEN, json=payload, headers=headers)
-        
         if result_string.status_code != 308:
             return [ERROR, result_string.text]
 
@@ -138,7 +141,7 @@ def token(fy_id, app_id, redirect_uri, app_type, access_token):
         url = result["Url"]
         auth_code = parse.parse_qs(parse.urlparse(url).query)['auth_code'][0]
         return [SUCCESS, auth_code]
-    
+
     except Exception as e:
         return [ERROR, str(e)]
 
@@ -148,18 +151,18 @@ def validate_authcode(app_id_hash, auth_code):
     try:
         payload = {
             "grant_type": "authorization_code",
-            "appIdHash": app_id_hash,
-            "code": auth_code,
+            "appIdHash" : app_id_hash,
+            "code"      : auth_code,
         }
-        result_string = requests.post(url=URL_VALIDATE_AUTH_CODE, json=payload)
-        
+        result_string = session.post(url=URL_VALIDATE_AUTH_CODE, json=payload)
+
         if result_string.status_code != 200:
             return [ERROR, result_string.text]
 
         result = json.loads(result_string.text)
         access_token = result["access_token"]
         return [SUCCESS, access_token]
-    
+
     except Exception as e:
         return [ERROR, str(e)]
 
@@ -167,7 +170,7 @@ def validate_authcode(app_id_hash, auth_code):
 def GenerateTOTPToken():
     """Main authentication flow"""
     print("Starting Fyers API authentication...")
-    
+
     # Step 1 - Send login OTP
     send_otp_result = send_login_otp(fy_id=FY_ID, app_id=APP_ID_TYPE)
     if send_otp_result[0] != SUCCESS:
@@ -201,47 +204,46 @@ def GenerateTOTPToken():
 
     # Step 5 - Get auth code
     token_result = token(
-        fy_id=FY_ID, 
-        app_id=APP_ID, 
-        redirect_uri=REDIRECT_URI, 
-        app_type=APP_TYPE,
-        access_token=verify_pin_result[1]
+        fy_id        = FY_ID,
+        app_id       = APP_ID,
+        redirect_uri = REDIRECT_URI,
+        app_type     = APP_TYPE,
+        access_token = verify_pin_result[1]
     )
     if token_result[0] != SUCCESS:
         logger.error(f"token failure - {token_result[1]}")
         return False
     logger.info("token success")
 
-    # Step 6 - Validate auth code (FIXED BUG HERE)
+    # Step 6 - Validate auth code
     auth_code = token_result[1]
     validate_authcode_result = validate_authcode(
-        app_id_hash=APP_ID_HASH, 
-        auth_code=auth_code
+        app_id_hash = APP_ID_HASH,
+        auth_code   = auth_code
     )
-    if validate_authcode_result[0] != SUCCESS:  # Fixed: was checking token_result
+    if validate_authcode_result[0] != SUCCESS:
         logger.error(f"validate_authcode failure - {validate_authcode_result[1]}")
         return False
     logger.info("validate_authcode success")
 
     # Save tokens
-    appid1 = f"{APP_ID}-{APP_TYPE}"
-    token1 = validate_authcode_result[1]
+    appid1       = f"{APP_ID}-{APP_TYPE}"
+    token1       = validate_authcode_result[1]
     access_token = f"{appid1}:{token1}"
-    
+
     logger.info(f"Final access_token: {access_token}")
-    
-    # Save to files
+
     with open("fyers_appid.txt", 'w') as file:
         file.write(appid1)
         logger.info('AppId saved -> fyers_appid.txt')
-    
+
     with open("fyers_token.txt", 'w') as file:
         file.write(token1)
         logger.info('Token saved -> fyers_token.txt')
-    
-    logger.info(f"Generated on: {dt1.day:02d}-{dt1.month:02d}-{dt1.year} {dt1.hour:02d}:{dt1.minute:02d}:{dt1.second:02d}")
+
+    logger.info(f"Generated on: {dt1.strftime('%d-%m-%Y %H:%M:%S')}")
     return True
 
 
-# if __name__ == "__main__":
-    main()
+if __name__ == "__main__":
+    GenerateTOTPToken()

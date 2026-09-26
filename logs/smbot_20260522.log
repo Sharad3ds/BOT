@@ -1,0 +1,62 @@
+2026-05-22 21:47:25,387 - SMBot_V2 - INFO - <module>:27 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-05-22 21:47:25,388 - SMBot_V2 - INFO - main:41 - === SMBot Starting via Render Cron Job ===
+2026-05-22 21:47:25,388 - SMBot_V2 - INFO - main:44 - Generating TOTP Token...
+2026-05-22 21:47:26,647 - SMBot_V2 - ERROR - GenerateTOTPToken:165 - send_login_otp failure - HTTPSConnectionPool(host='api-t2.fyers.in', port=443): Max retries exceeded with url: /vagator/v2/send_login_otp (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2026-05-22 21:47:26,649 - SMBot_V2 - ERROR - main:47 - TOTP generation failed — exiting
+2026-05-22 21:48:12,951 - SMBot_V2 - INFO - <module>:27 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-05-22 21:48:14,149 - SMBot_V2 - ERROR - GenerateTOTPToken:165 - send_login_otp failure - HTTPSConnectionPool(host='api-t2.fyers.in', port=443): Max retries exceeded with url: /vagator/v2/send_login_otp (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2026-05-22 21:52:41,335 - SMBot_V2 - INFO - <module>:30 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-05-22 21:52:42,123 - SMBot_V2 - ERROR - GenerateTOTPToken:168 - send_login_otp failure - HTTPSConnectionPool(host='api-t2.fyers.in', port=443): Max retries exceeded with url: /vagator/v2/send_login_otp (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2026-05-22 21:53:23,113 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-05-22 21:53:24,604 - SMBot_V2 - ERROR - GenerateTOTPToken:169 - send_login_otp failure - HTTPSConnectionPool(host='api-t2.fyers.in', port=443): Max retries exceeded with url: /vagator/v2/send_login_otp (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2026-05-22 21:55:12,869 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-05-22 21:55:12,869 - SMBot_V2 - INFO - main:41 - === SMBot Starting via Render Cron Job ===
+2026-05-22 21:55:12,871 - SMBot_V2 - INFO - main:44 - Generating TOTP Token...
+2026-05-22 21:55:13,632 - SMBot_V2 - ERROR - GenerateTOTPToken:169 - send_login_otp failure - HTTPSConnectionPool(host='api-t2.fyers.in', port=443): Max retries exceeded with url: /vagator/v2/send_login_otp (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2026-05-22 21:55:13,632 - SMBot_V2 - ERROR - main:47 - TOTP generation failed — exiting
+2026-05-22 21:57:59,586 - SMBot_V2 - INFO - <module>:28 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-05-22 21:58:00,960 - SMBot_V2 - ERROR - GenerateTOTPToken:171 - send_login_otp failure - HTTPSConnectionPool(host='api-t2.fyers.in', port=443): Max retries exceeded with url: /vagator/v2/send_login_otp (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2026-05-22 22:00:19,068 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-05-22 22:00:19,955 - SMBot_V2 - INFO - GenerateTOTPToken:179 - send_login_otp success
+2026-05-22 22:00:19,962 - SMBot_V2 - INFO - GenerateTOTPToken:186 - Generated TOTP: 599514
+2026-05-22 22:00:20,050 - SMBot_V2 - INFO - GenerateTOTPToken:195 - verify_totp success
+2026-05-22 22:00:20,384 - SMBot_V2 - INFO - GenerateTOTPToken:203 - verify_pin success
+2026-05-22 22:00:20,583 - SMBot_V2 - INFO - GenerateTOTPToken:216 - token success
+2026-05-22 22:00:20,780 - SMBot_V2 - INFO - GenerateTOTPToken:227 - validate_authcode success
+2026-05-22 22:00:20,782 - SMBot_V2 - INFO - GenerateTOTPToken:234 - Final access_token: 2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcUVJU2RHVGVYNmFKU0QzeFM4LVVpeFpmUW45RFFWQ0xEVUZrQ3B3Zm1WTlBQYWpkZFZtaGpSRlJ1akZnSXVUTmk1VnpZbkoyWGhROERTcDg0bXhnZXI5NVdNOUlFVnM3aUZzQ0tkRlE5ZkEyRUljaz0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiJmMzFiYjJkNTRlZjcwY2YzOGFlZWY3MjFiOTFlNDU0NDg2NzBhNWYxMGQxZTM2N2I5YTIzZDlmMSIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoyMDAsImV4cCI6MTc3OTQ5NjIwMCwiaWF0IjoxNzc5NDY3NDIxLCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3Nzk0Njc0MjEsInN1YiI6ImFjY2Vzc190b2tlbiJ9.ZqK1lDB_TrZyV2uE97NgxpA3k9ob68d5ux2X8ILjHN4
+2026-05-22 22:00:20,783 - SMBot_V2 - INFO - GenerateTOTPToken:238 - AppId saved -> fyers_appid.txt
+2026-05-22 22:00:20,785 - SMBot_V2 - INFO - GenerateTOTPToken:242 - Token saved -> fyers_token.txt
+2026-05-22 22:00:20,785 - SMBot_V2 - INFO - GenerateTOTPToken:244 - Generated on: 22-05-2026 22:00:19
+2026-05-22 23:17:37,906 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-05-22 23:17:37,906 - SMBot_V2 - INFO - main:41 - === SMBot Starting via Render Cron Job ===
+2026-05-22 23:17:37,911 - SMBot_V2 - INFO - main:44 - Generating TOTP Token...
+2026-05-22 23:17:39,744 - SMBot_V2 - INFO - GenerateTOTPToken:179 - send_login_otp success
+2026-05-22 23:17:39,750 - SMBot_V2 - INFO - GenerateTOTPToken:186 - Generated TOTP: 116760
+2026-05-22 23:17:39,949 - SMBot_V2 - INFO - GenerateTOTPToken:195 - verify_totp success
+2026-05-22 23:17:40,358 - SMBot_V2 - INFO - GenerateTOTPToken:203 - verify_pin success
+2026-05-22 23:17:40,560 - SMBot_V2 - INFO - GenerateTOTPToken:216 - token success
+2026-05-22 23:17:40,866 - SMBot_V2 - INFO - GenerateTOTPToken:227 - validate_authcode success
+2026-05-22 23:17:40,870 - SMBot_V2 - INFO - GenerateTOTPToken:234 - Final access_token: 2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcUVKYTlYX1ZaR2tfbl9OSm93RG1pbXNRNTFmdVF1YTU3QmlxeUhjUGpVLWk2NTZ2N0pqa0xnU0ZZRW5JeVhxUTRkTW5wYkRiT0plQTh3VDVMNFZDVEVwSHhqSWUyamFYa3RDVk5nZHc4bExCZmVYUT0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiI5Y2U4ZTI2NjBlNjc3YjRjZmVhMWQ5NTQ3NWU3NmVmZDJmN2JlN2I3MzAxMTYzZmVmMWQ5YjllMCIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoyMDAsImV4cCI6MTc3OTQ5NjIwMCwiaWF0IjoxNzc5NDcyMDYxLCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3Nzk0NzIwNjEsInN1YiI6ImFjY2Vzc190b2tlbiJ9.C34F9CwM_nkiSnAQWC_a2ziDs5-t5_wd9uudp6107mI
+2026-05-22 23:17:40,870 - SMBot_V2 - INFO - GenerateTOTPToken:238 - AppId saved -> fyers_appid.txt
+2026-05-22 23:17:40,870 - SMBot_V2 - INFO - GenerateTOTPToken:242 - Token saved -> fyers_token.txt
+2026-05-22 23:17:40,870 - SMBot_V2 - INFO - GenerateTOTPToken:244 - Generated on: 22-05-2026 23:17:37
+2026-05-22 23:17:40,932 - SMBot_V2 - INFO - _init_fyers:267 - Fyers V3 API initialized for VAMLiveBot
+2026-05-22 23:17:40,932 - SMBot_V2 - INFO - __init__:257 - VAMLiveBot initialized.
+2026-05-22 23:17:41,395 - SMBot_V2 - WARNING - _fetch_history:284 - API error for NSE:NIFTY50-INDEX: {'s': 'error', 'code': -99, 'message': 'Bad request'}
+2026-05-22 23:17:41,410 - SMBot_V2 - INFO - __init__:879 - [VAM LIVE] Timeframe=1m, heartbeat threshold=120s
+2026-05-22 23:17:41,410 - SMBot_V2 - INFO - restore_state_on_startup:588 - [VAM OM] Checking for existing position on startup...
+2026-05-22 23:17:41,892 - SMBot_V2 - INFO - _restore_state_from_broker:554 - [VAM OM] Live positions on startup: {'s': 'error', 'code': -99, 'message': 'Bad request'}
+2026-05-22 23:17:41,899 - SMBot_V2 - INFO - stop_watcher:29 - Stop watcher started - will stop at 3:10 PM IST
+2026-05-22 23:17:41,903 - SMBot_V2 - INFO - main:75 - Starting VAMLiveEngine...
+2026-05-22 23:17:41,903 - SMBot_V2 - INFO - start:1274 - Starting VAM WebSocket live engine with heartbeat watchdog.
+2026-05-22 23:17:41,907 - SMBot_V2 - INFO - _create_and_connect_ws:1149 - [VAM LIVE] Closing 0 existing WS socket(s) before reconnect.
+2026-05-22 23:17:43,910 - SMBot_V2 - INFO - _create_and_connect_ws:1162 - [VAM LIVE] Creating new FyersDataSocket and connecting...
+2026-05-22 23:17:44,286 - SMBot_V2 - INFO - _on_message:925 - [VAM LIVE] RAW WS MSG (once): {'type': 'cn', 'code': 200, 'message': 'Authentication done', 's': 'ok'}
+2026-05-22 23:17:45,930 - SMBot_V2 - INFO - _on_open:912 - [VAM LIVE] WS connected — subscribing to index symbol
+2026-05-22 23:17:46,481 - SMBot_V2 - INFO - start:1284 - [VAM LIVE] API bar refresh thread started (interval=300s).
+2026-05-22 23:18:11,901 - SMBot_V2 - INFO - stop_watcher:33 - 3:10 PM IST reached - running EOD cleanup and stopping
+2026-05-22 23:18:11,901 - SMBot_V2 - INFO - stop:1261 - [VAM LIVE] stop() called — running EOD cleanup...
+2026-05-22 23:18:11,904 - SMBot_V2 - ERROR - stop:1267 - [VAM LIVE] WS close error: 'FyersDataSocket' object has no attribute 'close'
+2026-05-22 23:18:11,904 - SMBot_V2 - INFO - resolve_open_trade_at_eod:742 - [TRADE LOG] No open trade to resolve at EOD.
+2026-05-22 23:18:11,904 - SMBot_V2 - INFO - export_to_excel:775 - [TRADE LOG] No trades today — nothing to export.
+2026-05-22 23:18:11,906 - SMBot_V2 - INFO - stop:1271 - [VAM LIVE] EOD cleanup complete.

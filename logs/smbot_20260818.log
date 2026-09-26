@@ -1,0 +1,19 @@
+2026-08-18 21:04:57,233 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-08-18 21:04:57,490 - SMBot_V2 - INFO - GenerateTOTPToken:179 - send_login_otp success
+2026-08-18 21:04:57,490 - SMBot_V2 - INFO - GenerateTOTPToken:186 - Generated TOTP: 423256
+2026-08-18 21:04:57,577 - SMBot_V2 - INFO - GenerateTOTPToken:195 - verify_totp success
+2026-08-18 21:04:57,909 - SMBot_V2 - INFO - GenerateTOTPToken:203 - verify_pin success
+2026-08-18 21:04:58,092 - SMBot_V2 - INFO - GenerateTOTPToken:216 - token success
+2026-08-18 21:04:58,304 - SMBot_V2 - INFO - GenerateTOTPToken:227 - validate_authcode success
+2026-08-18 21:04:58,304 - SMBot_V2 - INFO - GenerateTOTPToken:234 - Final access_token: 2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcWhIdWk0aHp6NDk3RWczeGp2TFkwc291TjdhR3FpRkJxSnF3SXAyT0JTSHdhY25iQ1RyQmZiVUxDdzMwYVJoSDF1ZVBBVmxLUFNESHpoTU1ZRUdrRlJZUzhMVHhPamNoTEJBdjZFVU1Gb09CRmRQZz0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiI1OTQ0ZDczNTQyMTM3ZGM1YzNhZjU2NGMxYjhkMjE0ZWI0ZWU2YzA5MmFmMzI3OWE1ZmEzNzNhNiIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoyMDAsImV4cCI6MTc4NzA5OTQwMCwiaWF0IjoxNzg3MDY3Mjk4LCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3ODcwNjcyOTgsInN1YiI6ImFjY2Vzc190b2tlbiJ9._L1hGwjMpv5XjC3pdho_hnkB9zXqEHwqOnyY30n3WAE
+2026-08-18 21:04:58,304 - SMBot_V2 - INFO - GenerateTOTPToken:238 - AppId saved -> fyers_appid.txt
+2026-08-18 21:04:58,304 - SMBot_V2 - INFO - GenerateTOTPToken:242 - Token saved -> fyers_token.txt
+2026-08-18 21:04:58,304 - SMBot_V2 - INFO - GenerateTOTPToken:244 - Generated on: 18-08-2026 21:04:57
+2026-08-18 22:20:23,128 - SMBot_V2 - INFO - __init__:117 - Weekly expiry code 26818 | seq 3-3 candle reversal on 5min (EMA50 cross+close filter=on) healthy>=0.5 | vol=spike>SMA20 in last 4 | swing=lookback=10 prox=0.5% | fastC2=on(>=1.05x) | BUY=on | moneyness=ITM | signalsFrom=09:35:00 | candleSL PE=c1_high CE=c1_low | premSL=off premTP=40.0% profitLock=12.0%->floor12.0%,trail5.0%after20.0% | DRY_RUN=True
+2026-08-18 22:20:23,431 - SMBot_V2 - INFO - _init:439 - [ENG] connected SHARAD ASHOK MISAL
+2026-08-18 22:20:23,431 - SMBot_V2 - INFO - __init__:431 - [ENG] ready. interval=20s
+2026-08-18 22:20:23,431 - SMBot_V2 - WARNING - __init__:432 - *** DRY-RUN — no real orders ***
+2026-08-18 22:20:23,431 - SMBot_V2 - INFO - run:552 - [ENG] starting sequential-reversal poll loop
+2026-08-18 22:25:49,906 - SMBot_V2 - INFO - run:559 - [ENG] interrupted
+2026-08-18 22:25:49,906 - SMBot_V2 - INFO - _export:568 - [ENG] no trades to export
+2026-08-18 22:25:49,909 - SMBot_V2 - INFO - _shutdown:566 - [ENG] shutdown complete

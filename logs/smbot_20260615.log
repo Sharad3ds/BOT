@@ -1,0 +1,11 @@
+2026-06-15 23:42:31,441 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-06-15 23:42:31,683 - SMBot_V2 - INFO - GenerateTOTPToken:179 - send_login_otp success
+2026-06-15 23:42:31,685 - SMBot_V2 - INFO - GenerateTOTPToken:186 - Generated TOTP: 893084
+2026-06-15 23:42:32,076 - SMBot_V2 - INFO - GenerateTOTPToken:195 - verify_totp success
+2026-06-15 23:42:32,446 - SMBot_V2 - INFO - GenerateTOTPToken:203 - verify_pin success
+2026-06-15 23:42:32,704 - SMBot_V2 - INFO - GenerateTOTPToken:216 - token success
+2026-06-15 23:42:32,893 - SMBot_V2 - INFO - GenerateTOTPToken:227 - validate_authcode success
+2026-06-15 23:42:32,893 - SMBot_V2 - INFO - GenerateTOTPToken:234 - Final access_token: 2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcU1FQ1BvZ1cwM0VSd1hZWE9OME1NVzdFZnlHVU5ZYUVGYl9nbm5KLVlUdGI5R3l6Q3JPU25sLW9DTkl6ZUx2YVpkNkNrM3pwODluWnVNbzB4cjByenZ0ZzJ1dngyZGw1MVVpMnN2Q1dVdl9KRlN3UT0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiI0NmM0YzdlNTI1NzI4OTgxYTI0YTQwOGU3ODY3YWYyZjI5M2EwMjRhYjY4NGE0MTcyOWNiNDhkZSIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoyMDAsImV4cCI6MTc4MTU2OTgwMCwiaWF0IjoxNzgxNTQ3MTUxLCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3ODE1NDcxNTEsInN1YiI6ImFjY2Vzc190b2tlbiJ9.QU2SAs5l-R-bj-aO5oP9IqAbWQfNPII3Dx0SbRirCYA
+2026-06-15 23:42:32,895 - SMBot_V2 - INFO - GenerateTOTPToken:238 - AppId saved -> fyers_appid.txt
+2026-06-15 23:42:32,895 - SMBot_V2 - INFO - GenerateTOTPToken:242 - Token saved -> fyers_token.txt
+2026-06-15 23:42:32,897 - SMBot_V2 - INFO - GenerateTOTPToken:244 - Generated on: 15-06-2026 23:42:31

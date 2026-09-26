@@ -1,0 +1,15 @@
+2026-09-21 19:24:53,874 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-09-21 19:24:54,168 - SMBot_V2 - INFO - GenerateTOTPToken:179 - send_login_otp success
+2026-09-21 19:24:54,168 - SMBot_V2 - INFO - GenerateTOTPToken:186 - Generated TOTP: 431738
+2026-09-21 19:24:54,272 - SMBot_V2 - INFO - GenerateTOTPToken:195 - verify_totp success
+2026-09-21 19:24:54,650 - SMBot_V2 - INFO - GenerateTOTPToken:203 - verify_pin success
+2026-09-21 19:24:54,996 - SMBot_V2 - INFO - GenerateTOTPToken:216 - token success
+2026-09-21 19:24:55,373 - SMBot_V2 - INFO - GenerateTOTPToken:227 - validate_authcode success
+2026-09-21 19:24:55,373 - SMBot_V2 - INFO - GenerateTOTPToken:234 - Final access_token: 2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcXNUY3V6MGNqSmtPRWxScm5wUHplQU1PM0Z5QXpKbmVHbFhqc2VlQV9fZDk3a0JoUG1KQWwzLWVIZkJlUzY0WFZrSTFVSTlFTEctamRXQkZ0SkpqNHlKczRRcUc3bERJMjdPSGR5SHdjZ2JoazlHMD0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiJlZjU1NjRiZTBkODJlMDhhZWQ2NDEzYmRiZDZmYzA0Y2Q1ZDYxNTJiNzI5NmM4Y2MyMWIwMTVmZSIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoyMDAsImV4cCI6MTc5MDAzNzAwMCwiaWF0IjoxNzg5OTk4ODk0LCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3ODk5OTg4OTQsInN1YiI6ImFjY2Vzc190b2tlbiJ9.Bc2oTZhKwHGUwOzMDkCyKjg4HSofL7yxBDPTb4o43tY
+2026-09-21 19:24:55,373 - SMBot_V2 - INFO - GenerateTOTPToken:238 - AppId saved -> fyers_appid.txt
+2026-09-21 19:24:55,373 - SMBot_V2 - INFO - GenerateTOTPToken:242 - Token saved -> fyers_token.txt
+2026-09-21 19:24:55,378 - SMBot_V2 - INFO - GenerateTOTPToken:244 - Generated on: 21-09-2026 19:24:53
+2026-09-21 19:25:15,061 - SMBot_V2 - INFO - __init__:151 - Weekly expiry code 26922 | C1/C2/C3 pattern: declining/rising closes OR body<1.2xC2, 1min bars | swing=lookback=10 prox=0.2% | SL=-10.0% TP=+10.0% | live_exit=DELETE /positions + broker SL/TP | direction-alternating (resets daily) | DRY_RUN=False
+2026-09-21 19:28:47,439 - SMBot_V2 - INFO - __init__:151 - Weekly expiry code 26922 | C1/C2/C3 pattern: declining/rising closes OR body<1.2xC2, 1min bars | swing=lookback=10 prox=0.2% | SL=-10.0% TP=+10.0% | live_exit=DELETE /positions + broker SL/TP | direction-alternating (resets daily) | DRY_RUN=False
+2026-09-21 19:28:57,838 - SMBot_V2 - INFO - __init__:151 - Weekly expiry code 26922 | C1/C2/C3 pattern: declining/rising closes OR body<1.2xC2, 1min bars | swing=lookback=10 prox=0.2% | SL=-10.0% TP=+10.0% | live_exit=DELETE /positions + broker SL/TP | direction-alternating (resets daily) | DRY_RUN=False
+2026-09-21 19:29:03,926 - SMBot_V2 - INFO - __init__:151 - Weekly expiry code 26922 | C1/C2/C3 pattern: declining/rising closes OR body<1.2xC2, 1min bars | swing=lookback=10 prox=0.2% | SL=-10.0% TP=+10.0% | live_exit=DELETE /positions + broker SL/TP | direction-alternating (resets daily) | DRY_RUN=False

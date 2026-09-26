@@ -1,0 +1,20 @@
+2026-08-30 19:36:44,866 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-08-30 19:36:45,153 - SMBot_V2 - INFO - GenerateTOTPToken:179 - send_login_otp success
+2026-08-30 19:36:45,153 - SMBot_V2 - INFO - GenerateTOTPToken:186 - Generated TOTP: 671064
+2026-08-30 19:36:45,317 - SMBot_V2 - INFO - GenerateTOTPToken:195 - verify_totp success
+2026-08-30 19:36:45,641 - SMBot_V2 - INFO - GenerateTOTPToken:203 - verify_pin success
+2026-08-30 19:36:45,863 - SMBot_V2 - INFO - GenerateTOTPToken:216 - token success
+2026-08-30 19:36:46,082 - SMBot_V2 - INFO - GenerateTOTPToken:227 - validate_authcode success
+2026-08-30 19:36:46,082 - SMBot_V2 - INFO - GenerateTOTPToken:234 - Final access_token: 2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcWxEajFTMmlJQWctSjQ2RS1laDdLNWkxTGhfQ1JOOTFHTjVzUDV3Z21WMUROVXMzMmtBczR1NTZva2gyT3pRRE9Pd3Z4RXR4TmxrZWk0VTVLYTVGdGJrMDFFR0FtZ0JOSHhoRDBOX2NkN1dpOEk3UT0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiIxZTBmZWNmZGMwZDczMDgwMjZhOWQ1ZjIyNGFlMjJjZjc4MTQ5NDJjNWVjNjJjM2Q0MGYwOWNkNiIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoyMDAsImV4cCI6MTc4ODEzNjIwMCwiaWF0IjoxNzg4MDk4ODA1LCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3ODgwOTg4MDUsInN1YiI6ImFjY2Vzc190b2tlbiJ9.xhDwJj0-LWnd3DuTv8rnzi_r0zLJVAltQ4iCV5iz42A
+2026-08-30 19:36:46,088 - SMBot_V2 - INFO - GenerateTOTPToken:238 - AppId saved -> fyers_appid.txt
+2026-08-30 19:36:46,088 - SMBot_V2 - INFO - GenerateTOTPToken:242 - Token saved -> fyers_token.txt
+2026-08-30 19:36:46,088 - SMBot_V2 - INFO - GenerateTOTPToken:244 - Generated on: 30-08-2026 19:36:44
+2026-08-30 21:23:26,744 - SMBot_V2 - INFO - __init__:152 - Weekly expiry code 26901 | HEIKIN ASHI signals (daily reset) | C1/C2/C3 pattern: declining/rising closes OR body<0.5xC2, 5min bars | swing=off | C2_doji_filter=True (max_body/range=12%) | SL=-10.0% TP=+30.0% | live_exit=dry-run sim | direction-alternating (resets daily) | no flip_exit | DRY_RUN=True
+2026-08-30 21:23:26,953 - SMBot_V2 - INFO - _init_fyers:682 - [ENG] connected SHARAD ASHOK MISAL
+2026-08-30 21:23:26,953 - SMBot_V2 - INFO - __init__:668 - [ENG] ready. interval=60s | HEIKIN ASHI signals
+2026-08-30 21:23:26,953 - SMBot_V2 - WARNING - __init__:670 - *** DRY-RUN — no real orders ***
+2026-08-30 21:23:26,953 - SMBot_V2 - INFO - run:853 - [ENG] starting Sequential Candle Reversal (Heikin Ashi) poll loop
+2026-08-30 21:23:26,953 - SMBot_V2 - INFO - _poll:785 - [ENG] New day 2026-08-30 — state reset.
+2026-08-30 21:37:47,507 - SMBot_V2 - INFO - run:863 - [ENG] interrupted
+2026-08-30 21:37:47,507 - SMBot_V2 - INFO - _export:877 - [ENG] no trades to export
+2026-08-30 21:37:47,507 - SMBot_V2 - INFO - _shutdown:873 - [ENG] shutdown complete

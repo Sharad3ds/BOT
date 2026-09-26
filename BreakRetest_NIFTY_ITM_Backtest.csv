@@ -1,0 +1,15 @@
+direction,option_symbol,zone_kind,entry_time,entry_price,exit_time,exit_price,exit_reason,pnl_pts,pnl_rs,result,cum_pnl_rs
+SELL,NSE:NIFTY26SEP23500PE,support,2026-09-23 09:55:00+05:30,184.67,2026-09-23 15:20:00+05:30,128.65,backtest_end,-56.02,-3641.22,loss,-3641.22
+
+METRICS,VALUE
+Total Trades,1
+Wins,0
+Losses,1
+Win Rate (%),0.0
+Net PnL (Rs),-3641.22
+Signals Skipped (no option data),26
+Signals Skipped (same direction already traded that day),0
+Signals Using Fallback Expiry Guess,30
+TF Rule,1min
+Lookback,10
+Lot Size,65

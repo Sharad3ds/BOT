@@ -1,0 +1,15 @@
+direction,option_symbol,entry_time,entry_price,exit_time,exit_price,exit_reason,pnl_pts,pnl_rs,result,cum_pnl_rs
+BUY,NSE:NIFTY2681124600CE,2026-08-05 11:01:00+05:30,190.4,2026-08-05 11:51:00+05:30,146.0,flip_exit,-44.4,-2885.82,loss,-2885.82
+SELL,NSE:NIFTY2681124700PE,2026-08-05 11:51:00+05:30,193.41,2026-08-05 15:29:00+05:30,183.05,flip_exit,-10.36,-673.55,loss,-3559.37
+
+METRICS,VALUE
+Total Trades,2
+Wins,0
+Losses,2
+Win Rate (%),0.0
+Net PnL (Rs),-3559.37
+Signal Source,pos
+Key Value,10
+ATR Period,20
+UT Rule,10s
+Lot Size,65
