@@ -121,7 +121,7 @@ class Config:
     # ── swing zone (support/resistance) entry filter ──
     USE_SWING_FILTER = True
     SWING_LOOKBACK = 20        # bars needed on both sides to confirm a pivot
-    SWING_PROXIMITY_PCT = 0.2   # how close (% of zone price) C1 must be to count as "near"
+    SWING_PROXIMITY_PCT = 0.15   # how close (% of zone price) C1 must be to count as "near"
 
     STRIKE_STEP = 100; LOT = 65; MONEYNESS = "ITM"
     SESSION_START = dtime(9, 20); SESSION_END = dtime(15, 30)

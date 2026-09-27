@@ -76,7 +76,7 @@ logger = logging.getLogger("PatternLiveBacktest")
 # ══════════════════════════════════════════════════════════════════════════════
 class BacktestConfig(LiveConfig):
     # ── Backtest window ──
-    HIST_DAYS = 5
+    HIST_DAYS = 15
 
     # ── Common A/B knobs (uncomment to override live defaults) ──
     # USE_SWING_FILTER    = True    # False -> take every pattern signal
