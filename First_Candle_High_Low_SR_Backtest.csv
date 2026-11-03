@@ -1,0 +1,67 @@
+record_type,date,direction,option_symbol,pattern,opening_range_high,opening_range_low,breakout_time,retest_time,signal_time,entry_time,spot_entry,spot_stop_level,spot_target_level,entry_premium,exit_time,exit_spot,exit_premium,exit_reason,pnl_premium_points,pnl_rs,result,quantity,cum_pnl_rs,metric,value
+TRADE,2026-09-21,BUY,NSE:NIFTY2692223300CE,bullish_C1C2C3,23376.2,23314.8,2026-09-21 09:17:00,2026-09-21 09:22:00,2026-09-21 10:30:00,2026-09-21 10:30:00,23372.85,23332.85,23502.85,115.98,2026-09-21 15:20:00,23429.0,167.65,eod_exit,51.67,3358.75,profit,65,3358.75,,
+TRADE,2026-09-22,SELL,NSE:NIFTY2692223500PE,bearish_C1C2C3,23489.0,23448.65,2026-09-22 09:16:00,2026-09-22 09:18:00,2026-09-22 09:26:00,2026-09-22 09:26:00,23441.1,23481.1,23311.1,86.28,2026-09-22 13:54:00,23311.1,200.7,target,114.42,7437.35,profit,65,10796.1,,
+TRADE,2026-09-23,BUY,NSE:NIFTY26SEP23300CE,bullish_C1C2C3,23404.4,23351.75,2026-09-23 09:19:00,2026-09-23 09:22:00,2026-09-23 09:57:00,2026-09-23 09:57:00,23367.35,23327.35,23497.35,176.28,2026-09-23 15:20:00,23431.35,202.0,eod_exit,25.72,1672.0,profit,65,12468.1,,
+TRADE,2026-09-24,SELL,NSE:NIFTY26SEP23300PE,bearish_C1C2C3,23281.95,23205.45,2026-09-24 10:22:00,2026-09-24 10:24:00,2026-09-24 11:10:00,2026-09-24 11:10:00,23221.0,23261.0,23091.0,143.46,2026-09-24 13:47:00,23091.0,254.5,target,111.04,7217.36,profit,65,19685.46,,
+TRADE,2026-09-25,BUY,NSE:NIFTY26SEP23000CE,bullish_C1C2C3,23097.2,23030.0,2026-09-25 09:17:00,2026-09-25 09:18:00,2026-09-25 09:28:00,2026-09-25 09:28:00,23099.15,23059.15,23229.15,206.53,2026-09-25 09:44:00,23059.15,171.7,stop_loss,-34.83,-2263.79,loss,65,17421.67,,
+TRADE,2026-10-09,BUY,NSE:NIFTY26O1322200CE,bullish_C1C2C3,22351.05,22299.25,2026-10-09 09:16:00,2026-10-09 09:19:00,2026-10-09 09:27:00,2026-10-09 09:27:00,22331.0,22291.0,22461.0,233.81,2026-10-09 09:52:00,22461.0,326.3,target,92.49,6011.64,profit,65,23433.309999999998,,
+TRADE,2026-10-12,SELL,NSE:NIFTY26O1322700PE,bearish_C1C2C3,22651.1,22585.8,2026-10-12 09:19:00,2026-10-12 09:20:00,2026-10-12 09:32:00,2026-10-12 09:32:00,22555.75,22595.75,22425.75,181.96,2026-10-12 11:00:00,22425.75,289.25,target,107.29,6974.16,profit,65,30407.469999999998,,
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Strategy,First Candle High-Low Support and Resistance
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Backtest start date,2026-09-21
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Backtest end date,2026-10-15
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Index candles loaded,3750
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Trading dates with index data,10
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Opening candle time,09:15:00
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Session start,09:15:00
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Session end,15:30:00
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Entry window start,09:16:00
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Entry window end,15:00:00
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Entry rule,Breakout close -> exact-touch retest -> C1/C2/C3 confirmation
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Retest rule,Exact touch: candle range contains ORH/ORL; no price tolerance
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Direction mapping,BUY=ITM CE; SELL=ITM PE
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,EMA filter,Off
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Swing-zone filter,Off; opening range is used instead
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Option moneyness,ITM
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Option quantity,65
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Strike step,100
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Stop-loss (NIFTY spot points),40.0
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Take-profit (NIFTY spot points),130.0
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Risk-to-reward ratio,3.25
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Premium entry slippage (%),0.5
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Maximum trades per day,1
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,EOD exit time,15:20:00
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Total trades,7
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Winning trades,6
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Losing trades,1
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Breakeven trades,0
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Win rate (%),85.7143
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Loss rate (%),14.2857
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Gross profit (Rs),32671.26
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Gross loss amount (Rs),2263.79
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Net PnL (Rs),30407.47
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Average PnL per trade (Rs),4343.9243
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Average winning trade (Rs),5445.21
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Average losing trade amount (Rs),2263.79
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Profit factor,14.4321
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Best trade (Rs),7437.35
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Worst trade (Rs),-2263.79
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Maximum drawdown (Rs),2263.79
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Maximum consecutive wins,4
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Maximum consecutive losses,1
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Average holding time (minutes),166.7143
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Exit reason count - eod_exit,2
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Exit reason count - stop_loss,1
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Exit reason count - target,4
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,BUY trades,4
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,BUY wins,3
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,BUY losses,1
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,BUY net PnL (Rs),8778.6
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,SELL trades,3
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,SELL wins,3
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,SELL losses,0
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,SELL net PnL (Rs),21628.87
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Diagnostic count - NO_VALID_CONTRACT_SYMBOL,5
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Diagnostic count - NO_VALID_SETUP,1
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Diagnostic count - TRADE_EXECUTED,7
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Expired history API requests used today,4
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,Expired history API request budget per day,10

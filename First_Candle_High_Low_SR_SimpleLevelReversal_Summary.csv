@@ -1,0 +1,65 @@
+metric,value
+Strategy,First Candle High-Low Support and Resistance
+Backtest start date,2026-09-21
+Backtest end date,2026-10-16
+Index candles loaded,3750
+Trading dates with index data,10
+Opening candle time,09:15:00
+Session start,09:15:00
+Session end,15:30:00
+Entry window start,09:16:00
+Entry window end,15:00:00
+Entry rule,First executable strict C1/C2/C3 reversal whose 3-candle window intersects the ORH or ORL tolerance zone; entry at next 1-minute bar open
+Scenario families,Bullish C1 red/C2 green/C3 green near ORH or ORL -> BUY ITM CE; bearish C1 green/C2 red/C3 red near ORH or ORL -> BUY ITM PE
+Level-touch rule,At least one C1/C2/C3 candle range intersects ORH or ORL +/- 5.0 NIFTY points; no prior breakout or retest required
+Ambiguous dual-level rule,Skip if the same 3-candle window intersects both ORH and ORL zones
+Candle confirmation,Strict BUY: red/green/green; strict SELL: green/red/red; no engulfing-only or two-candle substitute
+C3 minimum body/range,0.8
+C1/C2 body quality,Directional close progression OR C1 body < 1.20 x C2 body
+Direction mapping,BUY=ITM CE; SELL=ITM PE
+EMA filter,Off
+Swing-zone filter,Off; opening range is used instead
+Option moneyness,ITM
+Option quantity,650
+Strike step,100
+Stop-loss (NIFTY spot points),40.0
+Take-profit (NIFTY spot points),100.0
+Risk-to-reward ratio,2.5
+Premium entry slippage (%),0.5
+Maximum trades per day,1
+EOD exit time,15:20:00
+Total trades,8
+Winning trades,5
+Losing trades,3
+Breakeven trades,0
+Win rate (%),62.5
+Loss rate (%),37.5
+Gross profit (Rs),161006.15
+Gross loss amount (Rs),50293.58
+Net PnL (Rs),110712.57
+Average PnL per trade (Rs),13839.0713
+Average winning trade (Rs),32201.23
+Average losing trade amount (Rs),16764.5267
+Profit factor,3.2013
+Best trade (Rs),51851.48
+Worst trade (Rs),-21872.5
+Maximum drawdown (Rs),21872.5
+Maximum consecutive wins,3
+Maximum consecutive losses,1
+Average holding time (minutes),137.5
+Exit reason count - eod_exit,2
+Exit reason count - stop_loss,3
+Exit reason count - target,3
+BUY trades,2
+BUY wins,2
+BUY losses,0
+BUY net PnL (Rs),17267.58
+SELL trades,6
+SELL wins,3
+SELL losses,3
+SELL net PnL (Rs),93444.99
+Diagnostic count - NO_VALID_SETUP,2
+Diagnostic count - TRADE_EXECUTED,8
+Diagnostic count - VALID_SIMPLE_LEVEL_REVERSAL,20
+Expired history API requests used today,0
+Expired history API request budget per day,10

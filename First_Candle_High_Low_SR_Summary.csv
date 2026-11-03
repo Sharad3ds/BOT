@@ -1,0 +1,60 @@
+metric,value
+Strategy,First Candle High-Low Support and Resistance
+Backtest start date,2026-09-21
+Backtest end date,2026-10-15
+Index candles loaded,3750
+Trading dates with index data,10
+Opening candle time,09:15:00
+Session start,09:15:00
+Session end,15:30:00
+Entry window start,09:16:00
+Entry window end,15:00:00
+Entry rule,Breakout close -> exact-touch retest -> C1/C2/C3 confirmation
+Retest rule,Exact touch: candle range contains ORH/ORL; no price tolerance
+Direction mapping,BUY=ITM CE; SELL=ITM PE
+EMA filter,Off
+Swing-zone filter,Off; opening range is used instead
+Option moneyness,ITM
+Option quantity,65
+Strike step,100
+Stop-loss (NIFTY spot points),40.0
+Take-profit (NIFTY spot points),130.0
+Risk-to-reward ratio,3.25
+Premium entry slippage (%),0.5
+Maximum trades per day,1
+EOD exit time,15:20:00
+Total trades,7
+Winning trades,6
+Losing trades,1
+Breakeven trades,0
+Win rate (%),85.7143
+Loss rate (%),14.2857
+Gross profit (Rs),32671.26
+Gross loss amount (Rs),2263.79
+Net PnL (Rs),30407.47
+Average PnL per trade (Rs),4343.9243
+Average winning trade (Rs),5445.21
+Average losing trade amount (Rs),2263.79
+Profit factor,14.4321
+Best trade (Rs),7437.35
+Worst trade (Rs),-2263.79
+Maximum drawdown (Rs),2263.79
+Maximum consecutive wins,4
+Maximum consecutive losses,1
+Average holding time (minutes),166.7143
+Exit reason count - eod_exit,2
+Exit reason count - stop_loss,1
+Exit reason count - target,4
+BUY trades,4
+BUY wins,3
+BUY losses,1
+BUY net PnL (Rs),8778.6
+SELL trades,3
+SELL wins,3
+SELL losses,0
+SELL net PnL (Rs),21628.87
+Diagnostic count - NO_VALID_CONTRACT_SYMBOL,5
+Diagnostic count - NO_VALID_SETUP,1
+Diagnostic count - TRADE_EXECUTED,7
+Expired history API requests used today,4
+Expired history API request budget per day,10

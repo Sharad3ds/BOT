@@ -1,0 +1,14 @@
+date,event_time,direction,symbol,status,details
+2026-09-21,2026-09-21 10:30:00+05:30,BUY,NSE:NIFTY2692223300CE,TRADE_EXECUTED,eod_exit
+2026-09-22,2026-09-22 09:26:00+05:30,SELL,NSE:NIFTY2692223500PE,TRADE_EXECUTED,target
+2026-09-23,2026-09-23 09:57:00+05:30,BUY,NSE:NIFTY26SEP23300CE,TRADE_EXECUTED,eod_exit
+2026-09-24,2026-09-24 11:10:00+05:30,SELL,NSE:NIFTY26SEP23300PE,TRADE_EXECUTED,target
+2026-09-25,2026-09-25 09:28:00+05:30,BUY,NSE:NIFTY26SEP23000CE,TRADE_EXECUTED,stop_loss
+2026-10-09,2026-10-09 09:27:00+05:30,BUY,NSE:NIFTY26O1322200CE,TRADE_EXECUTED,target
+2026-10-12,2026-10-12 09:32:00+05:30,SELL,NSE:NIFTY26O1322700PE,TRADE_EXECUTED,target
+2026-10-13,,,,NO_VALID_SETUP,No breakout + exact retest + C1/C2/C3 confirmation.
+2026-10-14,2026-10-14 10:30:00+05:30,BUY,,NO_VALID_CONTRACT_SYMBOL,FYERS metadata did not provide a matching ITM option at the nearest available expiry; no symbol was constructed.
+2026-10-14,2026-10-14 12:16:00+05:30,BUY,,NO_VALID_CONTRACT_SYMBOL,FYERS metadata did not provide a matching ITM option at the nearest available expiry; no symbol was constructed.
+2026-10-14,2026-10-14 13:47:00+05:30,BUY,,NO_VALID_CONTRACT_SYMBOL,FYERS metadata did not provide a matching ITM option at the nearest available expiry; no symbol was constructed.
+2026-10-14,2026-10-14 14:45:00+05:30,SELL,,NO_VALID_CONTRACT_SYMBOL,FYERS metadata did not provide a matching ITM option at the nearest available expiry; no symbol was constructed.
+2026-10-15,2026-10-15 10:01:00+05:30,BUY,,NO_VALID_CONTRACT_SYMBOL,FYERS metadata did not provide a matching ITM option at the nearest available expiry; no symbol was constructed.

@@ -1,0 +1,91 @@
+record_type,date,direction,option_symbol,pattern,opening_range_high,opening_range_low,signal_level,level_touch_time,c1_time,c2_time,c3_time,signal_time,entry_time,spot_entry,spot_stop_level,spot_target_level,entry_premium,exit_time,exit_spot,exit_premium,exit_reason,pnl_premium_points,pnl_rs,result,quantity,cum_pnl_rs,metric,value
+TRADE,2026-09-17,BUY,NSE:NIFTY2692223200CE,ORH_LEVEL_RETEST_BULLISH_C12_STRONGER_SECOND_BUY_CE,23255.8,23193.65,23255.8,2026-09-17 09:27:00,2026-09-17 09:29:00,2026-09-17 09:30:00,,2026-09-17 09:31:00,2026-09-17 09:31:00,23264.65,23224.65,23364.65,176.53,2026-09-17 11:07:00,23224.65,148.6,stop_loss,-27.93,-18153.36,loss,650,-18153.36,,
+TRADE,2026-09-17,SELL,NSE:NIFTY2692223300PE,ORH_LEVEL_RETEST_BEARISH_C12_STRONGER_SECOND_BUY_PE,23255.8,23193.65,23255.8,2026-09-17 11:19:00,2026-09-17 11:20:00,2026-09-17 11:21:00,,2026-09-17 11:22:00,2026-09-17 11:22:00,23249.1,23289.1,23149.1,147.13,2026-09-17 11:53:00,23289.1,121.5,stop_loss,-25.63,-16660.8,loss,650,-34814.16,,
+TRADE,2026-09-17,BUY,NSE:NIFTY2692223200CE,ORH_BREAKOUT_RETEST_BULLISH_C12_STRONGER_SECOND_BUY_CE,23255.8,23193.65,23255.8,2026-09-17 13:28:00,2026-09-17 13:31:00,2026-09-17 13:32:00,,2026-09-17 13:33:00,2026-09-17 13:33:00,23266.35,23226.35,23366.35,168.79,2026-09-17 15:20:00,23294.35,184.95,eod_exit,16.16,10504.16,profit,650,-24310.000000000004,,
+TRADE,2026-09-18,SELL,NSE:NIFTY2692223400PE,ORL_LEVEL_RETEST_BEARISH_C12_STRONGER_SECOND_BUY_PE,23360.55,23324.5,23324.5,2026-09-18 09:18:00,2026-09-18 09:19:00,2026-09-18 09:20:00,,2026-09-18 09:21:00,2026-09-18 09:21:00,23310.65,23350.65,23210.65,151.15,2026-09-18 14:10:00,23350.65,116.55,stop_loss,-34.6,-22491.3,loss,650,-46801.3,,
+TRADE,2026-09-18,SELL,NSE:NIFTY2692223500PE,ORH_LEVEL_RETEST_BEARISH_C12_STRONGER_SECOND_BUY_PE,23360.55,23324.5,23360.55,2026-09-18 14:09:00,2026-09-18 14:11:00,2026-09-18 14:12:00,,2026-09-18 14:13:00,2026-09-18 14:13:00,23353.0,23393.0,23253.0,183.66,2026-09-18 15:20:00,23341.85,175.4,eod_exit,-8.26,-5371.44,loss,650,-52172.740000000005,,
+TRADE,2026-09-21,BUY,NSE:NIFTY2692223300CE,ORH_LEVEL_RETEST_BULLISH_C12_STRONGER_SECOND_BUY_CE,23376.2,23314.8,23376.2,2026-09-21 09:17:00,2026-09-21 09:22:00,2026-09-21 09:23:00,,2026-09-21 09:24:00,2026-09-21 09:24:00,23380.55,23340.55,23480.55,127.03,2026-09-21 15:20:00,23429.0,167.65,eod_exit,40.62,26401.7,profit,650,-25771.040000000005,,
+TRADE,2026-09-22,SELL,NSE:NIFTY2692223500PE,ORL_BREAKOUT_RETEST_BEARISH_C12_STRONGER_SECOND_BUY_PE,23489.0,23448.65,23448.65,2026-09-22 09:37:00,2026-09-22 09:39:00,2026-09-22 09:40:00,,2026-09-22 09:41:00,2026-09-22 09:41:00,23449.6,23489.6,23349.6,77.08,2026-09-22 11:56:00,23349.6,158.0,target,80.92,52595.72,profit,650,26824.679999999997,,
+TRADE,2026-09-23,BUY,NSE:NIFTY26SEP23300CE,ORH_LEVEL_RETEST_BULLISH_C12_STRONGER_SECOND_BUY_CE,23404.4,23351.75,23404.4,2026-09-23 09:18:00,2026-09-23 09:18:00,2026-09-23 09:19:00,,2026-09-23 09:20:00,2026-09-23 09:20:00,23407.85,23367.85,23507.85,198.59,2026-09-23 09:29:00,23367.85,178.25,stop_loss,-20.34,-13219.7,loss,650,13604.979999999996,,
+TRADE,2026-09-23,BUY,NSE:NIFTY26SEP23300CE,ORL_LEVEL_RETEST_BULLISH_C123_BUY_CE,23404.4,23351.75,23351.75,2026-09-23 09:51:00,2026-09-23 09:54:00,2026-09-23 09:55:00,2026-09-23 09:56:00,2026-09-23 09:57:00,2026-09-23 09:57:00,23367.35,23327.35,23467.35,176.28,2026-09-23 15:20:00,23431.35,202.0,eod_exit,25.72,16719.95,profit,650,30324.929999999997,,
+TRADE,2026-10-07,BUY,NSE:NIFTY26O1322500CE,ORL_LEVEL_RETEST_BULLISH_C123_BUY_CE,22692.95,22606.85,22606.85,2026-10-07 09:54:00,2026-10-07 09:58:00,2026-10-07 09:59:00,2026-10-07 10:00:00,2026-10-07 10:01:00,2026-10-07 10:01:00,22618.8,22578.8,22718.8,222.26,2026-10-07 10:04:00,22578.8,209.3,stop_loss,-12.96,-8421.24,loss,650,21903.689999999995,,
+TRADE,2026-10-07,SELL,NSE:NIFTY26O1322700PE,ORL_BREAKOUT_RETEST_BEARISH_C123_BUY_PE,22692.95,22606.85,22606.85,2026-10-07 10:04:00,2026-10-07 10:05:00,2026-10-07 10:06:00,2026-10-07 10:07:00,2026-10-07 10:08:00,2026-10-07 10:08:00,22609.4,22649.4,22509.4,207.98,2026-10-07 10:18:00,22649.4,178.85,stop_loss,-29.13,-18937.59,loss,650,2966.099999999995,,
+TRADE,2026-10-07,BUY,NSE:NIFTY26O1322500CE,ORL_LEVEL_RETEST_BULLISH_C12_STRONGER_SECOND_BUY_CE,22692.95,22606.85,22606.85,2026-10-07 13:00:00,2026-10-07 13:00:00,2026-10-07 13:01:00,,2026-10-07 13:02:00,2026-10-07 13:02:00,22628.5,22588.5,22728.5,221.75,2026-10-07 13:09:00,22588.5,197.25,stop_loss,-24.5,-15927.11,loss,650,-12961.010000000006,,
+TRADE,2026-10-07,SELL,NSE:NIFTY26O1322700PE,ORL_BREAKOUT_RETEST_BEARISH_C12_STRONGER_SECOND_BUY_PE,22692.95,22606.85,22606.85,2026-10-07 13:32:00,2026-10-07 13:32:00,2026-10-07 13:33:00,,2026-10-07 13:34:00,2026-10-07 13:34:00,22594.0,22634.0,22494.0,205.32,2026-10-07 14:29:00,22634.0,165.7,stop_loss,-39.62,-25753.97,loss,650,-38714.98000000001,,
+TRADE,2026-10-07,BUY,NSE:NIFTY26O1322500CE,ORL_LEVEL_RETEST_BULLISH_C12_STRONGER_SECOND_BUY_CE,22692.95,22606.85,22606.85,2026-10-07 14:46:00,2026-10-07 14:48:00,2026-10-07 14:49:00,,2026-10-07 14:50:00,2026-10-07 14:50:00,22614.05,22574.05,22714.05,213.46,2026-10-07 15:20:00,22615.45,190.55,eod_exit,-22.91,-14892.8,loss,650,-53607.78000000001,,
+TRADE,2026-10-08,SELL,NSE:NIFTY26O1322600PE,ORL_LEVEL_RETEST_BEARISH_C12_STRONGER_SECOND_BUY_PE,22599.05,22521.1,22521.1,2026-10-08 09:22:00,2026-10-08 09:23:00,2026-10-08 09:24:00,,2026-10-08 09:25:00,2026-10-08 09:25:00,22518.85,22558.85,22418.85,182.01,2026-10-08 11:22:00,22418.85,245.5,target,63.49,41271.43,profit,650,-12336.350000000013,,
+TRADE,2026-10-12,SELL,NSE:NIFTY26O1322700PE,ORL_BREAKOUT_RETEST_BEARISH_C12_STRONGER_SECOND_BUY_PE,22651.1,22585.8,22585.8,2026-10-12 09:29:00,2026-10-12 09:29:00,2026-10-12 09:30:00,,2026-10-12 09:31:00,2026-10-12 09:31:00,22572.05,22612.05,22472.05,165.77,2026-10-12 10:30:00,22472.05,255.0,target,89.23,57996.41,profit,650,45660.05999999999,,
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Strategy,First Candle High-Low Support and Resistance
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Backtest start date,2026-09-17
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Backtest end date,2026-10-13
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Index candles loaded,3750
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Trading dates with index data,10
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Opening candle time,09:15:00
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Session start,09:15:00
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Session end,15:30:00
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Entry window start,09:16:00
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Entry window end,15:00:00
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Entry rule,"Prior move away -> fresh ORH/ORL retest; if C2 body >= C1 body, confirm after C2 and ignore C3; otherwise use strict C1/C2/C3 fallback; entry at next 1-minute bar open"
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Two-candle confirmation,"Bullish C1 red/C2 green or bearish C1 green/C2 red; if real body C2 >= real body C1, C3 is ignored and C2 must close on trade side of tested level"
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Three-candle fallback,"Used only when a directional C1/C2 pair has C2 body < C1 body; C3 must continue direction, pass body/range and close-progression/body-ratio filters, and close on trade side of tested level"
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Scenario families,Bullish reversal near ORH or ORL -> BUY ITM CE; bearish reversal near ORH or ORL -> BUY ITM PE
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Retest rule,"Candle range returns within +/- 10.0 points after a prior bar moved fully away; prior close beyond ORH/ORL is optional, and retest can be C1"
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Maximum C1 delay after retest (bars; 0 means C1 is retest),5
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Ambiguous dual-level rule,Skip if the same 3-candle window intersects both ORH and ORL zones
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Candle confirmation,Strict BUY: red/green/green; strict SELL: green/red/red; no engulfing-only or two-candle substitute
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,C3 minimum body/range,0.5
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,C1/C2 body quality,Directional close progression OR C1 body < 1.20 x C2 body
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Direction mapping,BUY=ITM CE; SELL=ITM PE
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,EMA filter,Off
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Swing-zone filter,Off; opening range is used instead
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Option moneyness,ITM
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Option quantity,650
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Strike step,100
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Stop-loss (NIFTY spot points),40.0
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Take-profit (NIFTY spot points),100.0
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Risk-to-reward ratio,2.5
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Premium entry slippage (%),0.5
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Maximum trades per day,5
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Trade overlap rule,No new position before the previous trade's modeled exit time
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,EOD exit time,15:20:00
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Total trades,16
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Winning trades,6
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Losing trades,10
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Breakeven trades,0
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Win rate (%),37.5
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Loss rate (%),62.5
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Gross profit (Rs),205489.37
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Gross loss amount (Rs),159829.31
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Net PnL (Rs),45660.06
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Average PnL per trade (Rs),2853.7537
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Average winning trade (Rs),34248.2283
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Average losing trade amount (Rs),15982.931
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Profit factor,1.2857
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Best trade (Rs),57996.41
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Worst trade (Rs),-25753.97
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Maximum drawdown (Rs),83932.71
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Maximum consecutive wins,2
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Maximum consecutive losses,5
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Average holding time (minutes),105.875
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Exit reason count - eod_exit,5
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Exit reason count - stop_loss,8
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Exit reason count - target,3
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,BUY trades,8
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,BUY wins,3
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,BUY losses,5
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,BUY net PnL (Rs),-16988.4
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,SELL trades,8
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,SELL wins,3
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,SELL losses,5
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,SELL net PnL (Rs),62648.46
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Diagnostic count - EXPIRED_HISTORY_DAILY_LIMIT_REACHED,10
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Diagnostic count - NO_VALID_SETUP,1
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Diagnostic count - SIGNAL_SCAN_SUMMARY,10
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Diagnostic count - SKIP_DAILY_TRADE_LIMIT,1
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Diagnostic count - SKIP_NO_OPTION_DATA,10
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Diagnostic count - SKIP_TRADE_OVERLAP,25
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Diagnostic count - TRADE_EXECUTED,16
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Diagnostic count - VALID_LEVEL_RETEST_C123_REVERSAL,11
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Diagnostic count - VALID_LEVEL_RETEST_C12_STRONGER_SECOND,41
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Expired history API requests used today,10
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Expired history API request budget per day,10

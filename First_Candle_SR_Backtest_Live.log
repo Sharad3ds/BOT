@@ -1,0 +1,2 @@
+2026-10-18 19:11:29 INFO Uploaded Backtest First Candle SR LIVE engine starting. Mode=DRY_RUN | quantity=650 | daily trade limit=1 | spot SL/TP=40.0/130.0
+2026-10-18 19:11:29 WARNING Today is a weekend in IST. The bot will exit; run it on a trading day.

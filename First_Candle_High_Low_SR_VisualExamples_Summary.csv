@@ -1,0 +1,70 @@
+metric,value
+Strategy,First Candle High-Low Support and Resistance
+Backtest start date,2026-09-17
+Backtest end date,2026-10-12
+Index candles loaded,3750
+Trading dates with index data,10
+Opening candle time,09:15:00
+Session start,09:15:00
+Session end,15:30:00
+Entry window start,09:16:00
+Entry window end,15:00:00
+Entry rule,Prior move away -> fresh ORH/ORL retest (retest can be C1) -> strict C1/C2/C3 reversal; entry at next 1-minute bar open
+Scenario families,Bullish C1 red/C2 green/C3 green near ORH or ORL -> BUY ITM CE; bearish C1 green/C2 red/C3 red near ORH or ORL -> BUY ITM PE
+Retest rule,"Candle range returns within +/- 10.0 points after a prior bar moved fully away; prior close beyond ORH/ORL is optional, and retest can be C1"
+Maximum C1 delay after retest (bars; 0 means C1 is retest),5
+Ambiguous dual-level rule,Skip if the same 3-candle window intersects both ORH and ORL zones
+Candle confirmation,Strict BUY: red/green/green; strict SELL: green/red/red; no engulfing-only or two-candle substitute
+C3 minimum body/range,0.5
+C1/C2 body quality,Directional close progression OR C1 body < 1.20 x C2 body
+Direction mapping,BUY=ITM CE; SELL=ITM PE
+EMA filter,Off
+Swing-zone filter,Off; opening range is used instead
+Option moneyness,ITM
+Option quantity,650
+Strike step,100
+Stop-loss (NIFTY spot points),40.0
+Take-profit (NIFTY spot points),100.0
+Risk-to-reward ratio,2.5
+Premium entry slippage (%),0.5
+Maximum trades per day,5
+Trade overlap rule,No new position before the previous trade's modeled exit time
+EOD exit time,15:20:00
+Total trades,10
+Winning trades,6
+Losing trades,4
+Breakeven trades,0
+Win rate (%),60.0
+Loss rate (%),40.0
+Gross profit (Rs),229254.52
+Gross loss amount (Rs),73354.28
+Net PnL (Rs),155900.24
+Average PnL per trade (Rs),15590.024
+Average winning trade (Rs),38209.0867
+Average losing trade amount (Rs),18338.57
+Profit factor,3.1253
+Best trade (Rs),52593.94
+Worst trade (Rs),-24124.42
+Maximum drawdown (Rs),73354.28
+Maximum consecutive wins,6
+Maximum consecutive losses,4
+Average holding time (minutes),138.6
+Exit reason count - eod_exit,2
+Exit reason count - stop_loss,4
+Exit reason count - target,4
+BUY trades,5
+BUY wins,4
+BUY losses,1
+BUY net PnL (Rs),116481.46
+SELL trades,5
+SELL wins,2
+SELL losses,3
+SELL net PnL (Rs),39418.78
+Diagnostic count - NO_VALID_CONTRACT_SYMBOL,13
+Diagnostic count - SIGNAL_SCAN_SUMMARY,10
+Diagnostic count - SKIP_PATTERN_NEAR_BOTH_LEVELS,1
+Diagnostic count - SKIP_TRADE_OVERLAP,9
+Diagnostic count - TRADE_EXECUTED,10
+Diagnostic count - VALID_LEVEL_RETEST_C123_REVERSAL,32
+Expired history API requests used today,10
+Expired history API request budget per day,10

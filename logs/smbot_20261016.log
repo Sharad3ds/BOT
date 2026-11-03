@@ -1,0 +1,12 @@
+2026-10-16 22:41:35,508 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-10-16 22:41:35,759 - SMBot_V2 - INFO - GenerateTOTPToken:179 - send_login_otp success
+2026-10-16 22:41:35,759 - SMBot_V2 - INFO - GenerateTOTPToken:186 - Generated TOTP: 572418
+2026-10-16 22:41:35,860 - SMBot_V2 - INFO - GenerateTOTPToken:195 - verify_totp success
+2026-10-16 22:41:36,200 - SMBot_V2 - INFO - GenerateTOTPToken:203 - verify_pin success
+2026-10-16 22:41:36,399 - SMBot_V2 - INFO - GenerateTOTPToken:216 - token success
+2026-10-16 22:41:36,601 - SMBot_V2 - INFO - GenerateTOTPToken:227 - validate_authcode success
+2026-10-16 22:41:36,602 - SMBot_V2 - INFO - GenerateTOTPToken:234 - Final access_token: 2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcTBscklRUGpYUzJIdEVuNDBPMzhBdFI3RzUwdU5Bd2VZSmx6Q200WnJzSUNXeVFDdmswMF9YUFZKTmMwdUp3MHh5UTdfT2dySkNCOW43NU1icnc2OVVKZDR0ekdJMHJSbFo4enIzVUVxLVJFU0FwYz0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiI3YWQyNDFmNGMzMzU2ZjA4NTAzYmViNzZiM2NkZTE4MDYyZWVhNGRiNmYzN2I5ZGU3NmViMDU3ZSIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoyMDAsImV4cCI6MTc5MjE5NzAwMCwiaWF0IjoxNzkyMTcwNjk2LCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3OTIxNzA2OTYsInN1YiI6ImFjY2Vzc190b2tlbiJ9.J_hOh22fKfV1ZiUX2HwUYl49BFD2_j6FYnWVwcq7GSA
+2026-10-16 22:41:36,602 - SMBot_V2 - INFO - GenerateTOTPToken:238 - AppId saved -> fyers_appid.txt
+2026-10-16 22:41:36,604 - SMBot_V2 - INFO - GenerateTOTPToken:242 - Token saved -> fyers_token.txt
+2026-10-16 22:41:36,605 - SMBot_V2 - INFO - GenerateTOTPToken:244 - Generated on: 16-10-2026 22:41:35
+2026-10-16 22:41:45,652 - SMBot_V2 - INFO - __init__:279 - Weekly expiry code 26O20 | C1/C2/C3 pattern: declining/rising closes OR body<1.2xC2, 1min bars | EMA=EMA200 | swing=lookback=20 prox=0.15% | SL=-10.0% TP=+12.0% | live_exit=DELETE /positions + broker SL/TP | direction-alternating (resets daily) | DRY_RUN=False

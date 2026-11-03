@@ -1,0 +1,35 @@
+direction,option_symbol,pattern,signal_spot,ema200,ema_gap,entry_time,entry_price,exit_time,exit_price,exit_reason,pnl_pts,pnl_rs,result,cum_pnl_rs
+BUY,NSE:NIFTY26N0322600CE,buy_pattern,22678.75,22621.7422,57.0078,2026-10-06 11:35:00+05:30,446.22,2026-10-06 15:20:00+05:30,450.95,eod_exit,4.73,307.45,profit,307.45
+SELL,NSE:NIFTY26N0322800PE,sell_pattern,22668.15,22676.6767,-8.5267,2026-10-07 12:19:00+05:30,331.65,2026-10-07 13:09:00+05:30,371.45,target,39.8,2586.87,profit,2894.3199999999997
+SELL,NSE:NIFTY26N0322400PE,sell_pattern,22347.45,22445.3276,-97.8776,2026-10-08 12:15:00+05:30,319.04,2026-10-08 12:33:00+05:30,357.32,target,38.28,2488.49,profit,5382.8099999999995
+BUY,NSE:NIFTY26N0322400CE,buy_pattern,22538.15,22483.7126,54.4374,2026-10-09 14:04:00+05:30,470.34,2026-10-09 15:20:00+05:30,463.5,eod_exit,-6.84,-444.6,loss,4938.209999999999
+SELL,NSE:NIFTY26N0322500PE,sell_pattern,22367.35,22445.472,-78.122,2026-10-12 12:05:00+05:30,345.87,2026-10-12 15:20:00+05:30,358.3,eod_exit,12.43,807.9,profit,5746.109999999999
+
+METRICS,VALUE
+Total Trades,5
+Wins,4
+Losses,1
+Win Rate (%),80.0
+Net PnL (Rs),5746.11
+TF Rule,1min
+Body Ratio Max,1.2
+Swing Filter,True
+Swing Lookback,20
+Swing Proximity %,0.15
+EMA Filter,True
+EMA Period,200
+EMA Warmup Days,10
+BUY Enabled,True
+Premium SL %,10.0
+Premium TP %,12.0
+Direction Alternation,daily reset
+Signals Generated,34
+Skipped EMA,61
+Option History Requests Failed,14
+Entries Without Option Price,21
+Current Expiry Used,26N03
+Skipped Dir-Alt,1
+Skipped Window,3
+Skipped Holding,4
+Lot Size,65
+Hist Days,30

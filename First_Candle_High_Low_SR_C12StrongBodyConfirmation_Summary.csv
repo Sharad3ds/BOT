@@ -1,0 +1,75 @@
+metric,value
+Strategy,First Candle High-Low Support and Resistance
+Backtest start date,2026-09-17
+Backtest end date,2026-10-13
+Index candles loaded,3750
+Trading dates with index data,10
+Opening candle time,09:15:00
+Session start,09:15:00
+Session end,15:30:00
+Entry window start,09:16:00
+Entry window end,15:00:00
+Entry rule,"Prior move away -> fresh ORH/ORL retest; if C2 body >= C1 body, confirm after C2 and ignore C3; otherwise use strict C1/C2/C3 fallback; entry at next 1-minute bar open"
+Two-candle confirmation,"Bullish C1 red/C2 green or bearish C1 green/C2 red; if real body C2 >= real body C1, C3 is ignored and C2 must close on trade side of tested level"
+Three-candle fallback,"Used only when a directional C1/C2 pair has C2 body < C1 body; C3 must continue direction, pass body/range and close-progression/body-ratio filters, and close on trade side of tested level"
+Scenario families,Bullish reversal near ORH or ORL -> BUY ITM CE; bearish reversal near ORH or ORL -> BUY ITM PE
+Retest rule,"Candle range returns within +/- 10.0 points after a prior bar moved fully away; prior close beyond ORH/ORL is optional, and retest can be C1"
+Maximum C1 delay after retest (bars; 0 means C1 is retest),5
+Ambiguous dual-level rule,Skip if the same 3-candle window intersects both ORH and ORL zones
+Candle confirmation,Strict BUY: red/green/green; strict SELL: green/red/red; no engulfing-only or two-candle substitute
+C3 minimum body/range,0.5
+C1/C2 body quality,Directional close progression OR C1 body < 1.20 x C2 body
+Direction mapping,BUY=ITM CE; SELL=ITM PE
+EMA filter,Off
+Swing-zone filter,Off; opening range is used instead
+Option moneyness,ITM
+Option quantity,650
+Strike step,100
+Stop-loss (NIFTY spot points),40.0
+Take-profit (NIFTY spot points),100.0
+Risk-to-reward ratio,2.5
+Premium entry slippage (%),0.5
+Maximum trades per day,5
+Trade overlap rule,No new position before the previous trade's modeled exit time
+EOD exit time,15:20:00
+Total trades,16
+Winning trades,6
+Losing trades,10
+Breakeven trades,0
+Win rate (%),37.5
+Loss rate (%),62.5
+Gross profit (Rs),205489.37
+Gross loss amount (Rs),159829.31
+Net PnL (Rs),45660.06
+Average PnL per trade (Rs),2853.7537
+Average winning trade (Rs),34248.2283
+Average losing trade amount (Rs),15982.931
+Profit factor,1.2857
+Best trade (Rs),57996.41
+Worst trade (Rs),-25753.97
+Maximum drawdown (Rs),83932.71
+Maximum consecutive wins,2
+Maximum consecutive losses,5
+Average holding time (minutes),105.875
+Exit reason count - eod_exit,5
+Exit reason count - stop_loss,8
+Exit reason count - target,3
+BUY trades,8
+BUY wins,3
+BUY losses,5
+BUY net PnL (Rs),-16988.4
+SELL trades,8
+SELL wins,3
+SELL losses,5
+SELL net PnL (Rs),62648.46
+Diagnostic count - EXPIRED_HISTORY_DAILY_LIMIT_REACHED,10
+Diagnostic count - NO_VALID_SETUP,1
+Diagnostic count - SIGNAL_SCAN_SUMMARY,10
+Diagnostic count - SKIP_DAILY_TRADE_LIMIT,1
+Diagnostic count - SKIP_NO_OPTION_DATA,10
+Diagnostic count - SKIP_TRADE_OVERLAP,25
+Diagnostic count - TRADE_EXECUTED,16
+Diagnostic count - VALID_LEVEL_RETEST_C123_REVERSAL,11
+Diagnostic count - VALID_LEVEL_RETEST_C12_STRONGER_SECOND,41
+Expired history API requests used today,10
+Expired history API request budget per day,10

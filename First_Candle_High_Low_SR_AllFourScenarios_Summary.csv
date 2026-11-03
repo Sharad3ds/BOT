@@ -1,0 +1,74 @@
+metric,value
+Strategy,First Candle High-Low Support and Resistance
+Backtest start date,2026-09-16
+Backtest end date,2026-10-14
+Index candles loaded,3750
+Trading dates with index data,10
+Opening candle time,09:15:00
+Session start,09:15:00
+Session end,15:30:00
+Entry window start,09:16:00
+Entry window end,15:00:00
+Entry rule,First valid C1/C2/C3 setup among four opening-range scenarios; entry at next 1-minute bar open
+Scenario 1,"ORH breakout continuation BUY: bullish red/green/green pattern, ORH touched, C3 closes above ORH"
+Scenario 2,"ORH resistance rejection SELL: bearish green/red/red pattern, ORH touched, C3 closes back below ORH inside the opening range"
+Scenario 3,"ORL support rejection BUY: bullish red/green/green pattern, ORL touched, C3 closes back above ORL inside the opening range"
+Scenario 4,"ORL breakdown continuation SELL: bearish green/red/red pattern, ORL touched, C3 closes below ORL"
+Level-touch rule,Exact OHLC intersection: low <= boundary <= high in at least one of C1/C2/C3
+Ambiguity rule,Skip windows touching both boundaries and closing back inside the opening range
+Candle color rule,"BUY: C1 red, C2 green, C3 green; SELL: C1 green, C2 red, C3 red"
+C3 close rule,C3 must close beyond the selected level in trade direction
+C3 minimum body/range,0.8
+Close progression or body ratio,directional close progression OR C1 body < 1.2 x C2 body
+Direction mapping,BUY=ITM CE; SELL=ITM PE
+EMA filter,Off
+Swing-zone filter,Off; opening range is used instead
+Option moneyness,ITM
+Option quantity,650
+Strike step,100
+Stop-loss (NIFTY spot points),40.0
+Take-profit (NIFTY spot points),100.0
+Risk-to-reward ratio,2.5
+Premium entry slippage (%),0.5
+Maximum trades per day,1
+EOD exit time,15:20:00
+Total trades,7
+Winning trades,4
+Losing trades,3
+Breakeven trades,0
+Win rate (%),57.1429
+Loss rate (%),42.8571
+Gross profit (Rs),185948.43
+Gross loss amount (Rs),41041.48
+Net PnL (Rs),144906.95
+Average PnL per trade (Rs),20700.9929
+Average winning trade (Rs),46487.1075
+Average losing trade amount (Rs),13680.4933
+Profit factor,4.5307
+Best trade (Rs),52191.59
+Worst trade (Rs),-20300.96
+Maximum drawdown (Rs),41041.48
+Maximum consecutive wins,4
+Maximum consecutive losses,3
+Average holding time (minutes),110.7143
+Exit reason count - eod_exit,2
+Exit reason count - stop_loss,1
+Exit reason count - target,4
+BUY trades,2
+BUY wins,0
+BUY losses,2
+BUY net PnL (Rs),-20740.52
+SELL trades,5
+SELL wins,4
+SELL losses,1
+SELL net PnL (Rs),165647.47
+Diagnostic count - C123_NO_VALID_BOUNDARY_CONFIRMATION,21
+Diagnostic count - C123_QUALITY_FILTER_REJECTED,70
+Diagnostic count - EXPIRED_HISTORY_DAILY_LIMIT_REACHED,6
+Diagnostic count - NO_VALID_SETUP,1
+Diagnostic count - SKIP_BOTH_LEVELS_TOUCHED_AMBIGUOUS_CLOSE,1
+Diagnostic count - SKIP_NO_OPTION_DATA,6
+Diagnostic count - TRADE_EXECUTED,7
+Diagnostic count - VALID_FOUR_SCENARIO_CONFIRMATION,14
+Expired history API requests used today,10
+Expired history API request budget per day,10

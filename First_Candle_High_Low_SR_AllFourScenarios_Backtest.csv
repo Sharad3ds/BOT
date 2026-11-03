@@ -1,0 +1,81 @@
+record_type,date,direction,option_symbol,pattern,opening_range_high,opening_range_low,signal_level,level_touch_time,c1_time,c2_time,c3_time,signal_time,entry_time,spot_entry,spot_stop_level,spot_target_level,entry_premium,exit_time,exit_spot,exit_premium,exit_reason,pnl_premium_points,pnl_rs,result,quantity,cum_pnl_rs,metric,value
+TRADE,2026-09-16,BUY,NSE:NIFTY2692223100CE,ORH_BREAKOUT_CONTINUATION_BUY,23239.15,23186.55,23239.15,2026-09-16 12:31:00,2026-09-16 12:29:00,2026-09-16 12:30:00,2026-09-16 12:31:00,2026-09-16 12:32:00,2026-09-16 12:32:00,23246.7,23206.7,23346.7,265.32,2026-09-16 15:20:00,23224.15,241.0,eod_exit,-24.32,-15808.0,loss,650,-15808.0,,
+TRADE,2026-09-18,BUY,NSE:NIFTY2692223300CE,ORH_BREAKOUT_CONTINUATION_BUY,23360.55,23324.5,23360.55,2026-09-18 14:45:00,2026-09-18 14:44:00,2026-09-18 14:45:00,2026-09-18 14:46:00,2026-09-18 14:47:00,2026-09-18 14:47:00,23362.1,23322.1,23462.1,128.34,2026-09-18 15:20:00,23341.85,120.75,eod_exit,-7.59,-4932.52,loss,650,-20740.52,,
+TRADE,2026-09-21,SELL,NSE:NIFTY2692223500PE,ORH_RESISTANCE_REJECTION_SELL,23376.2,23314.8,23376.2,2026-09-21 10:23:00,2026-09-21 10:23:00,2026-09-21 10:24:00,2026-09-21 10:25:00,2026-09-21 10:26:00,2026-09-21 10:26:00,23366.75,23406.75,23266.75,157.23,2026-09-21 11:34:00,23406.75,126.0,stop_loss,-31.23,-20300.96,loss,650,-41041.479999999996,,
+TRADE,2026-09-22,SELL,NSE:NIFTY2692223500PE,ORL_BREAKDOWN_CONTINUATION_SELL,23489.0,23448.65,23448.65,2026-09-22 09:23:00,2026-09-22 09:23:00,2026-09-22 09:24:00,2026-09-22 09:25:00,2026-09-22 09:26:00,2026-09-22 09:26:00,23441.1,23481.1,23341.1,86.28,2026-09-22 12:46:00,23341.1,161.85,target,75.57,49120.99,profit,650,8079.510000000002,,
+TRADE,2026-10-08,SELL,NSE:NIFTY26O1322600PE,ORL_BREAKDOWN_CONTINUATION_SELL,22599.05,22521.1,22521.1,2026-10-08 09:24:00,2026-10-08 09:23:00,2026-10-08 09:24:00,2026-10-08 09:25:00,2026-10-08 09:26:00,2026-10-08 09:26:00,22500.9,22540.9,22400.9,195.77,2026-10-08 11:23:00,22400.9,252.75,target,56.98,37034.4,profit,650,45113.91,,
+TRADE,2026-10-12,SELL,NSE:NIFTY26O1322700PE,ORL_BREAKDOWN_CONTINUATION_SELL,22651.1,22585.8,22585.8,2026-10-12 09:30:00,2026-10-12 09:29:00,2026-10-12 09:30:00,2026-10-12 09:31:00,2026-10-12 09:32:00,2026-10-12 09:32:00,22555.75,22595.75,22455.75,181.96,2026-10-12 10:31:00,22455.75,262.25,target,80.29,52191.59,profit,650,97305.5,,
+TRADE,2026-10-14,SELL,NSE:NIFTY26O1922800PE,ORH_RESISTANCE_REJECTION_SELL,22730.55,22664.95,22730.55,2026-10-14 10:50:00,2026-10-14 10:50:00,2026-10-14 10:51:00,2026-10-14 10:52:00,2026-10-14 10:53:00,2026-10-14 10:53:00,22727.7,22767.7,22627.7,184.32,2026-10-14 13:03:00,22627.7,257.55,target,73.23,47601.45,profit,650,144906.95,,
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Strategy,First Candle High-Low Support and Resistance
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Backtest start date,2026-09-16
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Backtest end date,2026-10-14
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Index candles loaded,3750
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Trading dates with index data,10
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Opening candle time,09:15:00
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Session start,09:15:00
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Session end,15:30:00
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Entry window start,09:16:00
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Entry window end,15:00:00
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Entry rule,First valid C1/C2/C3 setup among four opening-range scenarios; entry at next 1-minute bar open
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Scenario 1,"ORH breakout continuation BUY: bullish red/green/green pattern, ORH touched, C3 closes above ORH"
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Scenario 2,"ORH resistance rejection SELL: bearish green/red/red pattern, ORH touched, C3 closes back below ORH inside the opening range"
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Scenario 3,"ORL support rejection BUY: bullish red/green/green pattern, ORL touched, C3 closes back above ORL inside the opening range"
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Scenario 4,"ORL breakdown continuation SELL: bearish green/red/red pattern, ORL touched, C3 closes below ORL"
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Level-touch rule,Exact OHLC intersection: low <= boundary <= high in at least one of C1/C2/C3
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Ambiguity rule,Skip windows touching both boundaries and closing back inside the opening range
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Candle color rule,"BUY: C1 red, C2 green, C3 green; SELL: C1 green, C2 red, C3 red"
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,C3 close rule,C3 must close beyond the selected level in trade direction
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,C3 minimum body/range,0.8
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Close progression or body ratio,directional close progression OR C1 body < 1.2 x C2 body
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Direction mapping,BUY=ITM CE; SELL=ITM PE
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,EMA filter,Off
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Swing-zone filter,Off; opening range is used instead
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Option moneyness,ITM
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Option quantity,650
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Strike step,100
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Stop-loss (NIFTY spot points),40.0
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Take-profit (NIFTY spot points),100.0
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Risk-to-reward ratio,2.5
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Premium entry slippage (%),0.5
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Maximum trades per day,1
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,EOD exit time,15:20:00
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Total trades,7
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Winning trades,4
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Losing trades,3
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Breakeven trades,0
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Win rate (%),57.1429
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Loss rate (%),42.8571
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Gross profit (Rs),185948.43
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Gross loss amount (Rs),41041.48
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Net PnL (Rs),144906.95
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Average PnL per trade (Rs),20700.9929
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Average winning trade (Rs),46487.1075
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Average losing trade amount (Rs),13680.4933
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Profit factor,4.5307
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Best trade (Rs),52191.59
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Worst trade (Rs),-20300.96
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Maximum drawdown (Rs),41041.48
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Maximum consecutive wins,4
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Maximum consecutive losses,3
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Average holding time (minutes),110.7143
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Exit reason count - eod_exit,2
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Exit reason count - stop_loss,1
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Exit reason count - target,4
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,BUY trades,2
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,BUY wins,0
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,BUY losses,2
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,BUY net PnL (Rs),-20740.52
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,SELL trades,5
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,SELL wins,4
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,SELL losses,1
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,SELL net PnL (Rs),165647.47
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Diagnostic count - C123_NO_VALID_BOUNDARY_CONFIRMATION,21
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Diagnostic count - C123_QUALITY_FILTER_REJECTED,70
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Diagnostic count - EXPIRED_HISTORY_DAILY_LIMIT_REACHED,6
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Diagnostic count - NO_VALID_SETUP,1
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Diagnostic count - SKIP_BOTH_LEVELS_TOUCHED_AMBIGUOUS_CLOSE,1
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Diagnostic count - SKIP_NO_OPTION_DATA,6
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Diagnostic count - TRADE_EXECUTED,7
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Diagnostic count - VALID_FOUR_SCENARIO_CONFIRMATION,14
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Expired history API requests used today,10
+SUMMARY,,,,,,,,,,,,,,,,,,,,,,,,,,,Expired history API request budget per day,10

@@ -1,14 +1,21 @@
-direction,option_symbol,zone_kind,zone_level,entry_time,entry_price,exit_time,exit_price,exit_reason,pnl_pts,pnl_rs,result,cum_pnl_rs
-SELL,NSE:NIFTY26SEP23400PE,resistance,23332.75,2026-09-18 12:40:00+05:30,193.11,2026-09-18 15:20:00+05:30,174.75,eod_exit,-18.36,-1193.45,loss,-1193.45
-BUY,NSE:NIFTY26SEP23300CE,support,23372.7,2026-09-21 10:18:00+05:30,198.84,2026-09-21 15:20:00+05:30,229.15,backtest_end,30.31,1970.2,profit,776.75
+direction,option_symbol,zone_kind,zone_level,entry_time,entry_index_price,entry_price,exit_time,exit_index_price,exit_price,index_move_pts,exit_reason,pnl_pts,pnl_rs,result,cum_pnl_rs
+SELL,NSE:NIFTY26O0622800PE,resistance,22698.0,2026-09-29 13:00:00+05:30,22688.85,190.45,2026-09-29 15:20:00+05:30,22683.75,156.4,-5.1,eod_exit,-34.05,-2213.09,loss,-2213.09
+SELL,NSE:NIFTY26O0622800PE,resistance,22729.95,2026-09-30 11:59:00+05:30,22728.1,157.78,2026-09-30 12:34:00+05:30,22768.1,133.9,40.0,stop_loss,-23.88,-1552.52,loss,-3765.61
+BUY,NSE:NIFTY26O0622400CE,support,22532.55,2026-10-01 12:10:00+05:30,22536.6,215.37,2026-10-01 12:22:00+05:30,22496.6,192.0,-40.0,stop_loss,-23.37,-1519.15,loss,-5284.76
+SELL,NSE:NIFTY26O0622600PE,resistance,22481.05,2026-10-05 13:25:00+05:30,22475.65,164.27,2026-10-05 13:40:00+05:30,22515.65,104.1,40.0,stop_loss,-60.17,-3910.87,loss,-9195.630000000001
+SELL,NSE:NIFTY26O0622800PE,resistance,22728.15,2026-10-06 14:12:00+05:30,22724.75,87.84,2026-10-06 15:20:00+05:30,22717.7,53.45,-7.05,backtest_end,-34.39,-2235.16,loss,-11430.79
 
 METRICS,VALUE
-Total Trades,2
-Wins,1
-Losses,1
-Win Rate (%),50.0
-Net PnL (Rs),776.75
+Total Trades,5
+Wins,0
+Losses,5
+Win Rate (%),0.0
+Net PnL (Rs),-11430.79
 TF Rule,1min
-Swing Len,20
+Swing Len,15
 Zone Tol (xATR),0.1
+Max Zone Age (days),2
+Max Active Zones / Side,5
+SL Points (spot),40
+TP Points (spot),80
 Lot Size,65

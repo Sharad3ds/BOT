@@ -1,0 +1,47 @@
+2026-10-17 07:31:22,638 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-10-17 07:31:22,801 - SMBot_V2 - ERROR - GenerateTOTPToken:177 - send_login_otp failure - {
+  "s": "error",
+  "code": 429,
+  "message": "Too many requests. Please try again later."
+}
+2026-10-17 07:31:32,137 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-10-17 07:31:32,280 - SMBot_V2 - ERROR - GenerateTOTPToken:177 - send_login_otp failure - {
+  "s": "error",
+  "code": 429,
+  "message": "Too many requests. Please try again later."
+}
+2026-10-17 07:31:41,146 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-10-17 07:31:41,277 - SMBot_V2 - ERROR - GenerateTOTPToken:177 - send_login_otp failure - {
+  "s": "error",
+  "code": 429,
+  "message": "Too many requests. Please try again later."
+}
+2026-10-17 07:32:09,588 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-10-17 07:32:09,715 - SMBot_V2 - ERROR - GenerateTOTPToken:177 - send_login_otp failure - {
+  "s": "error",
+  "code": 429,
+  "message": "Too many requests. Please try again later."
+}
+2026-10-17 07:32:28,825 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-10-17 07:32:28,996 - SMBot_V2 - ERROR - GenerateTOTPToken:177 - send_login_otp failure - {
+  "s": "error",
+  "code": 429,
+  "message": "Too many requests. Please try again later."
+}
+2026-10-17 07:32:53,011 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-10-17 07:32:53,136 - SMBot_V2 - ERROR - GenerateTOTPToken:177 - send_login_otp failure - {
+  "s": "error",
+  "code": 429,
+  "message": "Too many requests. Please try again later."
+}
+2026-10-17 14:51:45,061 - SMBot_V2 - INFO - <module>:31 - APP_ID_HASH: 319ed28307d5c1476aa7d9ec034666a2727eadef10f9b7453f46a9dd0ca1f64c
+2026-10-17 14:51:45,380 - SMBot_V2 - INFO - GenerateTOTPToken:179 - send_login_otp success
+2026-10-17 14:51:45,382 - SMBot_V2 - INFO - GenerateTOTPToken:186 - Generated TOTP: 066806
+2026-10-17 14:51:45,498 - SMBot_V2 - INFO - GenerateTOTPToken:195 - verify_totp success
+2026-10-17 14:51:45,857 - SMBot_V2 - INFO - GenerateTOTPToken:203 - verify_pin success
+2026-10-17 14:51:46,083 - SMBot_V2 - INFO - GenerateTOTPToken:216 - token success
+2026-10-17 14:51:46,306 - SMBot_V2 - INFO - GenerateTOTPToken:227 - validate_authcode success
+2026-10-17 14:51:46,306 - SMBot_V2 - INFO - GenerateTOTPToken:234 - Final access_token: 2NWM6G5K7Y-200:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcTB6NHJNQnJvT1Mya3MwOGVEX2pVMW1jc3RfUmJJRWZ4aTQ3d0NRZVc3VHBZT1dSZjFRR1pRcERlSm55OTRpMGF2SnRRUnlWLUpKQkdXWWxNaHpxQVJob2RralYxYkw4UkxRdElkNmI2Y0pUYlZtZz0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiJjOTNlMWE5YmI5M2RlMmM1Y2M2NzVlYTAyNjNjNDljMDk1ZjgxNDdmMjA0NjYzOGYwYjVjODVjZiIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiRkFEMTE5MTAiLCJhcHBUeXBlIjoyMDAsImV4cCI6MTc5MjI4MzQwMCwiaWF0IjoxNzkyMjI4OTA3LCJpc3MiOiJhcGkuZnllcnMuaW4iLCJuYmYiOjE3OTIyMjg5MDcsInN1YiI6ImFjY2Vzc190b2tlbiJ9.GpF-EQJVoMhmB3CSIxoCTdZpnL5kICEDYyT9ZjsD8Ls
+2026-10-17 14:51:46,306 - SMBot_V2 - INFO - GenerateTOTPToken:238 - AppId saved -> fyers_appid.txt
+2026-10-17 14:51:46,306 - SMBot_V2 - INFO - GenerateTOTPToken:242 - Token saved -> fyers_token.txt
+2026-10-17 14:51:46,306 - SMBot_V2 - INFO - GenerateTOTPToken:244 - Generated on: 17-10-2026 14:51:45

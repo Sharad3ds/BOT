@@ -72,7 +72,7 @@ def expiry_code(dt):
 
 # ---------- config ----------
 class Config:
-    UNDERLYING = "NSE:NIFTY50-INDEX"; BASE_RES = "1"; HIST_DAYS = 90
+    UNDERLYING = "NSE:NIFTY50-INDEX"; BASE_RES = "1"; HIST_DAYS = 7
     TF_RULE = "1min"                       # timeframe candles/pivots/reversal run on
 
     SWING_LEN = 15                         # bars back to confirm a pivot (leg() "size")
@@ -80,10 +80,10 @@ class Config:
     ZONE_TOL_MULT = 0.1                  # zone half-width = this * ATR
     ZONE_INVALIDATE_MULT = 0.1               # close beyond zone by this * ATR -> invalidate
     HEALTHY_BODY_FRAC = 0.001                # reversal candle body >= this fraction of range
-    MAX_ACTIVE_ZONES_PER_SIDE = 5           # cap on tracked support / resistance zones
-    MAX_ZONE_AGE_DAYS = 2                     # active zones expire after this many calendar days
+    MAX_ACTIVE_ZONES_PER_SIDE = 5          # cap on tracked support / resistance zones
+    MAX_ZONE_AGE_DAYS = 2                    # active zones expire after this many calendar days
 
-    STRIKE_STEP = 100; LOT = 650; MONEYNESS = "ITM"
+    STRIKE_STEP = 100; LOT = 65; MONEYNESS = "ITM"
     SESSION_START = dtime(9, 20); SESSION_END = dtime(15, 30)
     SIGNAL_START_TIME = dtime(9, 35)
     TRADE_START = dtime(9, 30); TRADE_END = dtime(15, 0); EOD_EXIT_TIME = dtime(15, 20)
@@ -97,7 +97,7 @@ class Config:
     # Exit fill uses the option premium at the trigger bar's timestamp, so
     # Rs PnL still reflects the real option side.
     STOP_LOSS_PTS   = 40
-    TAKE_PROFIT_PTS = 130
+    TAKE_PROFIT_PTS = 80
 
     def __init__(self):
         self.EXPIRY_CODE = expiry_code(get_next_tuesday())

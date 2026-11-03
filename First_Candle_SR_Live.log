@@ -1,0 +1,4 @@
+2026-10-18 00:11:21 INFO First Candle SR engine starting. Mode=DRY_RUN | quantity=650 | daily trade limit=5 | spot SL/TP=40.0/100.0
+2026-10-18 00:11:21 WARNING Today is a weekend in IST. The bot will exit; run it on a trading day.
+2026-10-18 00:11:28 INFO First Candle SR engine starting. Mode=DRY_RUN | quantity=650 | daily trade limit=5 | spot SL/TP=40.0/100.0
+2026-10-18 00:11:28 WARNING Today is a weekend in IST. The bot will exit; run it on a trading day.
