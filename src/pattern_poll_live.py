@@ -229,6 +229,7 @@ class Config:
     EMA_PERIOD = 300
     EMA_LOOKBACK_DAYS = 10
     
+    
     # â”€â”€ swing zone (support/resistance) entry filter â”€â”€
     USE_SWING_FILTER = True
     SWING_LOOKBACK =   20      # bars needed on both sides to confirm a pivot
